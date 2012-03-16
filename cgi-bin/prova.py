@@ -7,7 +7,7 @@ def main():
 	fs = cgi.FieldStorage()
 	print "Content-type: text/plain\n"
 	if "name" in fs:
-	  	print str(fs["nome"].value)
+	  	print fs["name"].value
 	else:
 		print "nome not found"
 
