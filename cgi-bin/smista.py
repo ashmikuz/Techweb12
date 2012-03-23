@@ -3,14 +3,13 @@
 import cgi
 import os
 
+campi=cgi.FieldStorage()
+if "aggr" not in campi:
+    print "Content-Type: text/plain\n"
+    print 
+    print "404"
 
-def main():
-	fs = cgi.FieldStorage()
-	print "Content-type: text/plain\n"
-	print os.environ["HTTP_USER_AGENT"]
-	print os.environ["REQUEST_METHOD"]
-	print "qstring=", os.environ["QUERY_STRING"]
-	print os.environ["HTTP_ACCEPT"]
-
-
-main()
+else:
+    aggrno=campi.getvalue("aggr")
+    print "Content-Type: text/plain\n"
+    print aggrno
