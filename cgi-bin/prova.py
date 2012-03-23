@@ -1,15 +1,16 @@
 #!/usr/bin/python
 
 import cgi
+import os
 
 
 def main():
 	fs = cgi.FieldStorage()
 	print "Content-type: text/plain\n"
-	if "name" in fs:
-	  	print fs["name"].value
-	else:
-		print "nome not found"
+	print os.environ["HTTP_USER_AGENT"]
+	print os.environ["REQUEST_METHOD"]
+	print "qstring=", os.environ["QUERY_STRING"]
+	print os.environ["HTTP_ACCEPT"]
 
 
 main()
