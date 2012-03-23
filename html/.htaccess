@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^aggr([0-9]+)/([A-Z,a-z]+)/([A-Z,a,z]+)/([^])  http://ltw1218.web.cs.unibo.it/cgi-bin/smista.py?agr=$1&cat=$2&comp=$3&value=$4 [L]
