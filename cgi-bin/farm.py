@@ -3,6 +3,8 @@
 import cgi
 import os
 import string
+import libxml2
+import urllib
 
 
 def main():
@@ -45,6 +47,15 @@ def errhttp(errno):
     return
 
 def filtraEQ(key, value, nequal):
+    xml=libxml2.parseDoc((open("../data/farmacieBO2011.xml", "r").read()))
+    if(key=="id") or (key=="lat,long"):
+        xpath="/locations/location[@"+key+"="+value+"]"
+        rss=xml.xpathEval(xpath)
+        print("Content-type: application/xml; charset=UTF-8\n")
+        for node in rss:
+            print node
+    elif(key=="name"):
+        xpath="/locations/location/name[@"+key+"="+value+"]"
     return
 
 def filtraCONTAINS(key,value,ncontains):
