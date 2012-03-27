@@ -7,19 +7,27 @@ import libxml2
 import urllib
 
 def filtraEQ(key, value, nequal):
+    if(nequal):
+        operand="!="
+    else:
+        operand="="
     xml=libxml2.parseDoc((open("../data/farmacieBO2011.xml", "r").read()))
     if(key=="id") or (key=="lat,long"):
-        xpath="/locations/location[@"+key+"="+"\'"+value+"\']"
+        xpath="/locations/location[@"+key+operand+"\'"+value+"\']"
         rss=xml.xpathEval(xpath)
         print("Content-type: application/xml; charset=UTF-8\n")
+        print("<locations>")
         for node in rss:
             print node
+        print("</locations>")
     else:
-        xpath="/locations/location["+key+"="+"\'"+value+"\']"
+        xpath="/locations/location["+key+operand+"\'"+value+"\']"
         rss=xml.xpathEval(xpath)
         print("Content-type: application/xml; charset=UTF-8\n")
+        print("<locations>")
         for node in rss:
             print node
+        print("</locations>")
     return
 
 def main():
