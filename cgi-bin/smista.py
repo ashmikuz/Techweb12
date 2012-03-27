@@ -2,6 +2,10 @@
 
 import cgi
 import os
+import xml.etree
+import xml.dom.minidom
+import libxml2
+
 
 campi=cgi.FieldStorage()
 if "aggr" not in campi:
