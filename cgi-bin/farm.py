@@ -12,10 +12,17 @@ def filtraEQ(key, value, nequal):
     else:
         operand="="
     xml=libxml2.parseFile("../data/farmacieBO2011.xml")
-    if(key=="id") or (key=="lat,long"):
+    xpath=""
+    if(key=="id"):
         xpath="/locations/location[@"+key+operand+"\'"+value+"\']"
-    else:
+    if (key=="lat,long"):
+        lat,long=value.split(",")
+        xpath="/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]"
+    if(key=="name") or (key=="category"):
         xpath="/locations/location["+key+operand+"\'"+value+"\']"
+    if(xpath==""):
+        errhtml("406")
+        return
     rss=xml.xpathEval(xpath)
     metad=xml.xpathEval("/locations/metadata")
     print("Content-type: application/xml; charset=UTF-8\n")
@@ -34,10 +41,37 @@ def filtraGT(key,value,greaterthan, equal):
     if(equal):
         operand+="="
     xml=libxml2.parseFile("../data/farmacieBO2011.xml")
-    if(key=="id") or (key=="lat"):
-        xpath="/locations/location[@"+key+operand+value+"]"
+    if(key=="lat,long"):
+        lat,long=value.split(",")
+        xpath="/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]"
+        rss=xml.xpathEval(xpath)
+        metad=xml.xpathEval("/locations/metadata")
+        print("Content-type: application/xml; charset=UTF-8\n")
+        print("<locations>")
+        print metad[0]
+        for node in rss:
+            print node
+        print("</locations>")
     else:
-        xpath="/locations/location["+key+operand+"\'"+value+"\']"
+        errhttp("406")
+    return
+
+def filtraCONTAINS(key,value,ncontains):
+    if(ncontains):
+        operator="not (contains"
+    else:
+        operator="(contains"
+    xpath=""
+    if((key=="id") and (not ncontains)):
+        xpath="/locations/location[contains(@id,\'"+value+"\')]"
+    if((key=="name") or (key=="category") or (key=="opening") or (key=="closing")):
+        xpath="/locations/location["+operator+"("+key+",\'"+value+"\'))]"
+    if((key=="address") and (not ncontains)):
+        xpath="/locations/location[contains(address,\'"+value+"\')]"
+    if(xpath==""):
+        errhttp("406")
+        return
+    xml=libxml2.parseFile("../data/farmacieBO2011.xml")
     rss=xml.xpathEval(xpath)
     metad=xml.xpathEval("/locations/metadata")
     print("Content-type: application/xml; charset=UTF-8\n")
@@ -46,6 +80,7 @@ def filtraGT(key,value,greaterthan, equal):
     for node in rss:
         print node
     print("</locations>")
+    
     return
 
 def main():
@@ -83,8 +118,4 @@ def main():
 main()
 
 def errhttp(errno):
-    return
-
-
-def filtraCONTAINS(key,value,ncontains):
     return

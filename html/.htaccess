@@ -1,3 +1,3 @@
 RewriteEngine On
-RewriteRule ^aggr-([A-Z,a-z,0-9]+)/?([a-z,A-Z]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9]*)$  /cgi-bin/$1.py?key=$2&comp=$3&value=$4 [L]
+RewriteRule ^aggr-([A-Z,a-z,0-9]+)/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/$1.py?key=$2&comp=$3&value=$4 [L]
 RewriteRule ^regex.html /mihairotto
