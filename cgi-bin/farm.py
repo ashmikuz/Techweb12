@@ -11,23 +11,41 @@ def filtraEQ(key, value, nequal):
         operand="!="
     else:
         operand="="
-    xml=libxml2.parseDoc((open("../data/farmacieBO2011.xml", "r").read()))
+    xml=libxml2.parseFile("../data/farmacieBO2011.xml")
     if(key=="id") or (key=="lat,long"):
         xpath="/locations/location[@"+key+operand+"\'"+value+"\']"
-        rss=xml.xpathEval(xpath)
-        print("Content-type: application/xml; charset=UTF-8\n")
-        print("<locations>")
-        for node in rss:
-            print node
-        print("</locations>")
     else:
         xpath="/locations/location["+key+operand+"\'"+value+"\']"
-        rss=xml.xpathEval(xpath)
-        print("Content-type: application/xml; charset=UTF-8\n")
-        print("<locations>")
-        for node in rss:
-            print node
-        print("</locations>")
+    rss=xml.xpathEval(xpath)
+    metad=xml.xpathEval("/locations/metadata")
+    print("Content-type: application/xml; charset=UTF-8\n")
+    print("<locations>")
+    print metad[0]
+    for node in rss:
+        print node
+    print("</locations>")
+    return
+    
+def filtraGT(key,value,greaterthan, equal):
+    if(greaterthan):
+        operand=">"
+    else:
+        operand="<"
+    if(equal):
+        operand+="="
+    xml=libxml2.parseFile("../data/farmacieBO2011.xml")
+    if(key=="id") or (key=="lat"):
+        xpath="/locations/location[@"+key+operand+value+"]"
+    else:
+        xpath="/locations/location["+key+operand+"\'"+value+"\']"
+    rss=xml.xpathEval(xpath)
+    metad=xml.xpathEval("/locations/metadata")
+    print("Content-type: application/xml; charset=UTF-8\n")
+    print("<locations>")
+    print metad[0]
+    for node in rss:
+        print node
+    print("</locations>")
     return
 
 def main():
@@ -53,20 +71,19 @@ def main():
             elif(confronto=="NCONTAINS"):
                 filtraCONTAINS(chiave,valore,True)
             elif(confronto=="GT"):
-                filtraGT(chiave,valore,False)
+                filtraGT(chiave,valore,True, False)
             elif(confronto=="LT"):
-                filtraGT(valore,chiave,False)
+                filtraGT(chiave,valore,False,False)
             elif(confronto=="GE"):
-                filtraGT(chiave,valore,True)
+                filtraGT(chiave,valore,True,True)
             elif(confronto=="LE"):
-                filtraGT(valore,chiave,True)
+                filtraGT(chiave,valore,False,True)
             
 
 main()
 
 def errhttp(errno):
     return
-
 
 
 def filtraCONTAINS(key,value,ncontains):
