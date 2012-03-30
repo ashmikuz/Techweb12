@@ -40,9 +40,10 @@ def filtraEQ(key,value,nequal):
     data=open("../data/supermarketBO2011.json", "r").read()
     jdata=json.loads(data, object_hook=_decode_dict)
     print("Content-type: application/json; UTF-8\n")
-    for item in jdata["locations"]:
-        if(item[key]==value):
-            print item
+    for item, subdict in jdata.iteritems():
+        print item
+        for subkey,val in subdict.iteritems():
+            print subkey.value
     print jdata["metadata"]
     
 
