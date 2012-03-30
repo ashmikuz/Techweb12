@@ -4,6 +4,7 @@ import cgi
 import error
 import json
 from pprint import  pprint
+import copy
 
 def _decode_list(data):
     rv = []
@@ -33,20 +34,20 @@ def _decode_dict(data):
 
 
 def filtraEQ(key,value,nequal):
-    if(nequal):
-        operator="!="
-    else:
-        operator="=="
-    data=open("../data/supermarketBO2011.json", "r").read()
-    jdata=json.loads(data, object_hook=_decode_dict)
-    print("Content-type: application/json; UTF-8\n")
-    for item, subdict in jdata.iteritems():
-        print item
-        for subkey,val in subdict.iteritems():
-            print subkey.value
-    print jdata["metadata"]
+        if(nequal):
+                operator="!="
+        else:
+                operator="=="
+        data=open("../data/supermarketBO2011.json", "r").read()
+        orig=json.loads(data, object_hook=_decode_dict)
+        jdata=copy.deepcopy(orig)
+        print("Content-type: application/json; UTF-8\n")
+        for item, subdict in orig.iteritems():
+                for subkey,val in subdict.iteritems():
+                        if ((key in val) and val[key]==value):
+                                del jdata["locations"][subkey]
+        print json.dumps(jdata, sort_keys=True, indent=4)
     
-
 def main():
     fs = cgi.FieldStorage()
     chiave=fs.getvalue("key")
