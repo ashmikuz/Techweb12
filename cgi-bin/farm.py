@@ -5,6 +5,7 @@ import os
 import string
 import libxml2
 import urllib
+import error
 
 def filtraEQ(key, value, nequal):
     if(nequal):
@@ -21,7 +22,7 @@ def filtraEQ(key, value, nequal):
     if(key=="name") or (key=="category"):
         xpath="/locations/location["+key+operand+"\'"+value+"\']"
     if(xpath==""):
-        errhtml("406")
+        error.errhttp("406")
         return
     rss=xml.xpathEval(xpath)
     metad=xml.xpathEval("/locations/metadata")
@@ -53,7 +54,7 @@ def filtraGT(key,value,greaterthan, equal):
             print node
         print("</locations>")
     else:
-        errhttp("406")
+        error.errhttp("406")
     return
 
 def filtraCONTAINS(key,value,ncontains):
@@ -69,7 +70,7 @@ def filtraCONTAINS(key,value,ncontains):
     if((key=="address") and (not ncontains)):
         xpath="/locations/location[contains(address,\'"+value+"\')]"
     if(xpath==""):
-        errhttp("406")
+        error.errhttp("406")
         return
     xml=libxml2.parseFile("../data/farmacieBO2011.xml")
     rss=xml.xpathEval(xpath)
@@ -83,6 +84,7 @@ def filtraCONTAINS(key,value,ncontains):
     
     return
 
+
 def main():
     fs = cgi.FieldStorage()
     chiave=fs.getvalue("key")
@@ -95,7 +97,7 @@ def main():
         print content
     else:
         if(not chiave) or (not confronto) or (not valore):
-            errhttp("406")
+            error.errhttp("406")
         else:
             if(confronto=="EQ"):
                 filtraEQ(chiave, valore, False)
@@ -116,6 +118,3 @@ def main():
             
 
 main()
-
-def errhttp(errno):
-    return
