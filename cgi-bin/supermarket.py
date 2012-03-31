@@ -5,6 +5,17 @@ import error
 import json
 from pprint import  pprint
 import copy
+import operator
+
+ops = {
+"==": operator.eq,
+"!=": operator.ne,
+"<>": operator.ne,
+"<": operator.lt,
+"<=": operator.le,
+">": operator.gt,
+">": operator.ge
+}
 
 def _decode_list(data):
     rv = []
@@ -35,16 +46,16 @@ def _decode_dict(data):
 
 def filtraEQ(key,value,nequal):
         if(nequal):
-                operator="!="
+                op="=="
         else:
-                operator="=="
+                op="!="
         data=open("../data/supermarketBO2011.json", "r").read()
         orig=json.loads(data, object_hook=_decode_dict)
         jdata=copy.deepcopy(orig)
         print("Content-type: application/json; UTF-8\n")
         for item, subdict in orig.iteritems():
                 for subkey,val in subdict.iteritems():
-                        if ((key in val) and val[key]==value):
+                        if ((key in val) and ops[op](val[key],value)):
                                 del jdata["locations"][subkey]
         print json.dumps(jdata, sort_keys=True, indent=4)
     
