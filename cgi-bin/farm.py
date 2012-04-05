@@ -1,37 +1,48 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import cgi
 import os
+import codecs
 import string
-import libxml2
 import urllib
 import error
+import sys
+sys.path.append("/home/web/ltw1131/cgi-bin/libs/")
+from lxml import etree
+
+maiusstr=u"ABCDEFGHIJKLMNOPQRSTUVWXYZÀÈÉÒÙ"
+minusstr=u"abcdefghijklmnopqrstuvwxyzàèéòù"
+utf="utf-8"
+
 
 def filtraEQ(key, value, nequal):
     if(nequal):
         operand="!="
     else:
         operand="="
-    xml=libxml2.parseFile("../data/farmacieBO2011.xml")
-    xpath=""
+    xml=etree.parse("../data/farmacieBO2011.xml")
+    query=""
     if(key=="id"):
-        xpath="/locations/location[@"+key+operand+"\'"+value+"\']"
+        query="/locations/location[translate(@"+key+",\'abcdefghijklmnopqrstuvwxyz1234567890\',\'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890\')"+operand+"\'"+value+"\']"
     if (key=="lat,long"):
         lat,long=value.split(",")
-        xpath="/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]"
+        query="/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]"
     if(key=="name") or (key=="category"):
-        xpath="/locations/location["+key+operand+"\'"+value+"\']"
-    if(xpath==""):
+        rss=xml.xpath("/locations/location[translate("+key+',"'+maiusstr+'", "'+minusstr+'")'+operand+'"'+value+'"]')
+    if(query==""):
         error.errhttp("406")
         return
-    rss=xml.xpathEval(xpath)
-    metad=xml.xpathEval("/locations/metadata")
-    print("Content-type: application/xml; charset=UTF-8\n")
-    print("<locations>")
-    print metad[0]
+    print("Content-type: text/plain; charset=UTF-8\n")
+    print (repr(query))
+    rss=xml.xpath("/locations/location[translate("+key+',"'+maiusstr+'", "'+minusstr+'")'+operand+'"'+value+'"]')
+    metad=xml.xpath("/locations/metadata")
+    output=etree.Element("locations")
+    for element in metad:
+        output.append(element)
     for node in rss:
-        print node
-    print("</locations>")
+        output.append(node)
+    print(etree.tostring(output, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding="UTF-8"))
     return
     
 def filtraGT(key,value,greaterthan, equal):
@@ -50,7 +61,7 @@ def filtraGT(key,value,greaterthan, equal):
         print("Content-type: application/xml; charset=UTF-8\n")
         print("<locations>")
         print metad[0]
-        for node in rss:
+        for i in range(node.size()):
             print node
         print("</locations>")
     else:
@@ -99,22 +110,27 @@ def main():
         if(not chiave) or (not confronto) or (not valore):
             error.errhttp("406")
         else:
-            if(confronto=="EQ"):
+            chiave=chiave.lower().decode(utf)
+            confronto=confronto.lower().decode(utf)
+            valore=valore.lower().decode(utf)
+            if(confronto=="eq"):
                 filtraEQ(chiave, valore, False)
-            elif(confronto=="NEQ"):
+            elif(confronto=="neq"):
                 filtraEQ(chiave,valore,True)
-            elif(confronto=="CONTAINS"):
+            elif(confronto=="contains"):
                 filtraCONTAINS(chiave,valore, False)
-            elif(confronto=="NCONTAINS"):
+            elif(confronto=="ncontains"):
                 filtraCONTAINS(chiave,valore,True)
-            elif(confronto=="GT"):
+            elif(confronto=="gt"):
                 filtraGT(chiave,valore,True, False)
-            elif(confronto=="LT"):
+            elif(confronto=="lt"):
                 filtraGT(chiave,valore,False,False)
-            elif(confronto=="GE"):
+            elif(confronto=="ge"):
                 filtraGT(chiave,valore,True,True)
-            elif(confronto=="LE"):
+            elif(confronto=="le"):
                 filtraGT(chiave,valore,False,True)
+            else:
+                error.errhttp("406")
             
 
 main()
