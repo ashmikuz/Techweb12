@@ -11,6 +11,7 @@ import copy
 import operator
 from costanti import supermarket, uencoding
 
+
 ops = {
 "==": operator.eq,
 "!=": operator.ne,
@@ -22,6 +23,7 @@ ops = {
 "not": operator.not_,
 "id": operator.truth
 }
+
 
 def filtraEQ(key,value,nequal):
         if(nequal):
@@ -36,12 +38,18 @@ def filtraEQ(key,value,nequal):
             lat,long=value.split(",")
         orig=json.loads(data)
         jdata=copy.deepcopy(orig)
-        print("Content-type: application/json; UTF-8\n")
-        for item, subdict in orig.iteritems():
+        print("Content-type: application/json; charset=UTF-8\n")
+        for item, subdict in orig.iteritems():               
                 for subkey,val in subdict.iteritems():
-                        if((key == "lat,long") and ("lat" in val) and ("long" in val) and (ops[op](val["lat"],lat) and (ops[op](val["ong"],long)))):
+                        if((key == "lat,long") and ("lat" in val) and ("long" in val) and (ops[op](val["lat"].encode(uencoding),lat) and (ops[op](val["long"].encode(uencoding),long)))):
                            del jdata["locations"][subkey]
-                        if ((key in val) and ops[op]((val[key].lower().decode(uencoding)),value)):
+                        elif((key=="category") and ("category" in val)):
+                            for i in range(0, len(val["category"])):
+                                if(ops[op](val["category"][i].lower().encode(uencoding), value)):
+                                    del jdata["locations"][subkey]
+                        elif((key=="id") and (item!="metadata") and ops[op](subkey.lower().encode(uencoding), value)):
+                            del jdata["locations"][subkey]
+                        elif ((key in val) and ops[op]((val[key].lower().encode(uencoding)),value)):
                             del jdata["locations"][subkey]
         print json.dumps(jdata, ensure_ascii=False, encoding=uencoding, sort_keys=True, indent=4).encode(uencoding)
         
@@ -59,12 +67,12 @@ def filtraCONTAINS(key,value,ncontains):
     data=open(supermarket, "r").read()
     orig=json.loads(data)
     jdata=copy.deepcopy(orig)
-    print("Content-type: application/json; UTF-8\n")
+    print("Content-type: application/json; charset=UTF-8\n")
     for item, subdict in orig.iteritems():
         for subkey,val in subdict.iteritems():
-            if ((key in val) and ops[op](value in (val[key].lower().decode(uencoding)))):
+            if ((key in val) and ops[op](value in (val[key].lower()))):
                 del jdata["locations"][subkey]
-    print json.dumps(jdata, ensure_ascii=False, sort_keys=True, indent=4).encode(uencoding)
+    print json.dumps(jdata, ensure_ascii=False, encoding=uencoding ,sort_keys=True, indent=4).encode(uencoding)
         
     
 def main():
@@ -90,7 +98,7 @@ def main():
                 filtraEQ(chiave,valore,True)
             elif(confronto=="contains"):
                 filtraCONTAINS(chiave,valore, False)
-            elif(confronto=="contains"):
+            elif(confronto=="ncontains"):
                 filtraCONTAINS(chiave,valore,True)
             elif(confronto=="gt"):
                 filtraGT(chiave,valore,True, False)
@@ -100,6 +108,9 @@ def main():
                 filtraGT(chiave,valore,True,True)
             elif(confronto=="le"):
                 filtraGT(chiave,valore,False,True)
+            else:
+                error.errcode("406")
+                
             
 
 main()
