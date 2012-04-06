@@ -10,10 +10,10 @@ import error
 import sys
 sys.path.append("/home/web/ltw1131/cgi-bin/libs/")
 from lxml import etree
+from costanti import uencoding, farmacie
 
 maiusstr=u"ABCDEFGHIJKLMNOPQRSTUVWXYZÀÈÉÒÙ"
 minusstr=u"abcdefghijklmnopqrstuvwxyzàèéòù"
-utf="utf-8"
 
 
 def filtraEQ(key, value, nequal):
@@ -21,7 +21,7 @@ def filtraEQ(key, value, nequal):
         operand="!="
     else:
         operand="="
-    xml=etree.parse("../data/farmacieBO2011.xml")
+    xml=etree.parse(farmacie)
     query=""
     if(key=="id"):
         query="/locations/location[translate(@"+key+",\'abcdefghijklmnopqrstuvwxyz1234567890\',\'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890\')"+operand+"\'"+value+"\']"
@@ -42,7 +42,7 @@ def filtraEQ(key, value, nequal):
         output.append(element)
     for node in rss:
         output.append(node)
-    print(etree.tostring(output, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding="UTF-8"))
+    print(etree.tostring(output, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding))
     return
     
 def filtraGT(key,value,greaterthan, equal):
@@ -52,7 +52,7 @@ def filtraGT(key,value,greaterthan, equal):
         operand="<"
     if(equal):
         operand+="="
-    xml=libxml2.parseFile("../data/farmacieBO2011.xml")
+    xml=libxml2.parseFile(farmacie)
     if(key=="lat,long"):
         lat,long=value.split(",")
         xpath="/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]"
@@ -83,7 +83,7 @@ def filtraCONTAINS(key,value,ncontains):
     if(xpath==""):
         error.errhttp("406")
         return
-    xml=libxml2.parseFile("../data/farmacieBO2011.xml")
+    xml=libxml2.parseFile(farmacie)
     rss=xml.xpathEval(xpath)
     metad=xml.xpathEval("/locations/metadata")
     print("Content-type: application/xml; charset=UTF-8\n")
@@ -102,7 +102,7 @@ def main():
     confronto=fs.getvalue("comp")
     valore=fs.getvalue("value")
     if(not chiave) and (not confronto) and (not valore):
-        xml=open("../data/farmacieBO2011.xml", "r")
+        xml=open(farmacie, "r")
         print("Content-type: application/xml; charset=UTF-8\n")
         content=xml.read()
         print content
@@ -110,9 +110,9 @@ def main():
         if(not chiave) or (not confronto) or (not valore):
             error.errhttp("406")
         else:
-            chiave=chiave.lower().decode(utf)
-            confronto=confronto.lower().decode(utf)
-            valore=valore.lower().decode(utf)
+            chiave=chiave.lower().decode(encoding)
+            confronto=confronto.lower().decode(encoding)
+            valore=valore.lower().decode(encoding)
             if(confronto=="eq"):
                 filtraEQ(chiave, valore, False)
             elif(confronto=="neq"):
