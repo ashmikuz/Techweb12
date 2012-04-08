@@ -21,11 +21,14 @@ def filtraEQ(key, value, nequal):
     xml=etree.parse(farmacie)
     if(key=="id"):
         rss=xml.xpath("/locations/location[translate(@"+key+",\'"+maiusstr+"\',\'"+minusstr+"\')"+operand+"\'"+value+"\']")
-    if (key=="lat,long"):
+    elif (key=="lat,long"):
         lat,long=value.split(",")
         rss=xml.xpath("/locations/location[translate(@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]")
-    if(key=="name") or (key=="category"):
+    elif(key=="name") or (key=="category"):
         rss=xml.xpath("/locations/location[translate("+key+',"'+maiusstr+'", "'+minusstr+'")'+operand+'"'+value+'"]')
+    else:
+        error.errhttp("406")
+        return
     print("Content-type: application/xml; charset=UTF-8\n")
     metad=xml.xpath("/locations/metadata")
     output=etree.Element("locations")
