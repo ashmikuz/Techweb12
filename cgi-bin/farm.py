@@ -8,12 +8,9 @@ import string
 import urllib
 import error
 import sys
-sys.path.append("/home/web/ltw1131/cgi-bin/libs/")
+sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
-from costanti import uencoding, farmacie
-
-maiusstr=u"ABCDEFGHIJKLMNOPQRSTUVWXYZÀÈÉÒÙ"
-minusstr=u"abcdefghijklmnopqrstuvwxyzàèéòù"
+from costanti import uencoding, farmacie, maiusstr, minusstr
 
 
 def filtraEQ(key, value, nequal):
@@ -22,26 +19,20 @@ def filtraEQ(key, value, nequal):
     else:
         operand="="
     xml=etree.parse(farmacie)
-    query=""
     if(key=="id"):
-        query="/locations/location[translate(@"+key+",\'abcdefghijklmnopqrstuvwxyz1234567890\',\'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890\')"+operand+"\'"+value+"\']"
+        rss=xml.xpath("/locations/location[translate(@"+key+",\'"+maiusstr+"\',\'"+minusstr+"\')"+operand+"\'"+value+"\']")
     if (key=="lat,long"):
         lat,long=value.split(",")
-        query="/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]"
+        rss=xml.xpath("/locations/location[translate(@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]")
     if(key=="name") or (key=="category"):
         rss=xml.xpath("/locations/location[translate("+key+',"'+maiusstr+'", "'+minusstr+'")'+operand+'"'+value+'"]')
-    if(query==""):
-        error.errhttp("406")
-        return
-    print("Content-type: text/plain; charset=UTF-8\n")
-    print (repr(query))
-    rss=xml.xpath("/locations/location[translate("+key+',"'+maiusstr+'", "'+minusstr+'")'+operand+'"'+value+'"]')
+    print("Content-type: application/xml; charset=UTF-8\n")
     metad=xml.xpath("/locations/metadata")
     output=etree.Element("locations")
-    for element in metad:
-        output.append(element)
-    for node in rss:
-        output.append(node)
+    for met in metad:
+        output.append(met)
+    for loc in rss:
+        output.append(loc)
     print(etree.tostring(output, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding))
     return
     
@@ -52,18 +43,18 @@ def filtraGT(key,value,greaterthan, equal):
         operand="<"
     if(equal):
         operand+="="
-    xml=libxml2.parseFile(farmacie)
+    xml=etree.parse(farmacie)
     if(key=="lat,long"):
         lat,long=value.split(",")
-        xpath="/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]"
-        rss=xml.xpathEval(xpath)
-        metad=xml.xpathEval("/locations/metadata")
+        rss=xml.xpath("/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]")
+        metad=xml.xpath("/locations/metadata")
+        output=etree.Element("locations")
+        for met in metad:
+            output.append(met)
+        for loc in rss:
+            output.append(loc)
         print("Content-type: application/xml; charset=UTF-8\n")
-        print("<locations>")
-        print metad[0]
-        for i in range(node.size()):
-            print node
-        print("</locations>")
+        print(etree.tostring(output, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding))
     else:
         error.errhttp("406")
     return
@@ -73,26 +64,24 @@ def filtraCONTAINS(key,value,ncontains):
         operator="not (contains"
     else:
         operator="(contains"
-    xpath=""
+    xml=etree.parse(farmacie)
     if((key=="id") and (not ncontains)):
-        xpath="/locations/location[contains(@id,\'"+value+"\')]"
-    if((key=="name") or (key=="category") or (key=="opening") or (key=="closing")):
-        xpath="/locations/location["+operator+"("+key+",\'"+value+"\'))]"
-    if((key=="address") and (not ncontains)):
-        xpath="/locations/location[contains(address,\'"+value+"\')]"
-    if(xpath==""):
+        rss=xml.xpath("/locations/location[contains(translate(@id,'"+maiusstr+"','"+minusstr+"'), '"+value+"')]")
+    elif((key=="name") or (key=="category") or (key=="opening") or (key=="closing")):
+        rss=xml.xpath("/locations/location["+operator+"(translate("+key+",'"+maiusstr+"','"+minusstr+"'),'"+value+"'))]")
+    elif((key=="address") and (not ncontains)):
+        rss=xml.xpath("/locations/location[contains(translate(address,'"+maiusstr+"','"+minusstr+"'),'"+value+"')]")
+    else:
         error.errhttp("406")
         return
-    xml=libxml2.parseFile(farmacie)
-    rss=xml.xpathEval(xpath)
-    metad=xml.xpathEval("/locations/metadata")
+    metad=xml.xpath("/locations/metadata")
+    output=etree.Element("locations")
     print("Content-type: application/xml; charset=UTF-8\n")
-    print("<locations>")
-    print metad[0]
-    for node in rss:
-        print node
-    print("</locations>")
-    
+    for met in metad:
+        output.append(met)
+    for loc in rss:
+        output.append(loc)
+    print(etree.tostring(output, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding))   
     return
 
 
@@ -110,9 +99,9 @@ def main():
         if(not chiave) or (not confronto) or (not valore):
             error.errhttp("406")
         else:
-            chiave=chiave.lower().decode(encoding)
-            confronto=confronto.lower().decode(encoding)
-            valore=valore.lower().decode(encoding)
+            chiave=chiave.lower().decode(uencoding)
+            confronto=confronto.lower().decode(uencoding)
+            valore=valore.lower().decode(uencoding)
             if(confronto=="eq"):
                 filtraEQ(chiave, valore, False)
             elif(confronto=="neq"):
