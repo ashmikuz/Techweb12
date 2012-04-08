@@ -15,11 +15,10 @@ from costanti import supermarket, uencoding
 ops = {
 "==": operator.eq,
 "!=": operator.ne,
-"<>": operator.ne,
 "<": operator.lt,
 "<=": operator.le,
 ">": operator.gt,
-">": operator.ge,
+">=": operator.ge,
 "not": operator.not_,
 "id": operator.truth
 }
@@ -70,10 +69,36 @@ def filtraCONTAINS(key,value,ncontains):
     print("Content-type: application/json; charset=UTF-8\n")
     for item, subdict in orig.iteritems():
         for subkey,val in subdict.iteritems():
-            if ((key in val) and ops[op](value in (val[key].lower()))):
+            if((key=="category") and ("category" in val)):
+                for i in range(0, len(val["category"])):
+                    if(ops[op](value in val["category"][i].lower().encode(uencoding))):
+                        del jdata["locations"][subkey]
+            elif((key=="id") and (item!="metadata") and ops[op](value in subkey.lower().encode(uencoding))):
+                del jdata["locations"][subkey]
+            elif ((key in val) and ops[op](value in (val[key].lower()))):
                 del jdata["locations"][subkey]
     print json.dumps(jdata, ensure_ascii=False, encoding=uencoding ,sort_keys=True, indent=4).encode(uencoding)
-        
+    
+def filtraGT(key,value,greaterthan, equal):
+    if(greaterthan):
+        op=">"
+    else:
+        op="<"
+    if(not equal):
+        op+="="
+    if(key!="lat,long"):
+        error.errcode("406")
+        return
+    lat,long=value.split(",")
+    data=open(supermarket, "r").read()
+    orig=json.loads(data)
+    jdata=copy.deepcopy(orig)
+    print("Content-type: application/json; charset=UTF-8\n")
+    for item, subdict in orig.iteritems():
+        for subkey,val in subdict.iteritems():
+            if(("lat" in val) and ("long" in val) and (ops[op](float(lat), float(val["lat"])) and (ops[op](float(long), float(val["long"]))))):
+                del jdata["locations"][subkey]
+    print json.dumps(jdata, ensure_ascii=False, encoding=uencoding ,sort_keys=True, indent=4).encode(uencoding)     
     
 def main():
     fs = cgi.FieldStorage()
