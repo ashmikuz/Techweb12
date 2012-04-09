@@ -6,10 +6,9 @@ import os
 import error
 import json
 import codecs
-from pprint import  pprint
 import copy
 import operator
-from costanti import supermarket, uencoding
+from costanti import supermarket, uencoding, mimejson
 
 
 ops = {
@@ -105,6 +104,12 @@ def main():
     chiave=fs.getvalue("key")
     confronto=fs.getvalue("comp")
     valore=fs.getvalue("value")
+    """
+    questa parte serve per controllare che json in questo caso sia accettato dal descrittore. tuttavia se la abilitiamo adesso, siccome il browser non accetta json non va...
+    la lascio commentata finche non iniziamo con i descrittori
+    if(error.testenviron(os.environ, mimejson)):
+        return
+    """
     if(not chiave) and (not confronto) and (not valore):
         xml=open(supermarket, "r")
         print("Content-type: application/json; charset=UTF-8\n")

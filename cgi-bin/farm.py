@@ -10,7 +10,7 @@ import error
 import sys
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
-from costanti import uencoding, farmacie, maiusstr, minusstr
+from costanti import uencoding, farmacie, maiusstr, minusstr, mimexml
 
 
 def filtraEQ(key, value, nequal):
@@ -93,6 +93,8 @@ def main():
     chiave=fs.getvalue("key")
     confronto=fs.getvalue("comp")
     valore=fs.getvalue("value")
+    if(error.testenviron(os.environ, mimexml)):
+        return
     if(not chiave) and (not confronto) and (not valore):
         xml=open(farmacie, "r")
         print("Content-type: application/xml; charset=UTF-8\n")
