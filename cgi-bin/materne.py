@@ -7,6 +7,8 @@ import error
 from costanti import uencoding, mimecsv, smaterne
 import cgi
 import csv
+import operator
+import sys
 
 ops = {
   "==": operator.eq,
@@ -46,7 +48,7 @@ def filtraEQ(key,value,nequal):
     for item in orig:
         if(key!=u"lat,long" and ops[op](item[key].lower(), value)):
             result.writerow(item)
-        elif(ops[op](item["Lat"], lat) and (ops[op](item["Long"], longi))):
+        elif(key==u"lat,long" and ops[op](item["Lat"], lat) and (ops[op](item["Long"], longi))):
             result.writerow(item)
             
             
