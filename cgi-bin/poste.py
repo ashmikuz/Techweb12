@@ -4,9 +4,71 @@
 import sys
 import cgi
 import error
-from costanti import mimeturtle, poste, uencoding
+from costanti import mimeturtle, poste, uencoding, fourl, vcurl, dcturl
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 import rdflib
+from rdflib import plugin
+import rdfextras
+
+vcard=rdflib.Namespace(vcurl)
+dcterms=rdflib.Namespace(dcturl)
+foaf=rdflib.Namespace(fourl)
+
+plugin.register('sparql', rdflib.query.Processor, 'rdfextras.sparql.processor', 'Processor')
+plugin.register('sparql', rdflib.query.Result, 'rdfextras.sparql.query', 'SPARQLQueryResult')
+
+squery="""
+                PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+                PREFIX cs: <http://cs.unibo.it/ontology/>
+                PREFIX : <http://www.essepuntato.it/resource/>
+
+                SELECT ?id ?name ?lat ?long ?tel ?category ?fax ?opening ?closing ?address
+                WHERE {
+                        ?id vcard:category ?category ;
+                        vcard:fn ?name ;
+                        vcard:extended-address ?address ;
+                        vcard:latitude ?lat ;
+                        vcard:longitude ?long ;
+                        vcard:tel ?tel ;
+                        vcard:fax ?fax ;
+                        cs:opening ?opening ;
+                        cs:closing ?closing .
+                }
+            """
+
+def filtraEQ(key,value,nequal):
+    turtle=rdflib.Graph()
+    src=turtle.parse(poste, format='n3')
+    result=rdflib.Graph()
+    squery="""
+                PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+                PREFIX cs: <http://cs.unibo.it/ontology/>
+                PREFIX : <http://www.essepuntato.it/resource/>
+                
+                SELECT ?id ?name ?lat ?long ?tel ?category ?fax ?opening ?closing ?address
+                where {
+                        ?id vcard:category ?category ;
+                        vcard:fn ?name ;
+                        vcard:extended-address ?address ;
+                        vcard:latitude ?lat ;
+                        vcard:longitude ?long ;
+                        vcard:tel ?tel ;
+                        vcard:fax ?fax ;
+                        cs:opening ?opening ;
+                        cs:closing ?closing .
+                        
+                        FILTER regex(?"""+key+""",\""""+value+"""\", "i")
+                        }
+            """
+
+
+    
+    print("Content-type: text/turtle; charset=UTF-8\n")
+    query_result=src.query(squery)
+    for element in query_result:
+       print element["name"]
+    result.serialize(format="n3")
+        
 
 def main():
     fs = cgi.FieldStorage()
