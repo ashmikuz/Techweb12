@@ -66,7 +66,7 @@ def filtraEQ(key,value,nequal):
     print("Content-type: text/turtle; charset=UTF-8\n")
     query_result=src.query(squery)
     for element in query_result:
-       print element["name"]
+       print element[0]
     result.serialize(format="n3")
         
 
