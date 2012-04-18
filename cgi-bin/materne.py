@@ -46,9 +46,10 @@ def filtraEQ(key,value,nequal):
     print("Content-type: text/csv; charset=UTF-8\n")
     result.writeheader()
     for item in orig:
-        if(key!=u"lat,long" and ops[op](item[key].lower(), value)):
-            result.writerow(item)
-        elif(key==u"lat,long" and ops[op](item["Lat"], lat) and (ops[op](item["Long"], longi))):
+        if(key!=u"lat,long"):
+            if(ops[op](item[key].lower(), value)):
+                result.writerow(item)
+        elif(ops[op](item["Lat"], lat) and (ops[op](item["Long"], longi))):
             result.writerow(item)
             
             
