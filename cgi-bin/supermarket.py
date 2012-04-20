@@ -141,6 +141,32 @@ def main():
             else:
                 error.errcode("406")
                 
+def locationfromjson(file):
+    data=open(file, "r").read()
+    jfile=json.loads(data) 
+    ellist=[]
+    for key,value in jfile.iteritems():
+        for subkey,subval in value.iteritems():
+            id=subkey
+            category="Supermarket"
+            name=subval["name"]
+            lat=float(subval["lat"])
+            long=float(subval["long"])
+            address=subval["address"]
+            opening=subval["opening"]
+            closing=subval["closing"]
+            if("tel" in subval):
+                tel=(subval["tel"])
+            else:
+                tel=""
+            if("note" in subval):
+                note=subval["note"]
+            else:
+                note=""
+            loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
+            ellist.append(loc)
+            print ellist
+
             
 
 main()
