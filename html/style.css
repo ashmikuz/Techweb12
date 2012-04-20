@@ -1,0 +1,20 @@
+body {
+display: block;
+}
+#header{
+	height: 100px;
+	width: auto;
+	font-size: 30px;
+	border: 1px solid;
+}
+#content{
+	height: 500px;
+	width: auto;
+	border: 1px solid;
+}
+#contentleft{
+	width: 150px;
+	height: 500px;
+	border: 1px solid;
+}
+
