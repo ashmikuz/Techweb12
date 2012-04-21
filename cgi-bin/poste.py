@@ -28,49 +28,38 @@ u"closing" : u"cs:closing"
 plugin.register('sparql', rdflib.query.Processor, 'rdfextras.sparql.processor', 'Processor')
 plugin.register('sparql', rdflib.query.Result, 'rdfextras.sparql.query', 'SPARQLQueryResult')
 
-squery="""
-                PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
-                PREFIX cs: <http://cs.unibo.it/ontology/>
-                PREFIX : <http://www.essepuntato.it/resource/>
-
-                SELECT ?id ?name ?lat ?long ?tel ?category ?fax ?opening ?closing ?address
-                WHERE {
-                        ?id vcard:category ?category ;
-                        vcard:fn ?name ;
-                        vcard:extended-address ?address ;
-                        vcard:latitude ?lat ;
-                        vcard:longitude ?long ;
-                        vcard:tel ?tel ;
-                        vcard:fax ?fax ;
-                        cs:opening ?opening ;
-                        cs:closing ?closing .
-                }
-            """
 
 def filtraEQ(key,value,nequal):
     turtle=rdflib.Graph()
     src=turtle.parse(poste, format='n3')
     result=rdflib.Graph()
-    squery=""" 
-        PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
-        PREFIX cs: <http://cs.unibo.it/ontology/>
-        PREFIX : <http://www.essepuntato.it/resource/>
-        DESCRIBE ?subject
+    if nequal:
+        nop="!"
+    else:
+        nop=""
+    if(key=="id"):
+        squery="""
+        CONSTRUCT {?s ?p ?o}
         WHERE {
-         ?subject """+campi[key]+""" ?"""+key+""". 
-         FILTER (regex(?"""+key+""", \""""+value+"""\",i)). 
-         }
-
- """
-
-    
+                ?s ?p ?o.
+                FILTER ("""+nop+"""regex (?s ,"^http://www.essepuntato.it/resource/"""+value+"""$", "i"))
+                }
+        """
+    else:
+        squery="""
+        CONSTRUCT {?s ?p ?o}
+        WHERE {
+                ?s ?p ?o;
+                """+campi[key]+""" ?name.
+                FILTER ("""+nop+"""regex (?name ,"^"""+value+"""$", "i"))
+                }
+        """
     print("Content-type: text/turtle; charset=UTF-8\n")
-    print squery
     query_result=src.query(squery)
+    print squery
     for element in query_result:
         result.add(element)
-    print element.serialize(format="n3")
-        
+    print result.serialize(format="n3")
 
 def main():
     fs = cgi.FieldStorage()
