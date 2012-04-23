@@ -1,15 +1,15 @@
 body {
-display: block;
+	display: block;
 }
 #header{
 	height: 100px;
-	width: auto;
+	width: 1000px;
 	font-size: 30px;
 	border: 1px solid;
 }
 #content{
 	height: 500px;
-	width: auto;
+	width: 1000px;
 	border: 1px solid;
 }
 #contentleft{
@@ -17,4 +17,15 @@ display: block;
 	height: 500px;
 	border: 1px solid;
 }
+.list {
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+.list li{
+    list-style: square;
+    padding: 2px;
+}
 
+pre {
+    font-size: 11px; 
+}
