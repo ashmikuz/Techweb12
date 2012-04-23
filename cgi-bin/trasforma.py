@@ -116,7 +116,17 @@ def locationfromcsv(data):
             note=""
         loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
         ellist.append(loc)
-    
 
+def formatresult(mimetype):
+    if ("application/xml" in mimetype):
+        locationtoxml()
+    elif("application/json" in mimetype):
+        locationtojson()
+    elif("text/csv" in mimetype):
+        locationtocsv()
+    elif("text/turtle" in mimetype):
+        locationtoturtle()
+    else:
+        error.errhttp("406")
 
         
