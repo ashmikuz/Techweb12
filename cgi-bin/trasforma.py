@@ -3,6 +3,8 @@
 
 import sys
 from math import radians, sqrt, atan2, cos, abs, sin, pow
+import csv
+import json
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
 
@@ -41,8 +43,8 @@ def getopening(loc):
     return result
 
 
-def locationfromxml(file):
-    xml=etree.parse(file)
+def locationfromxml(data):
+    xml=etree.parse(data)
     res=xml.xpath("/locations/location")
     ellist=[]
     for element in res:
@@ -66,16 +68,16 @@ def locationfromxml(file):
         loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
         ellist.append(loc)
 
-def locationfromjson(file):
-    data=open(file, "r").read()
+def locationfromjson(data):
     orig=json.loads(data)
     ellist=[]
     for key,value in orig.iteritems():
         for subkey,subval in value.iteritems():
             if(key!="metadata"):
                 id=subkey
-                """category=subval["category"]"""
-                subval["name"]
+                category=[]
+                for item in subval["category"]:
+                    category.append(item)
                 name=subval["name"]
                 lat=float(subval["lat"])
                 long=float(subval["long"])
@@ -90,6 +92,31 @@ def locationfromjson(file):
                     note=subval["note"]
                 else:
                     note=""
-                loc=location(id, "Supermarket", name, lat, long, address, opening, closing, tel, note)
+                loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
                 ellist.append(loc)
-    print ellist
+
+def locationfromcsv(data):
+    orig=csv.DictReader(data)
+    for item in orig:
+        id=item["Id"]
+        category=item["Category"]
+        name=item["Name"]
+        lat=float(item["Lat"])
+        long=float(item["Long"])
+        address=item["Address"]
+        opening=item["Opening"]
+        closing=item["Closing"]
+        if ("Tel" in item):
+            tel=item["Tel"]
+        else:
+            tel=""
+        if ("Note" in item):
+            note=item["note"]
+        else:
+            note=""
+        loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
+        ellist.append(loc)
+    
+
+
+        

@@ -33,12 +33,40 @@ def filtraEQ(key,value,nequal):
     turtle=rdflib.Graph()
     src=turtle.parse(poste, format='n3')
     result=rdflib.Graph()
+    result.bind('', rdflib.URIRef('http://www.essepuntato.it/resource/', False))
+    result.bind('vcard', rdflib.URIRef('http://www.w3.org/2006/vcard/ns#'))
+    result.bind('cs', rdflib.URIRef('http://cs.unibo.it/ontology/'))
+    result.bind('dcterms', rdflib.URIRef('http://purl.org/dc/terms/'))
+    result.bind('xsd', rdflib.URIRef('http://www.w3.org/2001/XMLSchema#'))
+    result.bind('this', rdflib.URIRef('http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl'))
     if nequal:
         nop="!"
     else:
+        oquery="""
+        PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+        PREFIX cs: <http://cs.unibo.it/ontology/>
+        PREFIX : <http://www.essepuntato.it/resource/>
+        PREFIX dcterms: <http://purl.org/dc/terms/>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX this: <http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl>
+        CONSTRUCT {?s ?p ?o}
+        WHERE {
+                ?s ?p ?o.
+                ?s dcterms:creator "Working Group LTW 2011/2012"
+                }
+        """
+        query_meta=src.query(oquery)
+        for element in query_meta:
+            result.add(element)
         nop=""
     if(key=="id"):
         squery="""
+        PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+        PREFIX cs: <http://cs.unibo.it/ontology/>
+        PREFIX : <http://www.essepuntato.it/resource/>
+        PREFIX dcterms: <http://purl.org/dc/terms/>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX this: <http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl>
         CONSTRUCT {?s ?p ?o}
         WHERE {
                 ?s ?p ?o.
@@ -47,6 +75,12 @@ def filtraEQ(key,value,nequal):
         """
     else:
         squery="""
+        PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+        PREFIX cs: <http://cs.unibo.it/ontology/>
+        PREFIX : <http://www.essepuntato.it/resource/>
+        PREFIX dcterms: <http://purl.org/dc/terms/>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX this: <http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl>
         CONSTRUCT {?s ?p ?o}
         WHERE {
                 ?s ?p ?o;
@@ -55,6 +89,7 @@ def filtraEQ(key,value,nequal):
                 }
         """
     print("Content-type: text/turtle; charset=UTF-8\n")
+    
     query_result=src.query(squery)
     print squery
     for element in query_result:
