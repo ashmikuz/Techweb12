@@ -4,7 +4,7 @@
 import os
 import codecs
 import error
-from costanti import uencoding, mimecsv, smaterne
+from costanti import uencoding, mimecsv, smaterne, medici
 import cgi
 import csv
 import operator
@@ -21,7 +21,6 @@ ops = {
   "id": operator.truth
   }
 
-file
 
 dial=csv.Dialect
 dial.quoting=csv.QUOTE_ALL
@@ -30,7 +29,7 @@ dial.delimiter=","
 dial.lineterminator="\n"
 dial.escapechar="\\"
 
-def filtraEQ(key,value,nequal):
+def filtraEQ(key,value,nequal, dsource):
     if(nequal):
         op="!="
     else:
@@ -42,7 +41,7 @@ def filtraEQ(key,value,nequal):
         lat,longi=value.split(",")
     else:
         key=key[0].upper()+key[1:]
-    data=open(file,"r")
+    data=open(dsource,"r")
     orig=csv.DictReader(data)
     result=csv.DictWriter(sys.stdout, orig.fieldnames, dialect=dial)
     print("Content-type: text/csv; charset=UTF-8\n")
@@ -55,7 +54,7 @@ def filtraEQ(key,value,nequal):
             result.writerow(item)
             
             
-def filtraCONTAINS(key,value,ncontains):
+def filtraCONTAINS(key,value,ncontains, dsource):
     if(ncontains):
         op="not"
     else:
@@ -67,7 +66,7 @@ def filtraCONTAINS(key,value,ncontains):
         error.errcode("406")
         return
     key=key[0].upper()+key[1:]
-    data=open(file,"r")
+    data=open(dsource,"r")
     orig=csv.DictReader(data)
     result=csv.DictWriter(sys.stdout, orig.fieldnames, dialect=dial)
     print("Content-type: text/csv; charset=UTF-8\n")
@@ -76,7 +75,7 @@ def filtraCONTAINS(key,value,ncontains):
         if(ops[op](value in item[key].lower())):
             result.writerow(item)    
     
-def filtraGT(key,value,greaterthan, equal):
+def filtraGT(key,value,greaterthan, equal, dsource):
     if(greaterthan):
         op=">"
     else:
@@ -87,7 +86,7 @@ def filtraGT(key,value,greaterthan, equal):
         error.errcode("406")
         return
     lat,longi=value.split(",")
-    data=open(file,"r")
+    data=open(dsource,"r")
     orig=csv.DictReader(data)
     result=csv.DictWriter(sys.stdout, orig.fieldnames, dialect=dial)
     print("Content-type: text/csv; charset=UTF-8\n")
@@ -104,9 +103,9 @@ def main():
     confronto=fs.getvalue("comp")
     valore=fs.getvalue("value")
     if(aggr=="materne"):
-        file=materne
+        source=materne
     if(aggr=="medici"):
-        file=medici
+        source=medici
     else:
         error.errhttp("404")
     """
@@ -128,21 +127,21 @@ def main():
             confronto=confronto.lower().decode(uencoding)
             valore=valore.lower().decode(uencoding)
             if(confronto=="eq"):
-                filtraEQ(chiave, valore, False)
+                filtraEQ(chiave, valore, False, source)
             elif(confronto=="neq"):
-                filtraEQ(chiave,valore,True)
+                filtraEQ(chiave,valore,True, source)
             elif(confronto=="contains"):
-                filtraCONTAINS(chiave,valore, False)
+                filtraCONTAINS(chiave,valore, False, source)
             elif(confronto=="ncontains"):
-                filtraCONTAINS(chiave,valore,True)
+                filtraCONTAINS(chiave,valore,True, source)
             elif(confronto=="gt"):
-                filtraGT(chiave,valore,True, False)
+                filtraGT(chiave,valore,True, False, source)
             elif(confronto=="lt"):
-                filtraGT(chiave,valore,False,False)
+                filtraGT(chiave,valore,False,False,source)
             elif(confronto=="ge"):
-                filtraGT(chiave,valore,True,True)
+                filtraGT(chiave,valore,True,True, source)
             elif(confronto=="le"):
-                filtraGT(chiave,valore,False,True)
+                filtraGT(chiave,valore,False,True, source)
             else:
                 error.errcode("406")
                 
