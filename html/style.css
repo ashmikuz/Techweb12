@@ -1,31 +1,44 @@
+/*
+	   style.css
+	   Techweb12
+			   Created by Andrea Pistolesi on 2012-04-24.
+	   Copyright 2012 Andrea Pistolesi. All rights reserved.
+	*/
+
 body {
 	display: block;
 }
 #header{
-	height: 100px;
-	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	width: 80%;
 	font-size: 30px;
 	border: 1px solid;
 }
-#content{
-	height: 500px;
-	width: 1000px;
+#conteiner{
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	height: 600px;
+	width: 80%;
+	border: 1px solid;
+}
+#contentcenter{
+	margin-left: 15%;
+	width: 70%;
+	height: 600px;
 	border: 1px solid;
 }
 #contentleft{
-	width: 150px;
-	height: 500px;
+	float:left;
+	width: 15%;
+	height: 600px;
 	border: 1px solid;
 }
-.list {
-    padding-left: 16px;
-    padding-bottom: 10px;
-}
-.list li{
-    list-style: square;
-    padding: 2px;
-}
-
-pre {
-    font-size: 11px; 
+#contentright{
+	float: right;
+	width: 15%;
+	height: 600px;
+	border: 1px solid;
 }
