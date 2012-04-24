@@ -19,7 +19,8 @@ def main():
     if ((not aggr) or (not lat) or (not longi)):
         error.errhttp("406")
     else:
-        urlaggr=getaggrurl(aggr)
+        """urlaggr=getaggrurl(aggr)"""
+        urlaggr="http://ltw1218.web.cs.unibo.it/ltw1218-farmacie"
         req=urllib2.Request(url=urlaggr)
         req.add_header('Accept', 'application/xml, text/turtle, text/csv, application/json')
         response = urllib2.urlopen(r)
@@ -28,20 +29,18 @@ def main():
         response.close()
         if(restype=="application/xml"):
             trasforma.locationfromxml(data)
-            computedistances(ellist)
-            ellist.sorted(key=lambda location: location.distance)
         elif(restype=="text/turtle"):
             trasforma.locationfromturtle(data)
-            computedistances(ellist)
-            ellist.sorted(key=lambda location: location.distance)
         elif(restype=="text/csv"):
             trasforma.locationfromcsv(data)
-            computedistances(ellist)
-            ellist.sorted(key=lambda location: location.distance)
         elif(restype=="application/json"):
             trasforma.locationfromcsv(data)
-            computedistances(ellist)
-            ellist.sorted(key=lambda location: location.distance)
         else:
             error.errhttp("406")
+        computedistances(ellist, lat, longi)
+        ellist.sorted(key=lambda location: location.distance)
         trasforma.formatresult(os.environ["HTTP_ACCEPT"])
+        
+def computedistances(list, lat, longi):
+    for location in list:
+        location.distance()

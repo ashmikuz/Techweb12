@@ -117,6 +117,29 @@ def locationfromcsv(data):
         loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
         ellist.append(loc)
 
+def locationtoxml():
+    root=etree.Element("locations")
+    for location in ellist:
+        child=etree.SubElement(root, id=location.id, lat=location.lat, long=location.long, "location")
+        subchild=etree.SubElement(child, "category")
+        subchild.text=location.category
+        subchild=etree.SubElement(child, "name")
+        subchild.text=location.name
+        subchild=etree.SubElement(child, "address")
+        subchild.text=location.address
+        subchild=etree.SubElement(child, "closing")
+        subchild.text=location.closing
+        subchild=etree.SubElement(child, "opening")
+        subchild.text=location.opening
+        if(location.note!=""):
+            subchild=etree.SubElement(child, "note")
+            subchild.text=location.note
+        if(location.tel):
+            subchild=etree.SubElement(child, "tel")
+            subchild.text=location.tel
+    print etree.tostring(output, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding)
+    return
+
 def formatresult(mimetype):
     if ("application/xml" in mimetype):
         locationtoxml()
@@ -128,5 +151,6 @@ def formatresult(mimetype):
         locationtoturtle()
     else:
         error.errhttp("406")
+
 
         
