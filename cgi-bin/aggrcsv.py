@@ -21,6 +21,8 @@ ops = {
   "id": operator.truth
   }
 
+file
+
 dial=csv.Dialect
 dial.quoting=csv.QUOTE_ALL
 dial.quotechar='"'
@@ -40,7 +42,7 @@ def filtraEQ(key,value,nequal):
         lat,longi=value.split(",")
     else:
         key=key[0].upper()+key[1:]
-    data=open(smaterne,"r")
+    data=open(file,"r")
     orig=csv.DictReader(data)
     result=csv.DictWriter(sys.stdout, orig.fieldnames, dialect=dial)
     print("Content-type: text/csv; charset=UTF-8\n")
@@ -65,7 +67,7 @@ def filtraCONTAINS(key,value,ncontains):
         error.errcode("406")
         return
     key=key[0].upper()+key[1:]
-    data=open(smaterne,"r")
+    data=open(file,"r")
     orig=csv.DictReader(data)
     result=csv.DictWriter(sys.stdout, orig.fieldnames, dialect=dial)
     print("Content-type: text/csv; charset=UTF-8\n")
@@ -85,7 +87,7 @@ def filtraGT(key,value,greaterthan, equal):
         error.errcode("406")
         return
     lat,longi=value.split(",")
-    data=open(smaterne,"r")
+    data=open(file,"r")
     orig=csv.DictReader(data)
     result=csv.DictWriter(sys.stdout, orig.fieldnames, dialect=dial)
     print("Content-type: text/csv; charset=UTF-8\n")
@@ -97,9 +99,16 @@ def filtraGT(key,value,greaterthan, equal):
 
 def main():
     fs = cgi.FieldStorage()
+    aggr=fs.getvalue("aggr")
     chiave=fs.getvalue("key")
     confronto=fs.getvalue("comp")
     valore=fs.getvalue("value")
+    if(aggr=="materne"):
+        file=materne
+    if(aggr=="medici"):
+        file=medici
+    else:
+        error.errhttp("404")
     """
     questa parte serve per controllare che json in questo caso sia accettato dal descrittore. tuttavia se la abilitiamo adesso, siccome il browser non accetta json non va...
     la lascio commentata finche non iniziamo con i descrittori
@@ -107,7 +116,7 @@ def main():
         return
     """
     if(not chiave) and (not confronto) and (not valore):
-        file=open(smaterne, "r")
+        file=open(file, "r")
         print("Content-type: text/csv; charset=UTF-8\n")
         content=file.read()
         print content

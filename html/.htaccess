@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteRule ^ltw1218-farmacie/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/farm.py?key=$1&comp=$2&value=$3 [L]
 RewriteRule ^ltw1218-supermarket/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/supermarket.py?key=$1&comp=$2&value=$3 [L]
 RewriteRule ^ltw1218-poste/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/poste.py?key=$1&comp=$2&value=$3 [L]
-RewriteRule ^ltw1218-materne/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/aggr-csv.py?aggr=materne&key=$1&comp=$2&value=$3 [L]
-RewriteRule ^ltw1218-medici/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/aggr-csv.py?aggr=medici&key=$1&comp=$2&value=$3 [L]
+RewriteRule ^ltw1218-materne/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/aggrcsv.py?aggr=materne&key=$1&comp=$2&value=$3 [L]
+RewriteRule ^ltw1218-medici/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/aggrcsv.py?aggr=medici&key=$1&comp=$2&value=$3 [L]
 
 
