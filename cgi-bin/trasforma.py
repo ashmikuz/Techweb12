@@ -2,13 +2,17 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from math import radians, sqrt, atan2, cos, abs, sin, pow
+from math import radians, sqrt, atan2, cos, fabs, sin, pow
+from costanti import uencoding
+import error
 import csv
 import json
+import codecs
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
 
 raggioterra=float(6371000)
+ellist=[]
 
 class location:
     def __init__(self, id, category, name, lat, long, address, opening, closing, tel, note):
@@ -27,14 +31,11 @@ class location:
         lat2=radians(lat)
         long1=radians(self.long)
         long2=radians(long)
-        x=sqrt((cos(lat2)*(pow(sin(abs(long2-long1)),2)))+pow(cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(abs(long2 - long1)),2))
-        y=sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(abs(long2 - long1))
+        x=sqrt((cos(lat2)*(pow(sin(fabs(long2-long1)),2)))+pow(cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(fabs(long2 - long1)),2))
+        y=sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(fabs(long2 - long1))
         angle=atan2(x,y)
         self.distance=angle*raggioterra
-        
-        
 
-global ellist  
       
 def getopening(loc):
     result=""
@@ -44,7 +45,7 @@ def getopening(loc):
 
 
 def locationfromxml(data):
-    xml=etree.parse(data)
+    xml=etree.fromstring(data)
     res=xml.xpath("/locations/location")
     ellist=[]
     for element in res:
@@ -119,8 +120,10 @@ def locationfromcsv(data):
 
 def locationtoxml():
     root=etree.Element("locations")
+    print("Content-type: text/plain; charset=UTF-8\n")
     for location in ellist:
-        child=etree.SubElement(root, id=location.id, lat=location.lat, long=location.long, "location")
+        print "locations seem ok...."
+        child=etree.SubElement(root,"location" ,id=location.id, lat=location.lat, long=location.long)
         subchild=etree.SubElement(child, "category")
         subchild.text=location.category
         subchild=etree.SubElement(child, "name")
@@ -137,11 +140,12 @@ def locationtoxml():
         if(location.tel):
             subchild=etree.SubElement(child, "tel")
             subchild.text=location.tel
-    print etree.tostring(output, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding)
+    print("Content-type: application/xml; charset=UTF-8\n")
+    print etree.tostring(root, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding)
     return
 
 def formatresult(mimetype):
-    if ("application/xml" in mimetype):
+    if (True):  
         locationtoxml()
     elif("application/json" in mimetype):
         locationtojson()
@@ -152,5 +156,5 @@ def formatresult(mimetype):
     else:
         error.errhttp("406")
 
-
+""""application/xml" in mimetype""" 
         

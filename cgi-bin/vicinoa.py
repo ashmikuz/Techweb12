@@ -5,6 +5,7 @@ import cgi
 import error
 import codecs
 import urllib2
+import os
 from trasforma import ellist
 import trasforma
 
@@ -23,24 +24,27 @@ def main():
         urlaggr="http://ltw1218.web.cs.unibo.it/ltw1218-farmacie"
         req=urllib2.Request(url=urlaggr)
         req.add_header('Accept', 'application/xml, text/turtle, text/csv, application/json')
-        response = urllib2.urlopen(r)
-        restype= response.info.gettype()
+        response = urllib2.urlopen(req)
+        restype= response.info().gettype()
         resource=response.read()
         response.close()
         if(restype=="application/xml"):
-            trasforma.locationfromxml(data)
+            print("Content-type: text/plain; charset=UTF-8\n")
+            trasforma.locationfromxml(resource)
         elif(restype=="text/turtle"):
-            trasforma.locationfromturtle(data)
+            trasforma.locationfromturtle(resource)
         elif(restype=="text/csv"):
-            trasforma.locationfromcsv(data)
+            trasforma.locationfromcsv(resource)
         elif(restype=="application/json"):
-            trasforma.locationfromcsv(data)
+            trasforma.locationfromcsv(resource)
         else:
             error.errhttp("406")
         computedistances(ellist, lat, longi)
-        ellist.sorted(key=lambda location: location.distance)
+        ellist.sort(key=lambda location: location.distance)
         trasforma.formatresult(os.environ["HTTP_ACCEPT"])
         
 def computedistances(list, lat, longi):
     for location in list:
         location.distance()
+        
+main()
