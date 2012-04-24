@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/catalogo.dtd">
+<catalogo id="ltw1218" gruppo="MAL">
+	<aggregatori>
+		<aggregatore id="ltw1218-farmacie" title="Farmacie di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-farmacie/">Dati riguardo le farmacie di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-supermarket" title="Supermercati di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-supermarket/">Dati riguardo i supermercati di Bologna, con locazioni, indirizzi e orari di apertura.</aggregatore>
+		<aggregatore id="ltw1218-materne" title="Scuole materne di Bologna" url="http://ltw1131.web.cs.unibo.it/ltw1218-materne/">Dati riguardo le scuole materne di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-poste" title="Poste di Bologna" url="http://ltw1131.web.cs.unibo.it/ltw1218-poste/">Dati riguardo le poste  di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-medici" title="Farmacie di Bologna" url="http://ltw1131.web.cs.unibo.it/ltw1218-medici">Dati riguardo i medici di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		</aggregatori>
+	<descrittori>
+		<descrittore url="http://ltw1131.web.cs.unibo.it/vicinoa" desc="Data una coppia di coordinate restituisce una struttura di luoghi vicini alla posizione indicata.">
+			<params>
+				<param name="lat" required="yes">La latitudine da cui calcolare le distanze</param>
+				<param name="long" required="yes">La longitudine da cui calcolare le distanze</param>
+				<param name="max" required="no">Il numero di risultati richiesti (opzionale)</param>
+			</params>
+		</descrittore>
+		<descrittore url="http://ltw1131.web.cs.unibo.it/apertoind" desc="Dato un operatore logico e una o più date, restituisce una struttura di luoghi aperti">
+                        <params>
+                                <param name="operator" required="yes">L'operatore logico con cui valutare i confronti</param>
+                                <param name="orario" required="yes">Uno o più orari nel formato standard del protocollo</param>
+                        </params>
+                </descrittore>
+    </descrittori>
+</catalogo>
