@@ -30,7 +30,6 @@ def main():
         resource=response.read()
         response.close()
         if(restype=="application/xml"):
-            print("Content-type: text/plain; charset=UTF-8\n")
             trasforma.locationfromxml(resource,loclist)
         elif(restype=="text/turtle"):
             trasforma.locationfromturtle(resource,loclist)
@@ -46,6 +45,6 @@ def main():
         
 def computedistances(list, lat, longi):
     for location in list:
-        location.distance(float(lat),float(longi))
+        location.distance(lat,longi)
         
 main()

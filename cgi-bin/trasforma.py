@@ -11,7 +11,7 @@ import codecs
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
 
-raggioterra=float(6371000)
+raggioterra=float(6371009)
 
 class location:
     def __init__(self, id, category, name, lat, long, address, opening, closing, tel, note):
@@ -30,8 +30,12 @@ class location:
         lat2=radians(float(lat))
         long1=radians(float(self.long))
         long2=radians(float(long))
-        x=sqrt((cos(lat2)*(pow(sin(fabs(long2-long1)),2)))+pow(cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(fabs(long2 - long1)),2))
-        y=sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(fabs(long2 - long1))
+        num1=pow(cos(lat2)*sin(fabs(long2-long1)),2)
+        num2=pow((cos(lat1)*sin(lat2))-(sin(lat1)*cos(lat2)*cos(fabs(long2-long1))),2)
+        den1=sin(lat1)*sin(lat2)
+        den2=cos(lat1)*cos(lat2)*cos(fabs(long2 - long1))
+        x=sqrt(num1+num2)
+        y=den1+den2
         angle=atan2(x,y)
         self.distance=angle*raggioterra
 
@@ -100,8 +104,8 @@ def locationfromcsv(data,loclist):
         id=item["Id"]
         category=item["Category"]
         name=item["Name"]
-        lat=float(item["Lat"])
-        long=float(item["Long"])
+        lat=(item["Lat"])
+        long=(item["Long"])
         address=item["Address"]
         opening=item["Opening"]
         closing=item["Closing"]
@@ -130,6 +134,8 @@ def locationtoxml(ellist):
         subchild.text=location.closing
         subchild=etree.SubElement(child, "opening")
         subchild.text=location.opening
+        subchild=etree.SubElement(child, "distanza")
+        subchild.text=str(location.distance)
         if(location.note!=""):
             subchild=etree.SubElement(child, "note")
             subchild.text=location.note
