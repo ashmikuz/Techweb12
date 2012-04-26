@@ -6,10 +6,11 @@ import error
 import codecs
 import urllib2
 import os
-from trasforma import ellist
 import trasforma
 
 headers={'Accept': 'text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5'}
+
+loclist=[]
 
 def main():
     fs = cgi.FieldStorage()
@@ -30,21 +31,21 @@ def main():
         response.close()
         if(restype=="application/xml"):
             print("Content-type: text/plain; charset=UTF-8\n")
-            trasforma.locationfromxml(resource)
+            trasforma.locationfromxml(resource,loclist)
         elif(restype=="text/turtle"):
-            trasforma.locationfromturtle(resource)
+            trasforma.locationfromturtle(resource,loclist)
         elif(restype=="text/csv"):
-            trasforma.locationfromcsv(resource)
+            trasforma.locationfromcsv(resource,loclist)
         elif(restype=="application/json"):
-            trasforma.locationfromcsv(resource)
+            trasforma.locationfromcsv(resource,loclist)
         else:
             error.errhttp("406")
-        computedistances(ellist, lat, longi)
-        ellist.sort(key=lambda location: location.distance)
-        trasforma.formatresult(os.environ["HTTP_ACCEPT"])
+        computedistances(loclist, lat, longi)
+        loclist.sort(key=lambda location: location.distance)
+        trasforma.formatresult(os.environ["HTTP_ACCEPT"], loclist)
         
 def computedistances(list, lat, longi):
     for location in list:
-        location.distance()
+        location.distance(float(lat),float(longi))
         
 main()

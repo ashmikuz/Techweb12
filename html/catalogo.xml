@@ -9,14 +9,14 @@
 		<aggregatore id="ltw1218-medici" title="Farmacie di Bologna" url="http://ltw1131.web.cs.unibo.it/ltw1218-medici">Dati riguardo i medici di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
 		</aggregatori>
 	<descrittori>
-		<descrittore url="http://ltw1131.web.cs.unibo.it/vicinoa" desc="Data una coppia di coordinate restituisce una struttura di luoghi vicini alla posizione indicata.">
+		<descrittore url="http://ltw1218.web.cs.unibo.it/vicinoa" desc="Data una coppia di coordinate restituisce una struttura di luoghi vicini alla posizione indicata.">
 			<params>
 				<param name="lat" required="yes">La latitudine da cui calcolare le distanze</param>
 				<param name="long" required="yes">La longitudine da cui calcolare le distanze</param>
 				<param name="max" required="no">Il numero di risultati richiesti (opzionale)</param>
 			</params>
 		</descrittore>
-		<descrittore url="http://ltw1131.web.cs.unibo.it/apertoind" desc="Dato un operatore logico e una o più date, restituisce una struttura di luoghi aperti">
+		<descrittore url="http://ltw1218.web.cs.unibo.it/apertoind" desc="Dato un operatore logico e una o più date, restituisce una struttura di luoghi aperti">
                         <params>
                                 <param name="operator" required="yes">L'operatore logico con cui valutare i confronti</param>
                                 <param name="orario" required="yes">Uno o più orari nel formato standard del protocollo</param>

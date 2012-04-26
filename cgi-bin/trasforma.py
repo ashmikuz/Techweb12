@@ -12,7 +12,6 @@ sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
 
 raggioterra=float(6371000)
-ellist=[]
 
 class location:
     def __init__(self, id, category, name, lat, long, address, opening, closing, tel, note):
@@ -27,10 +26,10 @@ class location:
         self.tel=tel
         self.note=note
     def distance(self, lat, long):
-        lat1=radians(self.lat)
-        lat2=radians(lat)
-        long1=radians(self.long)
-        long2=radians(long)
+        lat1=radians(float(self.lat))
+        lat2=radians(float(lat))
+        long1=radians(float(self.long))
+        long2=radians(float(long))
         x=sqrt((cos(lat2)*(pow(sin(fabs(long2-long1)),2)))+pow(cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(fabs(long2 - long1)),2))
         y=sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(fabs(long2 - long1))
         angle=atan2(x,y)
@@ -44,17 +43,16 @@ def getopening(loc):
     return result
 
 
-def locationfromxml(data):
+def locationfromxml(data,ellist):
     xml=etree.fromstring(data)
     res=xml.xpath("/locations/location")
-    ellist=[]
     for element in res:
         attr=element.attrib
         id=attr["id"]
         category=(element.find("category").text)
         name=(element.find("name").text)
-        lat=float(attr["lat"])
-        long=float(attr["long"])
+        lat=(attr["lat"])
+        long=(attr["long"])
         address=(element.find("address").text)
         opening=getopening(element)
         closing=(element.find("closing").text)
@@ -69,7 +67,7 @@ def locationfromxml(data):
         loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
         ellist.append(loc)
 
-def locationfromjson(data):
+def locationfromjson(data,ellist):
     orig=json.loads(data)
     ellist=[]
     for key,value in orig.iteritems():
@@ -80,8 +78,8 @@ def locationfromjson(data):
                 for item in subval["category"]:
                     category.append(item)
                 name=subval["name"]
-                lat=float(subval["lat"])
-                long=float(subval["long"])
+                lat=(subval["lat"])
+                long=(subval["long"])
                 address=subval["address"]
                 opening=subval["opening"]
                 closing=subval["closing"]
@@ -96,7 +94,7 @@ def locationfromjson(data):
                 loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
                 ellist.append(loc)
 
-def locationfromcsv(data):
+def locationfromcsv(data,loclist):
     orig=csv.DictReader(data)
     for item in orig:
         id=item["Id"]
@@ -118,11 +116,9 @@ def locationfromcsv(data):
         loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
         ellist.append(loc)
 
-def locationtoxml():
+def locationtoxml(ellist):
     root=etree.Element("locations")
-    print("Content-type: text/plain; charset=UTF-8\n")
     for location in ellist:
-        print "locations seem ok...."
         child=etree.SubElement(root,"location" ,id=location.id, lat=location.lat, long=location.long)
         subchild=etree.SubElement(child, "category")
         subchild.text=location.category
@@ -144,15 +140,15 @@ def locationtoxml():
     print etree.tostring(root, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding)
     return
 
-def formatresult(mimetype):
+def formatresult(mimetype, ellist):
     if (True):  
-        locationtoxml()
+        locationtoxml(ellist)
     elif("application/json" in mimetype):
-        locationtojson()
+        locationtojson(ellist)
     elif("text/csv" in mimetype):
-        locationtocsv()
+        locationtocsv(ellist)
     elif("text/turtle" in mimetype):
-        locationtoturtle()
+        locationtoturtle(ellist)
     else:
         error.errhttp("406")
 

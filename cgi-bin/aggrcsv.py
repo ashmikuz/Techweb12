@@ -115,7 +115,7 @@ def main():
         return
     """
     if(not chiave) and (not confronto) and (not valore):
-        file=open(file, "r")
+        file=open(source, "r")
         print("Content-type: text/csv; charset=UTF-8\n")
         content=file.read()
         print content
