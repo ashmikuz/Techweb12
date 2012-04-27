@@ -19,11 +19,8 @@ def filtraEQ(key, value, nequal):
     else:
         operand="="
     xml=etree.parse(farmacie)
-    if(key=="id"):
+    if(key=="id" or key=="lat" or key=="long"):
         rss=xml.xpath("/locations/location[translate(@"+key+",\'"+maiusstr+"\',\'"+minusstr+"\')"+operand+"\'"+value+"\']")
-    elif (key=="lat,long"):
-        lat,long=value.split(",")
-        rss=xml.xpath("/locations/location[translate(@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]")
     elif(key=="name") or (key=="category"):
         rss=xml.xpath("/locations/location[translate("+key+',"'+maiusstr+'", "'+minusstr+'")'+operand+'"'+value+'"]')
     else:
@@ -47,9 +44,8 @@ def filtraGT(key,value,greaterthan, equal):
     if(equal):
         operand+="="
     xml=etree.parse(farmacie)
-    if(key=="lat,long"):
-        lat,long=value.split(",")
-        rss=xml.xpath("/locations/location[@lat"+operand+"\'"+lat+"\'and @long"+operand+"\'"+long+"\' ]")
+    if(key=="lat" or key=="long"):
+        rss=xml.xpath("/locations/location[@"+key+operand+"\'"+value+"\']")
         metad=xml.xpath("/locations/metadata")
         output=etree.Element("locations")
         for met in metad:

@@ -34,23 +34,17 @@ def filtraEQ(key,value,nequal, dsource):
         op="!="
     else:
         op="=="
-    if(key != "id" and key != "name" and key != "lat,long" and key != "category"):
+    if(key != "id" and key != "name" and key != "lat" and key!="long" and key != "category"):
         error.errcode("406")
         return
-    if(key=="lat,long"):
-        lat,longi=value.split(",")
-    else:
-        key=key[0].upper()+key[1:]
+    key=key[0].upper()+key[1:]
     data=open(dsource,"r")
     orig=csv.DictReader(data)
     result=csv.DictWriter(sys.stdout, orig.fieldnames, dialect=dial)
     print("Content-type: text/csv; charset=UTF-8\n")
     result.writeheader()
     for item in orig:
-        if(key!=u"lat,long"):
-            if(ops[op](item[key].lower(), value)):
-                result.writerow(item)
-        elif(ops[op](item["Lat"], lat) and (ops[op](item["Long"], longi))):
+        if(ops[op](item[key].lower(), value)):
             result.writerow(item)
             
             
@@ -82,17 +76,17 @@ def filtraGT(key,value,greaterthan, equal, dsource):
         op="<"
     if(not equal):
         op+="="
-    if(key!="lat,long"):
+    if(key!="lat" and key!="long"):
         error.errcode("406")
         return
-    lat,longi=value.split(",")
     data=open(dsource,"r")
     orig=csv.DictReader(data)
+    key=key[0].upper()+key[1:]
     result=csv.DictWriter(sys.stdout, orig.fieldnames, dialect=dial)
     print("Content-type: text/csv; charset=UTF-8\n")
     result.writeheader()
     for item in orig:
-      if(ops[op](float(item["Lat"]), float(lat)) and (ops[op](float(item["Long"]), float(longi)))):
+      if(ops[op](float(item[key]), float(value))):
           result.writerow(item)
       
 

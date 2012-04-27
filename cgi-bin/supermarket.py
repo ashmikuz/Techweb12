@@ -28,27 +28,24 @@ def filtraEQ(key,value,nequal):
                 op="=="
         else:
                 op="!="
-        if(key != "id" and key != "name" and key != "lat,long" and key != "category"):
-            error.errcode("406")
+        if(key != "id" and key != "name" and key != "lat" and key!="long" and key != "category"):
+            error.errhttp("406")
             return
         data=open(supermarket, "r").read()
-        if(key=="lat,long"):
-            lat,long=value.split(",")
         orig=json.loads(data)
         jdata=copy.deepcopy(orig)
         print("Content-type: application/json; charset=UTF-8\n")
         for item, subdict in orig.iteritems():               
                 for subkey,val in subdict.iteritems():
-                        if((key == "lat,long") and ("lat" in val) and ("long" in val) and (ops[op](val["lat"].encode(uencoding),lat) and (ops[op](val["long"].encode(uencoding),long)))):
-                           del jdata["locations"][subkey]
-                        elif((key=="category") and ("category" in val)):
-                            for i in range(0, len(val["category"])):
-                                if(ops[op](val["category"][i].lower().encode(uencoding), value)):
-                                    del jdata["locations"][subkey]
-                        elif((key=="id") and (item!="metadata") and ops[op](subkey.lower().encode(uencoding), value)):
-                            del jdata["locations"][subkey]
-                        elif ((key in val) and ops[op]((val[key].lower().encode(uencoding)),value)):
-                            del jdata["locations"][subkey]
+                        if (item!="metadata"):
+                            if((key=="category") and ("category" in val)):
+                                for i in range(0, len(val["category"])):
+                                    if(ops[op](val["category"][i].lower().encode(uencoding), value)):
+                                        del jdata["locations"][subkey]
+                            elif((key=="id") and ops[op](subkey.lower().encode(uencoding), value)):
+                                del jdata["locations"][subkey]
+                            elif ops[op]((val[key].lower().encode(uencoding)),value):
+                                del jdata["locations"][subkey]
         print json.dumps(jdata, ensure_ascii=False, encoding=uencoding, sort_keys=True, indent=4).encode(uencoding)
         
 def filtraCONTAINS(key,value,ncontains):
@@ -57,10 +54,10 @@ def filtraCONTAINS(key,value,ncontains):
     else:
         op="not"
     if(key != "id" and key != "name" and key != "category" and key != "address" and key != "opening" and key != "closing"):
-        error.errcode("406")
+        error.errhttp("406")
         return
     if(ncontains and key == "address"):
-        error.errcode("406")
+        error.errhttp("406")
         return
     data=open(supermarket, "r").read()
     orig=json.loads(data)
@@ -68,14 +65,15 @@ def filtraCONTAINS(key,value,ncontains):
     print("Content-type: application/json; charset=UTF-8\n")
     for item, subdict in orig.iteritems():
         for subkey,val in subdict.iteritems():
-            if((key=="category") and ("category" in val)):
-                for i in range(0, len(val["category"])):
-                    if(ops[op](value in val["category"][i].lower().encode(uencoding))):
-                        del jdata["locations"][subkey]
-            elif((key=="id") and (item!="metadata") and ops[op](value in subkey.lower().encode(uencoding))):
-                del jdata["locations"][subkey]
-            elif ((key in val) and ops[op](value in (val[key].lower()))):
-                del jdata["locations"][subkey]
+            if(item!="metadata"):
+                if((key=="category")):
+                    for i in range(0, len(val["category"])):
+                        if(ops[op](value in val["category"][i].lower().encode(uencoding))):
+                            del jdata["locations"][subkey]
+                elif((key=="id") and ops[op](value in subkey.lower().encode(uencoding))):
+                    del jdata["locations"][subkey]
+                elif (ops[op](value in (val[key].lower()))):
+                    del jdata["locations"][subkey]
     print json.dumps(jdata, ensure_ascii=False, encoding=uencoding ,sort_keys=True, indent=4).encode(uencoding)
     
 def filtraGT(key,value,greaterthan, equal):
@@ -85,17 +83,16 @@ def filtraGT(key,value,greaterthan, equal):
         op="<"
     if(not equal):
         op+="="
-    if(key!="lat,long"):
-        error.errcode("406")
+    if(key!="lat" and key!="long"):
+        error.errhttp("406")
         return
-    lat,long=value.split(",")
     data=open(supermarket, "r").read()
     orig=json.loads(data)
     jdata=copy.deepcopy(orig)
     print("Content-type: application/json; charset=UTF-8\n")
     for item, subdict in orig.iteritems():
         for subkey,val in subdict.iteritems():
-            if(("lat" in val) and ("long" in val) and (ops[op](float(lat), float(val["lat"])) and (ops[op](float(long), float(val["long"]))))):
+            if((key in val) and (ops[op](float(value), float(val[key])))):
                 del jdata["locations"][subkey]
     print json.dumps(jdata, ensure_ascii=False, encoding=uencoding ,sort_keys=True, indent=4).encode(uencoding)     
     
@@ -141,31 +138,6 @@ def main():
             else:
                 error.errcode("406")
                 
-def locationfromjson(file):
-    data=open(file, "r").read()
-    jfile=json.loads(data) 
-    ellist=[]
-    for key,value in jfile.iteritems():
-        for subkey,subval in value.iteritems():
-            id=subkey
-            category="Supermarket"
-            name=subval["name"]
-            lat=float(subval["lat"])
-            long=float(subval["long"])
-            address=subval["address"]
-            opening=subval["opening"]
-            closing=subval["closing"]
-            if("tel" in subval):
-                tel=(subval["tel"])
-            else:
-                tel=""
-            if("note" in subval):
-                note=subval["note"]
-            else:
-                note=""
-            loc=location(id, category, name, lat, long, address, opening, closing, tel, note)
-            ellist.append(loc)
-            print ellist
 
             
 
