@@ -3,7 +3,7 @@
 @prefix cs: <http://cs.unibo.it/ontology/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix this: <http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl> .
+@prefix this: <http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl#> .
 
 this:metadata
 	 dcterms:creator "Working Group LTW 2011/2012"
