@@ -10,6 +10,7 @@ import json
 import codecs
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
+from collections import OrderedDict
 
 raggioterra=float(6371009)
 
@@ -123,7 +124,7 @@ def locationfromcsv(data,loclist):
 def locationtoxml(ellist):
     root=etree.Element("locations")
     for location in ellist:
-        child=etree.SubElement(root,"location" ,id=location.id, lat=location.lat, long=location.long)
+        child=etree.SubElement(root,"location" , lat=location.lat, id=location.id, long=location.long)
         subchild=etree.SubElement(child, "category")
         subchild.text=location.category
         subchild=etree.SubElement(child, "name")
@@ -134,8 +135,6 @@ def locationtoxml(ellist):
         subchild.text=location.closing
         subchild=etree.SubElement(child, "opening")
         subchild.text=location.opening
-        subchild=etree.SubElement(child, "distanza")
-        subchild.text=str(location.distance)
         if(location.note!=""):
             subchild=etree.SubElement(child, "note")
             subchild.text=location.note
@@ -146,10 +145,41 @@ def locationtoxml(ellist):
     print etree.tostring(root, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">',  encoding=uencoding)
     return
 
+def locationtojson(ellist):
+    root= {"locations" : OrderedDict()}
+    for location in ellist:
+        cur={}
+        cur.update({"name": location.name})
+        cur.update({"category" : location.category})
+        cur.update({"address" : location.address})
+        cur.update({"lat" : location.lat})
+        cur.update({"long" : location.long})
+        cur.update({"opening": location.opening})
+        cur.update({"closing" : location.closing})
+        cur.update({"category" : location.category})
+        if(location.note!=""):
+            cur.update({"note" : location.note})
+        if(location.tel!=""):
+            cur.update({"tel" : location.tel})
+        root["locations"].update({location.id : cur})
+    print("Content-type: text/plain; charset=UTF-8\n")
+    print json.dumps(root, ensure_ascii=False, encoding=uencoding ,sort_keys=False, indent=4).encode(uencoding)            
+    return
+
+def locationtocsv(ellist):
+    print "\"Id\",\"Category\",\"Name\",\"Address\",\"Lat\",\"Long\",\"subcategory\",\"note\",\"Opening\",\"Closing\",\"Creator\",\"Created\",\"Valid\",\"Source \""
+    for location in ellist:
+        strout=""
+        strout="\""+location.id+"\","
+
+    print("Content-type: text/plain; charset=UTF-8\n")
+    print json.dumps(root, ensure_ascii=False, encoding=uencoding ,sort_keys=False, indent=4).encode(uencoding)            
+    return
+
 def formatresult(mimetype, ellist):
-    if (True):  
+    if (False and "application/xml" in mimetype):  
         locationtoxml(ellist)
-    elif("application/json" in mimetype):
+    elif(True or "application/json" in mimetype):
         locationtojson(ellist)
     elif("text/csv" in mimetype):
         locationtocsv(ellist)
@@ -158,5 +188,4 @@ def formatresult(mimetype, ellist):
     else:
         error.errhttp("406")
 
-""""application/xml" in mimetype""" 
         
