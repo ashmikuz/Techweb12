@@ -7,13 +7,15 @@
 
 body {
 	display: block;
+	background-color: #336600;
 }
 #header{
 	margin-right: auto;
 	margin-left: auto;
-	height: auto;
+	height: 180px;
 	width: 80%;
 	font-size: 30px;
+	background-color: #ffffff;
 	border: 1px solid;
 }
 #conteiner{
@@ -22,23 +24,25 @@ body {
 	margin-left: auto;
 	height: 600px;
 	width: 80%;
+	background-color: #ffffff;
 	border: 1px solid;
+}
 }
 #contentcenter{
 	margin-left: 15%;
 	width: 70%;
 	height: 600px;
-	border: 1px solid;
 }
 #contentleft{
 	float:left;
 	width: 15%;
 	height: 600px;
-	border: 1px solid;
 }
 #contentright{
 	float: right;
 	width: 15%;
 	height: 600px;
-	border: 1px solid;
 }
+li {list-style: none;}
+ul {list-style-type:none;}
+
