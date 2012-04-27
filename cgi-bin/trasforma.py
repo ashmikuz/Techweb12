@@ -166,11 +166,6 @@ def locationtojson(ellist):
     print json.dumps(root, ensure_ascii=False, encoding=uencoding ,sort_keys=False, indent=4).encode(uencoding)            
     return
 
-def locationtocsv(ellist):
-    print "\"Id\",\"Category\",\"Name\",\"Address\",\"Lat\",\"Long\",\"subcategory\",\"note\",\"Opening\",\"Closing\",\"Creator\",\"Created\",\"Valid\",\"Source \""
-    for location in ellist:
-        strout=""
-        strout="\""+location.id+"\","
 
     print("Content-type: text/plain; charset=UTF-8\n")
     print json.dumps(root, ensure_ascii=False, encoding=uencoding ,sort_keys=False, indent=4).encode(uencoding)            
