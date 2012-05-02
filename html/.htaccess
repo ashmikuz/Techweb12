@@ -4,5 +4,5 @@ RewriteRule ^ltw1218-supermarket/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\
 RewriteRule ^ltw1218-poste/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/poste.py?key=$1&comp=$2&value=$3 [L]
 RewriteRule ^ltw1218-materne/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/aggrcsv.py?aggr=materne&key=$1&comp=$2&value=$3 [L]
 RewriteRule ^ltw1218-medici/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/aggrcsv.py?aggr=medici&key=$1&comp=$2&value=$3 [L]
-RewriteRule ^vicinoa/?([a-z,A-Z,\,,\-]*)/params/?([0-9,\.]*)/?([0-9,\.]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/vicinoa.py?aggr=$1&lat=$2&long=$3&maxel=$3 [L]
+RewriteRule ^vicinoa/?([a-z,A-Z,\,,\-,0-9]*)/params/?([0-9,\.]*)/?([0-9,\.]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/vicinoa.py?aggr=$1&lat=$2&long=$3&maxel=$3 [L]
 RewriteRule ^catalogo  catalogo.xml [L]
