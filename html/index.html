@@ -4,19 +4,45 @@
 	<head>
 		<title>Gruppo MAL</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="example.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-	</head>
+		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script type="text/javascript">
+		if (navigator.geolocation) {
+  			navigator.geolocation.getCurrentPosition(mostra_mappa);
+		}else{
+  			alert('La geo-localizzazione NON è possibile');
+  		}
+
+		function mostra_mappa(posizione) {
+	 	// identifico il punto in cui è stato individuato l'utente
+  		var punto = new google.maps.LatLng(posizione.coords.latitude, posizione.coords.longitude),
+  		// definisco una serie di opzioni          
+  		opzioni = {
+    		zoom: 15,
+    		center: punto,
+    		mapTypeId: google.maps.MapTypeId.ROADMAP
+  		},
+  		// definisco l'elemento della pagina che ospiterà la mappa
+  		contenitore = document.getElementById("mia_mappa"),
+  		// creo la mappa
+  		mappa = new google.maps.Map(contenitore, opzioni),
+  		// imposto un marker
+  		marker = new google.maps.Marker({
+    		position: punto,
+    		map: mappa,
+    		title: "Tu sei qui!"
+  		});
+		}
+</script>
+<style type="text/css">
+
+</style>
+</head>
 	<body>
 			<div id="header">
 				<img src="LogoMAL.png" alt="logo" width="350px" height="100px"/>
 			</div>
-			<div id="conteiner">
-				<div id="contentright">
-				right
-				</div>
-				<div id="contentleft">
-					<center><br/> <b>Scegli una o pi&ugrave categorie:</b> <br/></center>
+			<div id="operation">
+				<b>Scegli una o pi&ugrave; categorie:</b> <br/>
 					<ul>
 				<li> <input type = "checkbox" id = "market" value = "" />
              		<label for = "market">Supermarket</label> </li>
@@ -27,9 +53,12 @@
              	<li> <input type = "checkbox" id = "market" value = "" />
              		<label for = "market">Medici</label> </li>
              	</ul>
-				</div>
+			</div>
+			<div id="conteiner">
+			
+			
 				<div id="contentcenter">
-					
+				<div id="mia_mappa"><center>Caricamento in corso...</center></div>
 				</div>
 			</div>
 			
