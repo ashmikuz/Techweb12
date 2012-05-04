@@ -172,7 +172,7 @@ def locationfromcsv(data,loclist):
             note=""
         loc=location(id, category, subcategory,name, lat, long, address, opening, closing, tel, note)
         loclist.append(loc)
-  	return meta
+    return meta
 
 def locationtoxml(ellist,meta):
     root=etree.Element("locations")
@@ -244,11 +244,10 @@ def locationtojson(ellist, meta):
     return
 
 def locationtocsv(ellist,meta):
-    print("Content-type: text/plain; charset=UTF-8\n")
+    print("Content-type: text/csv; charset=UTF-8\n")
     print csvfields
     for location in ellist:
-        str= "\""+location.id+"\",\""+location.category+"\",\""+location.name+"\",\""+location.address+"\",\""+location.lat+"\",\""+location.long+"\",\""\
-        +location.subcategory+"\",\""+location.note+"\",\""+location.opening+"\",\""+location.closing+"\",\""+meta.creator+"\",\""+meta.created+"\",\""+meta.valid+"\",\""+meta.source+"\",\""
+        str= "\""+location.id+"\",\""+location.category+"\",\""+location.name+"\",\""+location.address+"\",\""+location.lat+"\",\""+location.long+"\",\""+location.subcategory+"\",\""+location.note+"\",\""+location.opening+"\",\""+location.closing+"\",\""+meta.creator+"\",\""+meta.created+"\",\""+meta.valid+"\",\""+meta.source+"\""
         str=str.decode(uencoding)
         print str.encode(uencoding)
 
