@@ -29,6 +29,8 @@ def main():
             return
         req=urllib2.Request(url=urlaggr)
         req.add_header('Accept', 'application/xml, text/turtle, text/csv, application/json')
+        print "Content-type: text/plain; charset=UTF-8\n"
+        print urlaggr
         response = urllib2.urlopen(req)
         restype= response.info().gettype()
         resource=response.read()

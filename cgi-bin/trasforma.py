@@ -11,8 +11,17 @@ import codecs
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
 from collections import OrderedDict
+from StringIO import StringIO
 
 raggioterra=float(6371009)
+
+dial=csv.Dialect
+dial.quoting=csv.QUOTE_ALL
+dial.quotechar='"'
+dial.delimiter=","
+dial.lineterminator="\n"
+dial.escapechar="\\"
+
 
 class location:
     def __init__(self, id, category,subcategory, name, lat, long, address, opening, closing, tel, note):
@@ -133,15 +142,15 @@ def locationfromjson(data,ellist):
              	
 
 def locationfromcsv(data,loclist):
-    orig=csv.DictReader(data)
+    orig=csv.DictReader(StringIO(data))
     donemetad=False
     for item in orig:
      	if(donemetad!=True):
-			 creator=item["creator"]
-			 created=item["created"]
-			 valid=item["valid"]
-			 version=item["version"]
-			 source=item["source"]
+			 creator=item["Creator"]
+			 created=item["Created"]
+			 valid=item["Valid"]
+			 version=item["Version"]
+			 source=item["Source"]
 			 donemetad=True
 			 meta=metadata(creator,created,version,source,valid)
         id=item["Id"]
@@ -157,12 +166,12 @@ def locationfromcsv(data,loclist):
             tel=item["Tel"]
         else:
             tel=""
-        if ("Note" in item):
+        if ("note" in item):
             note=item["note"]
         else:
             note=""
         loc=location(id, category, subcategory,name, lat, long, address, opening, closing, tel, note)
-        ellist.append(loc)
+        loclist.append(loc)
   	return meta
 
 def locationtoxml(ellist,meta):
@@ -240,7 +249,8 @@ def locationtocsv(ellist,meta):
     for location in ellist:
         str= "\""+location.id+"\",\""+location.category+"\",\""+location.name+"\",\""+location.address+"\",\""+location.lat+"\",\""+location.long+"\",\""\
         +location.subcategory+"\",\""+location.note+"\",\""+location.opening+"\",\""+location.closing+"\",\""+meta.creator+"\",\""+meta.created+"\",\""+meta.valid+"\",\""+meta.source+"\",\""
-        print str
+        str=str.decode(uencoding)
+        print str.encode(uencoding)
 
 def formatresult(mimetype, ellist,meta):
     if (False and "application/xml" in mimetype):  

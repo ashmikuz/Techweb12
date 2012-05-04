@@ -97,8 +97,8 @@ def main():
     confronto=fs.getvalue("comp")
     valore=fs.getvalue("value")
     if(aggr=="materne"):
-        source=materne
-    if(aggr=="medici"):
+        source=smaterne
+    elif(aggr=="medici"):
         source=medici
     else:
         error.errhttp("404")

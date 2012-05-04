@@ -17,3 +17,5 @@ vcurl="http://www.w3.org/2006/vcard/ns#"
 dcturl="http://purl.org/dc/terms/"
 fourl="http://xmlns.com/foaf/spec/index.rdf"
 csvfields="\"Id\",\"Category\",\"Name\",\"Address\",\"Lat\",\"Long\",\"subcategory\",\"note\",\"Opening\",\"Closing\",\"Creator\",\"Created\",\"Valid\",\"Version\",\"Source\""
+metacat="http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/MetaCatalogo1112/metaCatalogo.xml"
+

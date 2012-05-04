@@ -4,9 +4,9 @@
 	<aggregatori>
 		<aggregatore id="ltw1218-farmacie" title="Farmacie di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-farmacie/">Dati riguardo le farmacie di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
 		<aggregatore id="ltw1218-supermarket" title="Supermercati di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-supermarket/">Dati riguardo i supermercati di Bologna, con locazioni, indirizzi e orari di apertura.</aggregatore>
-		<aggregatore id="ltw1218-materne" title="Scuole materne di Bologna" url="http://ltw1131.web.cs.unibo.it/ltw1218-materne/">Dati riguardo le scuole materne di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
-		<aggregatore id="ltw1218-poste" title="Poste di Bologna" url="http://ltw1131.web.cs.unibo.it/ltw1218-poste/">Dati riguardo le poste  di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
-		<aggregatore id="ltw1218-medici" title="Farmacie di Bologna" url="http://ltw1131.web.cs.unibo.it/ltw1218-medici">Dati riguardo i medici di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-materne" title="Scuole materne di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-materne/">Dati riguardo le scuole materne di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-poste" title="Poste di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-poste/">Dati riguardo le poste  di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-medici" title="Farmacie di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-medici">Dati riguardo i medici di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
 		</aggregatori>
 	<descrittori>
 		<descrittore url="http://ltw1218.web.cs.unibo.it/vicinoa" desc="Data una coppia di coordinate restituisce una struttura di luoghi vicini alla posizione indicata.">
