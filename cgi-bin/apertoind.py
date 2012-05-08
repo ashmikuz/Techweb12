@@ -1,26 +1,41 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -
+# -*- coding: utf-8 -*-
 
 import cgi
 import error
 import codecs
-import urllib2
-import os
 import trasforma
+import os
+import urllib2
 from trasforma import metadata
 from aggrutils import getaggrurl
 
-headers={'Accept': 'application/xml,application/json,text/turtle, text/csv, text/html, text/plain;'}
-
 loclist=[]
+finallist=[]
+
+def matchesoperator(datelist, operator, location):
+    boollist=[]
+    for date in datelist:
+        if(location.apero(date)):
+            boollist.append(location)
+    
+
+def getopened(dates, operator,loclist):
+    print("Content-type: text/plain; charset=UTF-8\n")
+    datelist=dates.split("/")
+    loclist=filter(lambda location: location.aperto(dates), loclist)
+    tobeadded=False
+    for location in loclist:
+        if(matchesoperator(datelist, operator, location)):
+            finallist.append(location)      
+    return finallist
 
 def main():
     fs = cgi.FieldStorage()
-    aggr=fs.getvalue("aggr")
-    lat=fs.getvalue("lat")
-    longi=fs.getvalue("long")
-    maxel=fs.getvalue("maxel")
-    if ((not aggr) or (not lat) or (not longi)):
+    aggr=fs.getvalue("aggr").lower()
+    operator=fs.getvalue("operator").lower()
+    dates=fs.getvalue("dates").lower()
+    if ((not aggr) or (not operator) or (not dates)):
         error.errhttp("406")
         return
     urlaggr=getaggrurl(aggr)
@@ -43,12 +58,8 @@ def main():
         meta=trasforma.locationfromcsv(resource,loclist)
     else:
         error.errhttp("406")
-    computedistances(loclist, lat, longi)
-    loclist.sort(key=lambda location: location.distance)
-    trasforma.formatresult(os.environ["HTTP_ACCEPT"], loclist, meta)
-        
-def computedistances(list, lat, longi):
-    for location in list:
-        location.distance(lat,longi)
-        
+    finallist=getopened(dates, operator,loclist)
+    trasforma.formatresult(os.environ["HTTP_ACCEPT"], finallist, meta)
+
 main()
+

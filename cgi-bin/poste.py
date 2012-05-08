@@ -52,7 +52,7 @@ def filtraEQ(key,value,nequal):
         CONSTRUCT {?s ?p ?o}
         WHERE {
                 ?s ?p ?o.
-                ?s dcterms:creator "[]
+                ?s dcterms:creator []
                 }
         """
         query_meta=src.query(oquery)

@@ -3,15 +3,18 @@
 
 import sys
 from math import radians, sqrt, atan2, cos, fabs, sin, pow
-from costanti import uencoding, csvfields
+from costanti import uencoding, csvfields, weekdays
 import error
 import csv
 import json
 import codecs
+import datetime
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
 from collections import OrderedDict
 from StringIO import StringIO
+import datetime
+
 
 raggioterra=float(6371009)
 
@@ -21,6 +24,8 @@ dial.quotechar='"'
 dial.delimiter=","
 dial.lineterminator="\n"
 dial.escapechar="\\"
+
+global meta
 
 
 class location:
@@ -49,8 +54,34 @@ class location:
         y=den1+den2
         angle=atan2(x,y)
         self.distance=angle*raggioterra
-
-global meta
+    def aperto(self, opening):
+        if opening.lower() in weekdays:
+            if opening in self.opening.lower():
+                return True
+            else:
+                return False
+        else:
+            datelist=opening.split("-")
+            now = datetime.datetime.now()
+            if(len(datelist)==2):
+                    year=str(now.year)
+                    day=datelist.pop()
+                    month=datelist.pop()
+                    date=datetime.date(int(year),int(month),int(day))
+            elif(len(datelist)==3):
+                    
+                    day=datelist.pop()
+                    month=datelist.pop()
+                    year=datelist.pop()
+                    date=datetime.date(int(year),int(month),int(day))
+            else:
+                    return 404
+            if("%s-%s-%s" % (year,month,day) in self.opening or "%s-%s" % (month,day) in self.opening):
+                return True
+            elif(weekdays[date.weekday()] in self.opening.lower() and not ("%s-%s-%s" % (year,month,day) in self.closing or "%s-%s" % (month,day) in self.closing)):
+                return True
+            else:
+                return False
 
 class metadata:
     def __init__(self, creator, created, version, source, valid):
@@ -174,6 +205,8 @@ def locationfromcsv(data,loclist):
         loclist.append(loc)
     return meta
 
+
+
 def locationtoxml(ellist,meta):
     root=etree.Element("locations")
     md=etree.SubElement(root,"metadata")
@@ -248,11 +281,10 @@ def locationtocsv(ellist,meta):
     print csvfields
     for location in ellist:
         str= "\""+location.id+"\",\""+location.category+"\",\""+location.name+"\",\""+location.address+"\",\""+location.lat+"\",\""+location.long+"\",\""+location.subcategory+"\",\""+location.note+"\",\""+location.opening+"\",\""+location.closing+"\",\""+meta.creator+"\",\""+meta.created+"\",\""+meta.valid+"\",\""+meta.source+"\""
-        str=str.decode(uencoding)
-        print str.encode(uencoding)
+        print str
 
 def formatresult(mimetype, ellist,meta):
-    if (False and "application/xml" in mimetype):  
+    if ("application/xml" in mimetype):  
         locationtoxml(ellist,meta)
     elif(False and "application/json" in mimetype):
         locationtojson(ellist,meta)
