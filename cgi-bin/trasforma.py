@@ -25,8 +25,6 @@ dial.delimiter=","
 dial.lineterminator="\n"
 dial.escapechar="\\"
 
-global meta
-
 
 class location:
     def __init__(self, id, category,subcategory, name, lat, long, address, opening, closing, tel, note):
@@ -136,13 +134,19 @@ def locationfromxml(data,ellist):
 
 def locationfromjson(data,ellist):
     orig=json.loads(data)
-    ellist=[]
     for key,value in orig.iteritems():
         for subkey,subval in value.iteritems():
-            if(key!="metadata"):
-                id=subkey
+            if(key=="metadata"):
+                creator=value["creator"]
+                created=value["created"]
+                valid=value["valid"]
+                version=value["version"]
+                source=value["source"]
+                meta=metadata(creator,created,version,source,valid)
+            else:
+             	id=subkey
                 category=subval["category"][0]
-                if len(subval["category"]==2):
+                if (len(subval["category"])==2):
                     subcategory=subval["category"][1]
                 else:
                     subcategory=""
@@ -162,14 +166,7 @@ def locationfromjson(data,ellist):
                     note=""
                 loc=location(id, category,subcategory, name, lat, long, address, opening, closing, tel, note)
                 ellist.append(loc)
-            else:
-             	creator=value["creator"]
-             	created=value["created"]
-             	valid=value["valid"]
-             	version=value["version"]
-             	source=value["source"]
-             	meta=metadata(creator,created,version,source,valid)
-	return meta
+    return meta
              	
 
 def locationfromcsv(data,loclist):
@@ -227,7 +224,6 @@ def locationtoxml(ellist,meta):
         if(location.subcategory!=""):
             subchild=etree.SubElement(child, "subcategory")
             subchild.text=location.subcategory
-        subchild.text=location.category
         subchild=etree.SubElement(child, "name")
         subchild.text=location.name
         subchild=etree.SubElement(child, "address")
@@ -286,9 +282,9 @@ def locationtocsv(ellist,meta):
 def formatresult(mimetype, ellist,meta):
     if ("application/xml" in mimetype):  
         locationtoxml(ellist,meta)
-    elif(False and "application/json" in mimetype):
+    elif("application/json" in mimetype):
         locationtojson(ellist,meta)
-    elif(True or "text/csv" in mimetype):
+    elif("text/csv" in mimetype):
         locationtocsv(ellist,meta)
     elif("text/turtle" in mimetype):
         locationtoturtle(ellist,meta)

@@ -11,7 +11,6 @@ from trasforma import metadata
 from aggrutils import getaggrurl
 
 headers={'Accept': 'application/xml,application/json,text/turtle, text/csv, text/html, text/plain;'}
-
 loclist=[]
 
 def main():
@@ -19,13 +18,16 @@ def main():
     aggr=fs.getvalue("aggr")
     lat=fs.getvalue("lat")
     longi=fs.getvalue("long")
-    maxel=fs.getvalue("maxel")
+    if("maxel" in fs):
+        maxel=(int(fs.getvalue("maxel")))
+    else:
+        maxel=None
     if ((not aggr) or (not lat) or (not longi)):
         error.errhttp("406")
         return
     urlaggr=getaggrurl(aggr)
-    if(urlaggr=="404"):
-        error.errhttp("404")
+    if(isinstance(urlaggr, ( int, long ))):
+        error.errhttp(str(urlaggr))
         return
     req=urllib2.Request(url=urlaggr)
     req.add_header('Accept', 'application/xml, text/turtle, text/csv, application/json')
@@ -40,12 +42,15 @@ def main():
     elif(restype=="text/csv"):
         meta=trasforma.locationfromcsv(resource,loclist)
     elif(restype=="application/json"):
-        meta=trasforma.locationfromcsv(resource,loclist)
+        meta=trasforma.locationfromjson(resource,loclist)
     else:
         error.errhttp("406")
     computedistances(loclist, lat, longi)
     loclist.sort(key=lambda location: location.distance)
-    trasforma.formatresult(os.environ["HTTP_ACCEPT"], loclist, meta)
+    if(maxel):
+        trasforma.formatresult(os.environ["HTTP_ACCEPT"], loclist[:maxel], meta)
+    else:
+        trasforma.formatresult(os.environ["HTTP_ACCEPT"], loclist, meta)
         
 def computedistances(list, lat, longi):
     for location in list:

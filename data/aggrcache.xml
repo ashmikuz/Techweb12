@@ -1,0 +1,190 @@
+<aggregatori><aggregatore id="ltw1131-farmacie" title="Farmacie di Bologna" url="http://ltw1131.web.cs.unibo.it/farmacie/">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1131-supermercati" title="Supermercati di Bologna" url="http://ltw1131.web.cs.unibo.it/supermercati/">Dati riguardo i maggiori supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.</aggregatore>
+	<aggregatore id="ltw1211-farmacieBo" title="Farmacie di Bologna" url="http://ltw1211.web.cs.unibo.it/farmacie-bologna/">
+			Dati inerenti le farmacie di Bologna per l'anno 2011 con orari di apertura, coordinate e indirizzi.
+        </aggregatore>
+        <aggregatore id="ltw1211-mediciGenericiBologna" title="Medici Generici - Bologna" url="http://ltw1211.web.cs.unibo.it/mediciGenericiBologna/">
+			Dati inerenti i medici generici dell'area di bologna, e le relative coordinate, orari di apertura e indirizzi.
+        </aggregatore>	
+    <aggregatore id="ltw1133-supermarket" title="Supermercati di Bologna" url="http://ltw1133.web.cs.unibo.it/ltw1133-supermarket">
+                Dati riguardanti i maggiori supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.
+            </aggregatore>
+            <aggregatore id="ltw1133-takeaway" title="Take-away di Bologna" url="http://ltw1133.web.cs.unibo.it/ltw1133-takeaway">
+				Dati riguardanti i take-away di Bologna città, con locazioni, indirizzi e orari di apertura.
+            </aggregatore>
+            <aggregatore id="ltw1133-pub" title="Pub di Bologna" url="http://ltw1133.web.cs.unibo.it/ltw1133-pub">
+                Dati riguardanti i più famosi di Bologna città, con locazioni, indirizzi e orari di apertura.
+            </aggregatore>
+        <aggregatore id="ltw1140-museiBO2011" title="musei di Bologna" url="http://ltw1140.web.cs.unibo.it/museiBO2011">
+			Dati riguardo i musei di Bologna città, con locazioni, indirizzi e orari di apertura.
+		</aggregatore>
+		
+		<aggregatore id="ltw1140-farmacieBO2011" title="Farmacie di Bologna" url="http://ltw1140.web.cs.unibo.it/farmacieBO2011">
+			Dai riguardo le scuole farmacie di Bologna città con locazioni, indirizzi e orari di apertura.
+		</aggregatore>
+		
+		<aggregatore id="ltw1140-scuolematerneBO2011" title="Scuole Materne di Bologna" url="http://ltw1140.web.cs.unibo.it/scuolematerneBO2011">
+			Dai riguardo le scuole materne di Bologna città con locazioni, indirizzi e orari di apertura.
+		</aggregatore>
+	
+	<aggregatore id="ltw1137-parcheggi" title="Parcheggi Bologna" url="http://ltw1137.web.cs.unibo.it/phpagg/">Dati riguardo i parcheggi di Bologna.</aggregatore>
+				<aggregatore id="ltw1137-supermercati" title="Supermercati Bologna" url="http://ltw1137.web.cs.unibo.it/pyagg/">Dati riguardo i supermercati di Bologna.</aggregatore>
+			<aggregatore id="ltw1138-enoteche" title="Enoteche di Bologna" url="http://ltw1138.web.cs.unibo.it/aggregatorexml">
+			Dati riguardo le maggiori enoteche di Bologna città, con locazioni, indirizzi e orari di apertura.
+            </aggregatore>
+            <aggregatore id="ltw1138-pasticcerie" title="Pasticcerie di Bologna" url="http://ltw1138.web.cs.unibo.it/AggrJsonPast">
+                Dati riguardo le maggiore pasticcerie di Bologna città, con locazioni, indirizzi e orari di apertura.
+            </aggregatore>
+             <aggregatore id="ltw1138-osterie" title="Osterie di Bologna" url="http://ltw1138.web.cs.unibo.it/AggrjsonOst">
+                Dati riguardo le maggiore osterie di Bologna città, con locazioni, indirizzi e orari di apertura.
+            </aggregatore>
+        <aggregatore id="ltw1130-agg_farmacie" title="Farmacie di Bologna" url="http://ltw1130.web.cs.unibo.it/ltw1130-agg_farmacie">Dati riguardo le maggiori farmacie di Bologna, con locazioni, indirizzi e orari di apertura.
+			</aggregatore>
+		<aggregatore id="ltw1130-agg_poste" title="Poste di Bologna" url="http://ltw1130.web.cs.unibo.it/ltw1130-agg_poste">Dati riguardo gli uffici postali di Bologna, con locazioni, indirizzi e orari di apertura.
+			</aggregatore>
+		<aggregatore id="ltw1130-agg_supermercati" title="Supermercati di Bologna" url="http://ltw1130.web.cs.unibo.it/ltw1130-agg_supermercati">Dati riguardo i supermercati di Bologna, con locazioni, indirizzi e orari di apertura
+                	</aggregatore>
+		<aggregatore id="ltw1130-agg_scuolematerne" title="Scuole materne di Bologna" url="http://ltw1130.web.cs.unibo.it/ltw1130-agg_scuolematerne">Dati riguardo le scuole materne di Bologna, con locazioni, indirizzi e orari di apertura
+			</aggregatore>
+		<aggregatore id="ltw1130-agg_banche" title="Banche di Bologna" url="http://ltw1130.web.cs.unibo.it/ltw1130-agg_banche">Dati riguardo le maggiori banche di Bologna
+			</aggregatore>
+		<aggregatore id="ltw1130-agg_palestre" title="Palestre di Bologna" url="http://ltw1130.web.cs.unibo.it/ltw1130-agg_palestre">Dati riguardo le palestre di Bologna
+			</aggregatore>
+        <aggregatore id="ltw1132-museiBO2011" title="Musei di Bologna" url="http://ltw1132.web.cs.unibo.it/aggr-museiBO2011">Dati riguardo i musei di Bologna, con indirizzi, orari di apertura e informazioni aggiuntive.</aggregatore>
+		
+		<aggregatore id="ltw1132-alberghiBO2011" title="Alberghi di Bologna" url="http://ltw1132.web.cs.unibo.it/aggr-alberghiBO2011">Dati riguardo gli alberghi di Bologna, con indirizzi, orari di apertura e informazioni aggiuntive.</aggregatore>
+		
+		<aggregatore id="ltw1132-bancheBO2011" title="Banche/bancomat di Bologna" url="http://ltw1132.web.cs.unibo.it/aggr-bancheBO2011">Dati riguardo gli sportelli bancari di Bologna, con indirizzi e orari di apertura.</aggregatore>
+		
+		<aggregatore id="ltw1132-farmacieBO2011" title="Farmacie di Bologna" url="http://ltw1132.web.cs.unibo.it/aggr-farmacieBO2011">Dati riguardo le farmacie di bologna, con indirizzi e orari di apertura.</aggregatore>
+		
+	<aggregatore id="ltw1129-farmacie" title="Farmacie di Bologna" url="http://ltw1129.web.cs.unibo.it/farmacie">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-super" title="Supermercati di Bologna" url="http://ltw1129.web.cs.unibo.it/super">Dati riguardo i supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-scuole" title="Scuole materne di Bologna" url="http://ltw1129.web.cs.unibo.it/scuole">Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-scuolern" title="Scuole materne di Rimini" url="http://ltw1129.web.cs.unibo.it/scuolern">Dati riguardo le scuole materne di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-palestrern" title="Palestre di Rimini" url="http://ltw1129.web.cs.unibo.it/palestrern">Dati riguardo le palestre di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-farmaciern" title="Farmacie di Rimini" url="http://ltw1129.web.cs.unibo.it/farmaciern">Dati riguardo le farmacie di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+               <aggregatore id="ltw1129-superrn" title="Supermercati di Rimini" url="http://ltw1129.web.cs.unibo.it/superrn">Dati riguardo i supermercati di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+				<aggregatore id="ltw1129-postern" title="Poste di Rimini" url="http://ltw1129.web.cs.unibo.it/postern">Dati riguardo le poste di Rimini città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+				<aggregatore id="ltw1129-poste" title="Poste di Bologna" url="http://ltw1129.web.cs.unibo.it/poste">Dati riguardo le poste di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+     <aggregatore id="ltw1139-farmacie-bologna" title="Farmacie di Bologna" url="http://ltw1139.web.cs.unibo.it/ltw1139-farmacie-bologna/">
+			Farmacie di Bologna con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+		<aggregatore id="ltw1139-sexyshop-bologna" title="Sexy Shop di Bologna" url="http://ltw1139.web.cs.unibo.it/ltw1139-sexyshop-bologna/">
+			Sexy Shop di Bologna con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+	<aggregatore id="ltw1135-poste" title="Uffici Postali di Bologna" url="http://ltw1135.web.cs.unibo.it/poste/">
+            Dati riguardo gli uffici postali di Bologna città, con locazioni, indirizzi e orari di apertura.
+        </aggregatore>
+        <aggregatore id="ltw1135-fumetterie" title="Fumetterie di Bologna" url="http://ltw1135.web.cs.unibo.it/fumetterie/">
+            Dati riguardo le fumetterie di Bologna città, con locazioni, indirizzi e orari di apertura.
+        </aggregatore>
+        <aggregatore id="ltw1135-teatri-cinema" title="Teatri e Cinema di Bologna" url="http://ltw1135.web.cs.unibo.it/teatri-cinema/">
+            Dati riguardo i teatri e i cinema di Bologna città, con locazioni, indirizzi e orari di apertura.
+        </aggregatore>
+        <aggregatore id="ltw1135-scuole-materne" title="Scuole Materne di Bologna" url="http://ltw1135.web.cs.unibo.it/scuole-materne/">
+            Dati riguardo le scuole materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+        </aggregatore>
+        <aggregatore id="ltw1135-palestre" title="Palestre di Bologna" url="http://ltw1135.web.cs.unibo.it/palestre/">
+            Dati riguardo le palestre di Bologna città, con locazioni, indirizzi e orari di apertura.
+        </aggregatore>
+        <aggregatore id="ltw1135-supermarket" title="Supermarket di Bologna" url="http://ltw1135.web.cs.unibo.it/supermarket/">
+            Dati riguardo i supermarket di Bologna città, con locazioni, indirizzi e orari di apertura.
+        </aggregatore>
+        <aggregatore id="ltw1135-negozi-musica" title="Negozi di Musica di Bologna" url="http://ltw1135.web.cs.unibo.it/negozi-musica/">
+            Dati riguardo i negozi di musica di Bologna città, con locazioni, indirizzi e orari di apertura.
+        </aggregatore>
+    <aggregatore id="ltw1134-aggregatore-guardie-mediche" title="Guardie Mediche di Bologna e Provincia" url="http://ltw1134.web.cs.unibo.it/aggregatore-guardie-mediche">
+			Dati riguardo le guardie mediche di Bologna e provincia, con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+		<aggregatore id="ltw1134-aggregatore-pronto-soccorsi" title="Pronto Soccorsi di Bologna e Provincia" url="http://ltw1134.web.cs.unibo.it/aggregatore-pronto-soccorsi">
+			Dati riguardo i pronto soccorsi di Bologna e provincia, con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+		<aggregatore id="ltw1134-aggregatore-sportelli-cup" title="Sportelli Cup di Bologna e Provincia" url="http://ltw1134.web.cs.unibo.it/aggregatore-sportelli-cup">
+			Dati riguardo gli sportelli cup di Bologna e provincia, con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+		<aggregatore id="ltw1134-aggregatore-sportelli-unici-distrettuali" title="Sportelli Unici Distrettuali di Bologna e Provincia" url="http://ltw1134.web.cs.unibo.it/aggregatore-sportelli-unici-distrettuali">
+			Dati riguardo le guardie mediche di Bologna e provincia, con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+		<aggregatore id="ltw1134-aggregatore-sportelli-sociali" title="Sportelli Sociali di Bologna e Provincia" url="http://ltw1134.web.cs.unibo.it/aggregatore-sportelli-sociali">
+			Dati riguardo le guardie mediche di Bologna e provincia, con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+		<aggregatore id="ltw1134-aggregatore-strutture-di-erogazione" title="Strutture di Erogazione di Bologna e Provincia" url="http://ltw1134.web.cs.unibo.it/aggregatore-strutture-di-erogazione">
+			Dati riguardo le guardie mediche di Bologna e provincia, con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+		<aggregatore id="ltw1134-aggregatore-farmacie" title="Farmacie di Bologna e Provincia" url="http://ltw1134.web.cs.unibo.it/aggregatore-farmacie">
+			Dati riguardo le guardie mediche di Bologna e provincia, con id, categoria, nome, indirizzo, latitudine, longitudine e orari di apertura e chiusura
+		</aggregatore>
+	<aggregatore id="ltw1127-supermercati" title="Supermercati" url="http://ltw1127.web.cs.unibo.it/supermercati">Dati riguardanti i supermercati Esselunga dell'Emilia-Romagna e Toscana esclusa la Provincia di Lucca e dei supermercati di Bologna</aggregatore>
+              <aggregatore id="ltw1127-farmacie" title="Farmacie" url="http://ltw1127.web.cs.unibo.it/farmacie">Dati riguardanti le farmacie di Bologna</aggregatore>
+              <aggregatore id="ltw1127-librerie" title="Librerie di Bologna" url="http://ltw1127.web.cs.unibo.it/librerie">Dati riguardanti le librerie di Bologna</aggregatore>
+              <aggregatore id="ltw1127-erboristerie" title="Erboristerie di Bologna" url="http://ltw1127.web.cs.unibo.it/erboristerie">Dati riguardanti l'erboristerie di Bologna</aggregatore>
+           <aggregatore id="ltw1203-eventi" title="Eventi in Emilia Romagna" url="http://ltw1203.web.cs.unibo.it/xmleventi">Dati riguardo gli eventi in Emilia Romagna nell' anno 2012</aggregatore>
+			<aggregatore id="ltw1203-strumentimusicali" title="Negozi Strumenti Musicali in Emilia Romagna" url="http://ltw1203.web.cs.unibo.it/jsonstrumenti">Dati riguardo i maggiori negozi di strumenti musicali in Emilia Romagna nell' anno 2012</aggregatore>
+		<aggregatore id="ltw1137-parcheggi" title="Parcheggi Bologna" url="http://ltw1137.web.cs.unibo.it/phpagg/">Dati riguardo i parcheggi di Bologna.</aggregatore>
+				<aggregatore id="ltw1137-supermercati" title="Supermercati Bologna" url="http://ltw1137.web.cs.unibo.it/pyagg/">Dati riguardo i supermercati di Bologna.</aggregatore>
+			<aggregatore id="farmacie" title="Farmacie di Bologna" url="http://ltw1201.web.cs.unibo.it/DataSource/farmacie/">Dati riguardanti le principali farmacie di Bologna con locazioni, indirizzi e orari di apertura.
+             </aggregatore>
+
+             <aggregatore id="negozianimali" title="Negozi per animali di Bologna" url="http://ltw1201.web.cs.unibo.it/DataSource/negozianimali/"> Dati riguardanti i negozi per animali di Bologna con locazioni, indirizzi e orari di apertura.
+             </aggregatore>
+			 
+			 <aggregatore id="veterinari" title="Veterinari di Bologna" url="http://ltw1201.web.cs.unibo.it/DataSource/veterinari/"> Dati riguardanti i veterinari di Bologna con locazioni, indirizzi e orari di apertura.
+             </aggregatore>
+			 
+			 <aggregatore id="parchi" title="Parchi di Bologna" url="http://ltw1201.web.cs.unibo.it/DataSource/parchi/">Dati riguardanti i principali parchi di Bologna con locazioni, indirizzi e orari di apertura.
+             </aggregatore>
+      <aggregatore id="ltw1207-musei" title="Musei di Bologna" url="http://ltw1207.web.cs.unibo.it/ltw1207-musei/"/>
+      <aggregatore id="ltw1207-supermarket" title="SuperMarket di Bologna" url="http://ltw1207.web.cs.unibo.it/ltw1207-supermarket/"/>
+    <aggregatore id="ltw1210-farmacie" title="Farmacie di Bologna" url="http://ltw1210.web.cs.unibo.it/farmacie/">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+      <aggregatore id="ltw1210-supermercati" title="Supermercati di Bologna" url="http://ltw1210.web.cs.unibo.it/supermercati/">Dati riguardo i maggiori supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+      <aggregatore id="ltw1210-scuole-materne" title="Scuole Materne di Bologna" url="http://ltw1210.web.cs.unibo.it/scuole-materne/">Dati riguardo le Scuole Materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+      <aggregatore id="ltw1210-cinema" title="Cinema di Bologna e Provincia" url="http://ltw1210.web.cs.unibo.it/cinema/">Dati riguardo i Cinema di Bologna città e provincia.
+      </aggregatore>
+   <aggregatore id="ltw1209-farmacie" title="Farmacie di Bologna" url="http://ltw1209.web.cs.unibo.it/farmacie">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+      <aggregatore id="ltw1209-supermercati" title="Supermarket di Bologna" url="http://ltw1209.web.cs.unibo.it/supermercati">Dati riguardo i maggiori supermercati di Bologna città.
+      </aggregatore>
+      <aggregatore id="ltw1209-scuolematerne" title="Scuole Materne di Bologna" url="http://ltw1209.web.cs.unibo.it/scuolematerne">Dati riguardo le Scuole Materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+      <aggregatore id="ltw1209-poste" title="Poste e telegrafi" url="http://ltw1209.web.cs.unibo.it/poste">Dati riguardo le Poste e Telegrafi di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+    <aggregatore id="ltw1209-ristoranti" title="Ristoranti" url="http://ltw1209.web.cs.unibo.it/ristoranti">Dati riguardo i Ristoranti di Bologna </aggregatore>
+    <aggregatore id="ltw1209-bar" title="Bar" url="http://ltw1209.web.cs.unibo.it/bar">Dati riguardo i Bar di Bologna </aggregatore>	
+   <aggregatore id="ltw1213-supermercati" title="Supermercati di Bologna" url="http://ltw1213.web.cs.unibo.it/supermercati/">	
+			Dati riguardo Supermercati di Bologna , con locazioni, indirizzi e orari di apertura.
+		</aggregatore>
+		<aggregatore id="ltw1213-farmacie" title="Farmacie di Bologna" url="http://ltw1213.web.cs.unibo.it/farmacie/"> 
+			Dati riguardo le Farmacie di Bologna , con locazioni, indirizzi e orari di apertura.
+		</aggregatore>
+		<aggregatore id="ltw1213-equitalia" title="Agenzie delle Entrate dell'Emilia Romagna" url="http://ltw1213.web.cs.unibo.it/equitalia/"> 
+			Dati riguardo le Agenzie delle Entrate dell'Emilia Romagna , con locazioni, indirizzi e orari di apertura.
+		</aggregatore>
+	<aggregatore id="ltw1216-farmacie" title="Farmacie di Bologna" url="http://ltw1216.web.cs.unibo.it/farmacieBO/">Dati riguardo le maggiori farmacie di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+	  <aggregatore id="ltw1216-supermarket" title="Supermercati di Bologna" url="http://ltw1216.web.cs.unibo.it/supermarketBO/">Dati riguardo i maggiori supermercati di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+      <aggregatore id="ltw1216-scuole-materne" title="Scuole Materne di Bologna" url="http://ltw1216.web.cs.unibo.it/scuole-materneBO/">Dati riguardo le Scuole Materne di Bologna città, con locazioni, indirizzi e orari di apertura.
+      </aggregatore>
+      <aggregatore id="ltw1216-centriScommesse" title="Centri Scommesse Bologna e Provincia" url="http://ltw1216.web.cs.unibo.it/centriScommesseBO/">Dati riguardo i Centri Scommesse di Bologna città e provincia.
+      </aggregatore>
+	   <aggregatore id="ltw1216-centriSport" title="Centri SSportivi Bologna e Provincia" url="http://ltw1216.web.cs.unibo.it/centriSportBO/">Dati riguardo i Centri Sportivi di Bologna città e provincia.
+      </aggregatore>
+   <aggregatore id="ltw1218-farmacie" title="Farmacie di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-farmacie/">Dati riguardo le farmacie di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-supermarket" title="Supermercati di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-supermarket/">Dati riguardo i supermercati di Bologna, con locazioni, indirizzi e orari di apertura.</aggregatore>
+		<aggregatore id="ltw1218-materne" title="Scuole materne di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-materne/">Dati riguardo le scuole materne di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-poste" title="Poste di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-poste/">Dati riguardo le poste  di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		<aggregatore id="ltw1218-medici" title="Farmacie di Bologna" url="http://ltw1218.web.cs.unibo.it/ltw1218-medici">Dati riguardo i medici di Bologna, con locazioni, indirizzi e orari di apertura. </aggregatore>
+		</aggregatori>

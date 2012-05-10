@@ -17,7 +17,7 @@ def getaggrurl(name):
         updateaggrcache()
     xml=etree.parse("../data/aggrcache.xml")
     result=xml.xpath("/aggregatori/aggregatore[@id=\""+name+"\"]")
-    if(result is None):
+    if(not result):
         return 404
     return result.pop().attrib["url"]
 

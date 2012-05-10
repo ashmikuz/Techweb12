@@ -7,23 +7,48 @@ import codecs
 import trasforma
 import os
 import urllib2
+import operator
 from trasforma import metadata
 from aggrutils import getaggrurl
 
-loclist=[]
+
+
 finallist=[]
+loclist=[]
 
-def matchesoperator(datelist, operator, location):
+ops = {
+  "and": operator.and_,
+  "or": operator.or_,
+  "not": operator.not_
+  }
+
+
+def matchesoperator(datelist, operatore, location):
     boollist=[]
+    xoraux=False
+    if(operatore=="and" or operatore=="not"):
+        result=True
+    elif(operatore=="or" or operatore=="xor"):
+        result=False
+    else:
+        return 406
     for date in datelist:
-        if(location.apero(date)):
-            boollist.append(location)
-    
-
+        boollist.append(location.aperto(date))
+    for item in boollist:
+        if(operatore=="xor"):
+            if(item):
+                if(xoraux):
+                    return False
+                xoraux=True
+        elif(operatore=="not"):
+            result=result and not item
+        else:
+            result=ops[operatore](result, item)
+    return result
+            
+            
 def getopened(dates, operator,loclist):
-    print("Content-type: text/plain; charset=UTF-8\n")
     datelist=dates.split("/")
-    loclist=filter(lambda location: location.aperto(dates), loclist)
     tobeadded=False
     for location in loclist:
         if(matchesoperator(datelist, operator, location)):
@@ -55,10 +80,13 @@ def main():
     elif(restype=="text/csv"):
         meta=trasforma.locationfromcsv(resource,loclist)
     elif(restype=="application/json"):
-        meta=trasforma.locationfromcsv(resource,loclist)
+        meta=trasforma.locationfromjson(resource,loclist)
     else:
         error.errhttp("406")
     finallist=getopened(dates, operator,loclist)
+    if(isinstance(finallist, ( int, long ))):
+        error.errcode(str(finallist))
+        return
     trasforma.formatresult(os.environ["HTTP_ACCEPT"], finallist, meta)
 
 main()
