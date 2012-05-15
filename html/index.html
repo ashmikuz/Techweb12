@@ -4,54 +4,80 @@
 	<head>
 		<title>Gruppo MAL</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
-		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCU1HhleX04tfH_e1ZZW4RtAOz99-fhXQk&sensor=true"></script>
+		<script type="text/javascript" src="html/js/markers.js" ></script>
+		<!--<script type="text/javascript">
+		function drawmarkers(checkbox)
+		{
+			if(checkbox.checked)
+			{
+				//var aggrurl=getaggr(checkbox.id);
+				prova=document.getElementById("prova");
+				prova.appendChild(document.createTextNode("ammaccabanane"));
+			}
+		}
+		</script>-->
 		<script type="text/javascript">
-		if (navigator.geolocation) {
-  			navigator.geolocation.getCurrentPosition(mostra_mappa);
-		}else{
-  			alert('La geo-localizzazione NON è possibile');
-  		}
-
-		function mostra_mappa(posizione) {
-	 	// identifico il punto in cui è stato individuato l'utente
-  		var punto = new google.maps.LatLng(posizione.coords.latitude, posizione.coords.longitude),
-  		// definisco una serie di opzioni          
-  		opzioni = {
-    		zoom: 15,
-    		center: punto,
-    		mapTypeId: google.maps.MapTypeId.ROADMAP
-  		},
-  		// definisco l'elemento della pagina che ospiterà la mappa
-  		contenitore = document.getElementById("mia_mappa"),
-  		// creo la mappa
-  		mappa = new google.maps.Map(contenitore, opzioni),
-  		// imposto un marker
-  		marker = new google.maps.Marker({
-    		position: punto,
-    		map: mappa,
-    		title: "Tu sei qui!"
-  		});
+		function errorgeo(error)
+		{
+			var pmaggiore={};
+			pmaggiore["coords"]={};
+			pmaggiore["coords"]["latitude"]=44.4942;
+			pmaggiore["coords"]["longitude"]=11.3433;
+			mostra_mappa(pmaggiore);
+		}
+		
+		function inizialize() 
+		{
+  			navigator.geolocation.getCurrentPosition(mostra_mappa, errorgeo);
+		}
+		
+		function mostra_mappa(posizione) 
+		{
+	 		// identifico il punto in cui è stato individuato l'utente
+  			var punto = new google.maps.LatLng(posizione.coords.latitude, posizione.coords.longitude),
+  			// definisco una serie di opzioni          
+  			opzioni = 
+  			{
+    			zoom: 15,
+    			center: punto,
+    			mapTypeId: google.maps.MapTypeId.ROADMAP
+  			},
+  			// definisco l'elemento della pagina che ospiterà la mappa
+  			contenitore = document.getElementById("mia_mappa"),
+  			// creo la mappa
+  			mappa = new google.maps.Map(contenitore, opzioni),
+  			// imposto un marker
+  			marker = new google.maps.Marker(
+  				{
+    				position: punto,
+    				map: mappa,
+    				title: "Tu sei qui!"
+  				});
 		}
 </script>
 <style type="text/css">
 
 </style>
 </head>
-	<body>
+	<body onload="inizialize()">
 			<div id="header">
 				<img src="LogoMAL.png" alt="logo" width="350px" height="100px"/>
+				<div id = "prova"></div>
 			</div>
 			<div id="operation">
 				<b>Scegli una o pi&ugrave; categorie:</b> <br/>
 					<ul>
-				<li> <input type = "checkbox" id = "market" value = "" />
+				<li> <input type = "checkbox" id = "supermarket" onclick="drawmarkers(this)"/>
              		<label for = "market">Supermarket</label> </li>
-             	<li> <input type = "checkbox" id = "market" value = "" />
+             	<li> <input type = "checkbox" id = "poste" onclick="drawmarkers(this)" />
              		<label for = "market">Poste</label> </li>
-             	<li> <input type = "checkbox" id = "market" value = "" />
+             	<li> <input type = "checkbox" id = "farmacie" onclick="drawmarkers(this)"/>
              		<label for = "market">Farmacie</label> </li>
-             	<li> <input type = "checkbox" id = "market" value = "" />
+             	<li> <input type = "checkbox" id = "medici" onclick="drawmarkers(this)" />
              		<label for = "market">Medici</label> </li>
+             	<li> <input type = "checkbox" id = "materne" onclick="drawmarkers(this)" />
+             		<label for = "market">Scuole Materne</label> </li>
              	</ul>
 			</div>
 			<div id="conteiner">
