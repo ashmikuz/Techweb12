@@ -357,7 +357,7 @@ def locationtocsv(ellist,meta):
         print str
 
 def formatresult(mimetype, ellist,meta):
-    if ("application/xml" in mimetype):  
+    if ("application/xml" in mimetype or "*/*" in mimetype):  
         locationtoxml(ellist,meta)
     elif("application/json" in mimetype):
         locationtojson(ellist,meta)

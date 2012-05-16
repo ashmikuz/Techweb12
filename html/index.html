@@ -6,7 +6,10 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCU1HhleX04tfH_e1ZZW4RtAOz99-fhXQk&sensor=true"></script>
 		<script type="text/javascript" src="js/markers.js" ></script>
+		<script type="text/javascript" src="js/xml.js" ></script>
+		<script type="text/javascript" src="js/FastMarkerOverlay.js" ></script>
 		<script type="text/javascript">
+		var mappa;
 		function errorgeo(error)
 		{
 			var pmaggiore={};
@@ -52,10 +55,11 @@
 	<body onload="inizialize()">
 			<div id="header">
 				<img src="LogoMAL.png" alt="logo" width="350px" height="100px"/>
-				<div id = "prova"></div>
+				
 			</div>
 			<div id="operation">
-				<b>Scegli una o pi&ugrave; categorie:</b> <br/>
+				<div id=box1>
+<b>Scegli una o pi&ugrave; categorie:</b> <br/>
 					<ul>
 				<li> <input type = "checkbox" id = "supermarket" onclick="drawmarkers()"/>
              		<label for = "market">Supermarket</label> </li>
@@ -68,13 +72,25 @@
              	<li> <input type = "checkbox" id = "materne" onclick="drawmarkers()" />
              		<label for = "market">Scuole Materne</label> </li>
              	</ul>
-			</div>
-			<div id="conteiner">
-			
-			
-				<div id="contentcenter">
-				<div id="mia_mappa"><center>Caricamento in corso...</center></div>
 				</div>
+				<div id=box2>
+					<b>Vicino A: <br/> </b>
+					Indirizzo: <input type="text" name="lat"value="es. via Indipendenza, 1" /><br />
+					<button type="button">Cerca</button>
+				</div>
+				
+				<div id=box3>
+					<b>Aperto in data:</b> <br/>
+					Inserisci data: <input type="text" name="lat"value="" /><br />
+					<button type="button">Cerca</button>
+				</div>
+				
+          
+          	
+			</div>
+			
+			<div id="conteiner">
+				<div id="mia_mappa"><center>Caricamento in corso...</center></div>
 			</div>
 			
 	</body>

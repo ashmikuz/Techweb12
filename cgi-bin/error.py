@@ -4,7 +4,7 @@ def testenviron(env, mimetype):
     if (env["REQUEST_METHOD"]!="GET"):
         errhttp("407")
         return True
-    if (not mimetype in env["HTTP_ACCEPT"]):
+    if (not mimetype in env["HTTP_ACCEPT"] and not "*/*" in env["HTTP_ACCEPT"]):
         errhttp("406")
         return True
 
