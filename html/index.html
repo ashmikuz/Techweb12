@@ -5,18 +5,7 @@
 		<title>Gruppo MAL</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCU1HhleX04tfH_e1ZZW4RtAOz99-fhXQk&sensor=true"></script>
-		<script type="text/javascript" src="html/js/markers.js" ></script>
-		<!--<script type="text/javascript">
-		function drawmarkers(checkbox)
-		{
-			if(checkbox.checked)
-			{
-				//var aggrurl=getaggr(checkbox.id);
-				prova=document.getElementById("prova");
-				prova.appendChild(document.createTextNode("ammaccabanane"));
-			}
-		}
-		</script>-->
+		<script type="text/javascript" src="js/markers.js" ></script>
 		<script type="text/javascript">
 		function errorgeo(error)
 		{
@@ -68,15 +57,15 @@
 			<div id="operation">
 				<b>Scegli una o pi&ugrave; categorie:</b> <br/>
 					<ul>
-				<li> <input type = "checkbox" id = "supermarket" onclick="drawmarkers(this)"/>
+				<li> <input type = "checkbox" id = "supermarket" onclick="drawmarkers()"/>
              		<label for = "market">Supermarket</label> </li>
-             	<li> <input type = "checkbox" id = "poste" onclick="drawmarkers(this)" />
+             	<li> <input type = "checkbox" id = "poste" onclick="drawmarkers()" />
              		<label for = "market">Poste</label> </li>
-             	<li> <input type = "checkbox" id = "farmacie" onclick="drawmarkers(this)"/>
+             	<li> <input type = "checkbox" id = "farmacie" onclick="drawmarkers()"/>
              		<label for = "market">Farmacie</label> </li>
-             	<li> <input type = "checkbox" id = "medici" onclick="drawmarkers(this)" />
+             	<li> <input type = "checkbox" id = "medici" onclick="drawmarkers()" />
              		<label for = "market">Medici</label> </li>
-             	<li> <input type = "checkbox" id = "materne" onclick="drawmarkers(this)" />
+             	<li> <input type = "checkbox" id = "materne" onclick="drawmarkers()" />
              		<label for = "market">Scuole Materne</label> </li>
              	</ul>
 			</div>

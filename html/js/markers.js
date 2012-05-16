@@ -33,6 +33,6 @@ function getxml()
 				}
 				
 		}
-	return retval;
+	return xmlretval;
 	
 }

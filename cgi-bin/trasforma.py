@@ -13,6 +13,9 @@ sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 from lxml import etree
 from collections import OrderedDict
 from StringIO import StringIO
+import rdflib
+from rdflib import plugin
+import rdfextras
 import datetime
 
 
@@ -24,6 +27,45 @@ dial.quotechar='"'
 dial.delimiter=","
 dial.lineterminator="\n"
 dial.escapechar="\\"
+
+query="""
+                PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+                PREFIX cs: <http://cs.unibo.it/ontology/>
+                PREFIX : <http://www.essepuntato.it/resource/>
+
+                SELECT ?id ?name ?lat ?long ?tel ?category ?fax ?opening ?closing ?address
+                WHERE {
+                        ?id vcard:category ?category ;
+                        vcard:fn ?name ;
+                        vcard:extended-address ?address ;
+                        vcard:latitude ?lat ;
+                        vcard:longitude ?long ;
+                        vcard:tel ?tel ;
+                        vcard:fax ?fax ;
+                        cs:opening ?opening ;
+                        cs:closing ?closing .
+                }
+        """
+        
+meta_query="""
+                PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+                PREFIX cs: <http://cs.unibo.it/ontology/>
+                PREFIX : <http://www.essepuntato.it/resource/>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                PREFIX this: <http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl#>
+                SELECT ?creator ?created ?description ?valid ?source
+                WHERE {
+                        this:metadata dcterms:creator ?creator;
+                        dcterms:created ?created;
+                        dcterms:description ?description ;
+                        dcterms:valid ?valid ;
+                        dcterms:source ?source.
+                }
+        """
+        
+plugin.register('sparql', rdflib.query.Processor, 'rdfextras.sparql.processor', 'Processor')
+plugin.register('sparql', rdflib.query.Result, 'rdfextras.sparql.query', 'SPARQLQueryResult')
 
 
 class location:
@@ -202,6 +244,41 @@ def locationfromcsv(data,loclist):
         loclist.append(loc)
     return meta
 
+def locationfromturtle(data,loclist):
+    turtle=rdflib.Graph()
+    src=turtle.parse(StringIO(data), format='n3')
+    src.bind('', rdflib.URIRef('http://www.essepuntato.it/resource/', False))
+    src.bind('vcard', rdflib.URIRef('http://www.w3.org/2006/vcard/ns#'))
+    src.bind('cs', rdflib.URIRef('http://cs.unibo.it/ontology/'))
+    src.bind('dcterms', rdflib.URIRef('http://purl.org/dc/terms/'))
+    src.bind('xsd', rdflib.URIRef('http://www.w3.org/2001/XMLSchema#'))
+    src.bind('this', rdflib.URIRef('http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl#'))
+    query_result=src.query(query)
+    meta_result=src.query(meta_query)
+    for element in query_result:
+        id=element[0].split("/")
+        id=id[-1]
+        name=element[1]
+        lat=element[2]
+        long=element[3]
+        tel=element[4]
+        category=element[5]
+        fax=element[6]
+        opening=element[7]
+        closing=element[8]
+        address=element[9]
+        subcategory=""
+        note=""
+        loc=location(id, category, subcategory,name, lat, long, address, opening, closing, tel, note)
+        loclist.append(loc)
+    for metaelement in meta_result:
+        creator=metaelement[0]
+        created=metaelement[1]
+        version=metaelement[2]
+        valid=metaelement[3]
+        source=metaelement[4]
+        meta=metadata(creator,created,version,source,valid)
+        return meta
 
 
 def locationtoxml(ellist,meta):
