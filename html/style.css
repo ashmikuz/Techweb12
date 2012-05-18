@@ -10,6 +10,11 @@ body {
 	background-color:#333333;
 	font-size: 12px;
 }
+
+#loctitle{
+	font-weight: bolder;
+}
+
 #header{
 	margin-right: auto;
 	margin-left: auto;

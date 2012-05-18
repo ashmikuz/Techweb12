@@ -21,9 +21,12 @@ function drawmarkers()
 			longitude=locations[i].attributes.getNamedItem("long").value;
 			//document.getElementById("prova").innerHTML+= (id+","+lat+","+longitude+"<br/>");
 			myLatlng = new google.maps.LatLng(parseFloat(lat),parseFloat(longitude));
-			var marker = new com.redfin.FastMarker(id, myLatlng, ["<img src='/images/farmacia.png'>"], "myMarker", 0, 10/*px*/, 10/*px*/);
+			marker = new google.maps.Marker({
+	            position: myLatlng,
+	            map: mappa,
+	            title:id
+	        });			
 			markers.push(marker);
-			new com.redfin.FastMarkerOverlay(mappa, markers);
 		}
 }
 
