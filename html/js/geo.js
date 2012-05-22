@@ -66,9 +66,9 @@ icone['materne']= "images/materne.png";
 
 		//function 
 
-		function drawmarkers(checked)
+		function drawmarkers(checkbox)
 		{
-			xml=getxml(checked);
+			xml=getxml(checkbox);
 			var lat,longitude,id,marker,myLatlng,category,name, address, tel, opening, info;
 			locations=xml.getElementsByTagName("location");
 			//mappa=document.getElementById("mia_mappa");
