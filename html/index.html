@@ -3,32 +3,30 @@
 <html>
 	<head>
 		<title>Gruppo MAL</title>
+		<link rel="stylesheet" type="text/css" href="extjs/resources/css/ext-all.css">
+    	<script type="text/javascript" src="extjs/ext-all-debug.js"></script>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCU1HhleX04tfH_e1ZZW4RtAOz99-fhXQk&sensor=true"></script>
 		<script type="text/javascript" src="js/markers.js" ></script>
 		<script type="text/javascript" src="js/xml.js" ></script>
-		<script type="text/javascript" src="js/FastMarkerOverlay.js" ></script>
 		<script type="text/javascript" src="js/geo.js" ></script>
+		<script type="text/javascript" src="js/tabs.js"></script>
 	
 </head>
 	<body onload="inizialize()">
-			<div id="header">
-				<img src="LogoMAL.png" alt="logo" width="350px" height="100px"/>
-				
-			</div>
 			<div id="operation">
 				<div id="box1">
 <b>Scegli una o pi&ugrave; categorie:</b> <br/>
 					<ul>
-				<li> <input type = "checkbox" id = "supermarket" onclick="drawmarkers()"/>
+				<li> <input type = "checkbox" id = "supermarket" onclick="drawmarkers(this)"/>
              		<label for = "market">Supermarket</label> </li>
-             	<li> <input type = "checkbox" id = "poste" onclick="drawmarkers()" />
+             	<li> <input type = "checkbox" id = "poste" onclick="drawmarkers(this)" />
              		<label for = "market">Poste</label> </li>
-             	<li> <input type = "checkbox" id = "farmacie" onclick="drawmarkers()"/>
+             	<li> <input type = "checkbox" id = "farmacie" onclick="drawmarkers(this)"/>
              		<label for = "market">Farmacie</label> </li>
-             	<li> <input type = "checkbox" id = "medici" onclick="drawmarkers()" />
+             	<li> <input type = "checkbox" id = "medici" onclick="drawmarkers(this)" />
              		<label for = "market">Medici</label> </li>
-             	<li> <input type = "checkbox" id = "materne" onclick="drawmarkers()" />
+             	<li> <input type = "checkbox" id = "materne" onclick="drawmarkers(this)" />
              		<label for = "market">Scuole Materne</label> </li>
              	</ul>
 				</div>
@@ -43,13 +41,37 @@
 					Inserisci data: <input type="text" name="lat"value="" /><br />
 					<button type="button">Cerca</button>
 				</div>
-				
+				<div id="box4">
+					<ul>
+						<li> 
+						<input type="checkbox" id = "lun" />
+             			<label>lun</label>
+             			<input type="checkbox" id = "mar" />
+             			<label>mar</label> 
+             			<input type="checkbox" id = "mer" />
+             			<label>mer</label> 
+    					</li>
+    					<li> 
+						<input type="checkbox" id = "gio" />
+             			<label>gio</label>
+             			<input type="checkbox" id = "ven" />
+             			<label>ven</label> 
+             			<input type="checkbox" id = "sab" />
+             			<label>sab</label> 
+    					</li>
+    					<li>
+    					<input type="checkbox" id = "dom" />
+             			<label>dom</label> 
+    					</li>
+             		</ul>
+				</div>
           
           	
 			</div>
 			
 			<div id="container">
-				<div id="mia_mappa"><center>Caricamento in corso...</center></div>
+				<div id="mia_mappa"class="x-hide-display"><center>Caricamento in corso...</center></div>
+				<div id="prova"class="x-hide-display"> Ammacca </div>
 			</div>
 			
 	</body>

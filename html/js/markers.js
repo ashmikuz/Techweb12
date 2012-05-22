@@ -8,9 +8,9 @@ aggregatori['materne']= "http://ltw1218.web.cs.unibo.it/converti/ltw1218-materne
 
 var markers = [];
 
-function drawmarkers()
+function drawmarkers(checkbox)
 {
-	xml=getxml();
+	xml=getxml(checkbox);
 	var lat,longitude,id,marker,myLatlng,map;
 	locations=xml.getElementsByTagName("location");
 	//mappa=document.getElementById("mia_mappa");
@@ -30,7 +30,7 @@ function drawmarkers()
 		}
 }
 
-function getxml()
+/*function getxml()
 {
 	var xmlretval=newDocument("locations","");
 	var xmlroot=xmlretval.getElementsByTagName("locations");
@@ -57,4 +57,5 @@ function getxml()
 		}
 	return xmlretval;
 	
-}
+}*/
+
