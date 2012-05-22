@@ -35,7 +35,7 @@ body {
 	border: 1px solid;
 	
 }
-#conteiner{
+#container{
 	clear: both;
 	margin-right: auto;
 	margin-left: auto;
@@ -62,6 +62,21 @@ body {
 	float: right;
 	width: 15%;
 	height: 600px;
+}
+#box1{
+	float:left;
+	height: 130px;
+	padding-left: 10px;
+}
+#box2{
+	float:left;
+	height: 130px;
+	padding-left: 30px;
+}
+#box3{
+	float:left;
+	height: 130px;
+	padding-left: 30px;
 }
 
 li {list-style: none;}
