@@ -13,7 +13,7 @@ Ext.onReady(function(){
             contentEl:'mia_mappa', 
             title: 'Mappa'
         },{
-            contentEl:'prova', 
+            contentEl:'tabella', 
             title: 'Tabella'
         }]
     });

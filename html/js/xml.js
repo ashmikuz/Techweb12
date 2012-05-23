@@ -4,12 +4,14 @@ aggregatori['medici'] = "http://ltw1218.web.cs.unibo.it/converti/ltw1218-medici"
 aggregatori['supermarket'] = "http://ltw1218.web.cs.unibo.it/converti/ltw1218-supermarket";
 aggregatori['poste'] = "http://ltw1218.web.cs.unibo.it/converti/ltw1218-poste";
 aggregatori['materne']= "http://ltw1218.web.cs.unibo.it/converti/ltw1218-materne";
+var nodes;
 
 function getxml(checkbox)
 		{
 			var xmlretval=newDocument("locations","");
 			var xmlroot=xmlretval.getElementsByTagName("locations");
 			var aggrxml;
+			var el;
 			var checkboxes=new Array();
 			//checkboxes[0]=document.getElementById("farmacie");
 			//checkboxes[1]=document.getElementById("materne");
@@ -19,12 +21,17 @@ function getxml(checkbox)
 			if (checkbox.checked)
 			{
 				urlaggr=aggregatori[checkbox.id];					
-				aggrxml=loadXMLDoc(urlaggr);
-				nodes=aggrxml.getElementsByTagName("location");
-				for (j=0; j<nodes.length;j++)
+				nodes=loadXMLDoc(urlaggr).getElementsByTagName("location");
+				dataroot=data.getElementsByTagName("locations")
+				var lunghezza=nodes.length;
+				for (j=0; j<lunghezza;j++)
 					{
-						xmlroot[0].appendChild(nodes[j]);
+						xmlroot[0].appendChild(nodes[j].cloneNode(true));
+						el=nodes[j].cloneNode(true);
+						dataroot[0].appendChild(el);
 					}
+				store.loadRawData(data);
+				store.load();
 			}
 			else
 				{

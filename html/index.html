@@ -6,9 +6,12 @@
 		<link rel="stylesheet" type="text/css" href="extjs/resources/css/ext-all.css">
     	<script type="text/javascript" src="extjs/ext-all-debug.js"></script>
 		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCU1HhleX04tfH_e1ZZW4RtAOz99-fhXQk&sensor=true"></script>
-		<script type="text/javascript" src="js/markers.js" ></script>
 		<script type="text/javascript" src="js/xml.js" ></script>
+		<script type="text/javascript" src="js/xmlgrid.js"></script>
 		<script type="text/javascript" src="js/geo.js" ></script>
 		<script type="text/javascript" src="js/tabs.js"></script>
 	
@@ -29,19 +32,15 @@
              	<li> <input type = "checkbox" id = "materne" onclick="drawmarkers(this)" />
              		<label for = "market">Scuole Materne</label> </li>
              	</ul>
-				</div>
+					</div>
 				<div id="box2">
 					<b>Vicino A: <br/> </b>
-					Indirizzo: <input type="text" name="lat"value="es. via Indipendenza, 1" /><br />
+					Indirizzo: <input type="text" name="lat"value="es. via Indipendenza, 1" onBlur="puliscitext(this)" onFocus="puliscitext(this)" /><br />
 					<button type="button">Cerca</button>
 				</div>
 				
 				<div id="box3">
-					<b>Aperto in data:</b> <br/>
-					Inserisci data: <input type="text" name="lat"value="" /><br />
-					<button type="button">Cerca</button>
-				</div>
-				<div id="box4">
+					<b>Aperto in data:</b> <br />
 					<ul>
 						<li> 
 						<input type="checkbox" id = "lun" />
@@ -50,20 +49,43 @@
              			<label>mar</label> 
              			<input type="checkbox" id = "mer" />
              			<label>mer</label> 
-    					</li>
-    					<li> 
-						<input type="checkbox" id = "gio" />
+             			<input type="checkbox" id = "gio" />
              			<label>gio</label>
+    					</li>
+    					 
+						
+						<li>
              			<input type="checkbox" id = "ven" />
              			<label>ven</label> 
              			<input type="checkbox" id = "sab" />
              			<label>sab</label> 
-    					</li>
-    					<li>
     					<input type="checkbox" id = "dom" />
              			<label>dom</label> 
+             			
+             			
     					</li>
+    					
              		</ul>
+             		<script>
+  					$(document).ready(function() {
+  					  $("#datepicker").datepicker();
+  					});
+ 					</script>
+					<script language="JavaScript">
+						
+					function puliscitext(elm){
+					if (!elm.base) elm.base = elm.value
+					if (elm.value == elm.base) elm.value = "";
+					else if (elm.value == "") elm.value = elm.base;
+					}
+					
+					</script>
+<div class="demo">
+
+<p>Date: <input type="text" id="datepicker"></p>
+
+</div>
+
 				</div>
           
           	
@@ -71,8 +93,7 @@
 			
 			<div id="container">
 				<div id="mia_mappa"class="x-hide-display"><center>Caricamento in corso...</center></div>
-				<div id="prova"class="x-hide-display"> Ammacca </div>
+				<div id="tabella"class="x-hide-display"></div>
 			</div>
-			
 	</body>
 </html>
