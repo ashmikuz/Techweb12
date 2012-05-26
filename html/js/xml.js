@@ -36,6 +36,7 @@ function getxml(checkbox)
 			else
 				{
 					removemarkers(checkbox.id);
+					removegrid(checkbox.id);
 				}
 			return xmlretval;
 		}

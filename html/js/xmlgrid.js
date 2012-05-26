@@ -3,9 +3,17 @@ Ext.require([
     'Ext.grid.*'
 ]);
 
+var categorie = new Array();
+categorie['farmacie'] = "farmacia";
+categorie['medici'] = "Medico di Medicina Generale";
+categorie['supermarket'] = "supermarket";
+categorie['poste'] = "Poste e Telegrafi";
+categorie['materne']= "Scuola Materna";
+
 var data;
 var store;
 var grid;
+var categlist;
 data=newDocument("locations","");
 
     //Definisco la feature per raggruppare le location per categoria
@@ -13,10 +21,22 @@ data=newDocument("locations","");
 	    groupHeaderTpl: '{name}'
 	});
 
-function changesource()
+function removegrid(checkboxid)
 {
-	data=loadXMLDoc("converti/ltw1218-supermarket");
+	categlist=data.getElementsByTagName("category");
+	max=categlist.length;
+	for(i=0; i<max; i++)
+		{
+			if(categlist[i].textContent==categorie[checkboxid])
+				{
+					alert("ok!")
+					data.getElementsByTagName("locations")[0].removeChild(categlist[i].parentNode);
+					max--;
+					i--;
+				}
+		}
 	store.loadRawData(data);
+	store.load();
 }
 
 Ext.onReady(function(){
