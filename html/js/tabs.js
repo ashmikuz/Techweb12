@@ -6,6 +6,7 @@ Ext.onReady(function(){
         renderTo: 'container',
         layout: 'fit',
         activeTab: 0,
+        layoutOnTabChange : true,
         defaults :{
             bodyPadding: 0
         },
@@ -13,7 +14,7 @@ Ext.onReady(function(){
             contentEl:'mia_mappa', 
             title: 'Mappa'
         },{
-            contentEl:'tabella', 
+            items:[grid], 
             title: 'Tabella'
         }]
     });
