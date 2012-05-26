@@ -29,7 +29,6 @@ function removegrid(checkboxid)
 		{
 			if(categlist[i].textContent==categorie[checkboxid])
 				{
-					alert("ok!")
 					data.getElementsByTagName("locations")[0].removeChild(categlist[i].parentNode);
 					max--;
 					i--;
