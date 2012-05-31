@@ -80,9 +80,10 @@ Ext.onReady(function(){
         store: store,
         features: [groupingFeature],
         columns: [
-            {text: "Nome", flex: 1, dataIndex: 'name', sortable: true},
-            {text: "Indirizzo", width: 180, dataIndex: 'address', sortable: true},
-            {text: "Telefono", width: 115, dataIndex: 'tel', sortable: true}
+            {text: "Nome", width: 190, dataIndex: 'name', sortable: true},
+            {text: "Indirizzo", width: 210, dataIndex: 'address', sortable: true},
+            {text: "Telefono", width: 115, dataIndex: 'tel', sortable: true},
+            {text: "Apertura",  flex: 1, dataIndex: 'opening', sortable: true}
         ],
         renderTo:'tabella',
         layout:'fit'
