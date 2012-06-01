@@ -1,24 +1,25 @@
-	var altezza = 600;
+	var altezza = 550;
 	var lunghezza =1000;
 	var targetRender = 'container';
 	
 Ext.onReady(function() {
-	
+	//pannello che contiene i controlli per caricare da aggregatori
 		var aggr = Ext.create('Ext.Panel', {
-		title: 'Aggregatori',
-		html: '&lt;Sex Pisto&gt;',
+		title: 'Categorie',
+		contentEl:'box1',
+		//html: '&lt;Sex Pisto&gt;',
 		cls:'empty'
 	});
-
+	//vicino a
 	var descr1 = Ext.create('Ext.Panel', {
 		title: 'Vicino a',
-		html: '&lt;Sex Pisto&gt;',
+		contentEl:'box2',
 		cls:'empty'
 	});
-
+	//aperto in data
 	var descr2 = Ext.create('Ext.Panel', {
 		title: 'Aperto in data',
-		html: '&lt;Sex Pisto&gt;',
+		contentEl:'box3',
 		cls:'empty'
 	});
 		
@@ -40,7 +41,8 @@ Ext.onReady(function() {
         activeTab: 0,
         layoutOnTabChange : true,
         defaults :{
-            bodyPadding: 0
+            bodyPadding: 0,
+            autoScroll:true
         },
         items: [{
         	contentEl:'mia_mappa',
@@ -48,6 +50,9 @@ Ext.onReady(function() {
         },{
             items:[grid], 
             title: 'Tabella'
+        },{
+        	contentEl:'info',
+            title: 'Help'
         }]
 	});
 	
