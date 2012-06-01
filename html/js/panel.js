@@ -2,6 +2,7 @@
 	var lunghezza =1000;
 	var targetRender = 'container';
 	
+Ext.onReady(function() {
 	
 		var aggr = Ext.create('Ext.Panel', {
 		title: 'Aggregatori',
@@ -42,7 +43,7 @@
             bodyPadding: 0
         },
         items: [{
-            html: '<div id="mia_mappa"><center>Caricamento in corso...</center>',
+        	contentEl:'mia_mappa',
             title: 'Mappa'
         },{
             items:[grid], 
@@ -58,7 +59,6 @@
 		margins: '5 5 0 0'
     });
 	
-Ext.onReady(function() {
 
 /*Creo il pannello generale che contiene tutto*/
 	Ext.create('Ext.panel.Panel', {
