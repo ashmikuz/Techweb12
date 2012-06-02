@@ -65,12 +65,42 @@ Ext.onReady(function() {
     });
 	
 
-/*Creo il pannello generale che contiene tutto*/
-	Ext.create('Ext.panel.Panel', {
-	    width: lunghezza,
-	    height: altezza,
-	    layout:'border',
-	    items: [accordionPanel,mainPanel],
-	    renderTo: targetRender
+/*Creo il viewport generale che contiene tutto*/
+	Ext.create('Ext.Viewport', {
+	    layout:'anchor',
+	    listeners:
+	    	{
+	    	resize: {
+	    		fn: function()
+	    		{
+	    			google.maps.event.trigger(mappa, "resize");
+	    			mappa.setCenter(punto);
+	    		}
+	    	}
+	    	},
+	    items: [
+	            {
+	            	xtype:'panel',
+	            	layout:'fit',
+	            	border: false,
+	            	anchor: '100%',
+	            	height: 70,
+	            	minHeight: 70,
+	            	html: '<div style="color:white ;font-size:500%; text-align:center;">MAL</div>',
+	            	bodyStyle:{"background-color":"#333333"}
+	            },
+	            {
+	            	xtype:'panel',
+	            	layout:'border',
+	            	border:false,
+	            	items: [accordionPanel,mainPanel],
+	            	anchor: '80%, -80',
+	            	style: {
+	            	        marginLeft: 'auto',
+	            	        marginRight: 'auto'
+	            	}
+	            }
+	]
+	    //renderTo: targetRender
 	});
 });

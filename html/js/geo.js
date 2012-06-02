@@ -1,6 +1,7 @@
 var mappa = null;
 var markers = [];
 var marker;
+var punto;
 
 var icone = new Array()
 icone['farmacia'] = "images/farmacia.png";
@@ -44,7 +45,7 @@ function inizialize() {
 
 function mostra_mappa(posizione) {
 	// identifico il punto in cui è stato individuato l'utente
-	var punto = new google.maps.LatLng(posizione.coords.latitude, posizione.coords.longitude);
+	punto = new google.maps.LatLng(posizione.coords.latitude, posizione.coords.longitude);
 	// definisco una serie di opzioni
 	var opzioni = {
 		zoom : 15,
