@@ -73,6 +73,7 @@ Ext.onReady(function() {
 	    	resize: {
 	    		fn: function()
 	    		{
+	    			punto=mappa.getCenter();
 	    			google.maps.event.trigger(mappa, "resize");
 	    			mappa.setCenter(punto);
 	    		}
