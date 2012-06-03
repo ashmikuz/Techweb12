@@ -83,6 +83,7 @@ def main():
         meta=trasforma.locationfromjson(resource,loclist)
     else:
         error.errhttp("406")
+        return
     finallist=getopened(dates, operator,loclist)
     if(isinstance(finallist, ( int, long ))):
         error.errcode(str(finallist))

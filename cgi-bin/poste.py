@@ -236,7 +236,7 @@ def main():
     if(not chiave) and (not confronto) and (not valore) and not error.testenviron(os.environ, mimexml):
         xml=os.path.splitext(poste)[0]+".xml"
         file=open(xml, "r")
-        print("Content-type: text/xml; charset=UTF-8\n")
+        print("Content-type: application/xml; charset=UTF-8\n")
         content=file.read()
         print content
         return
@@ -245,8 +245,8 @@ def main():
     la lascio commentata finche non iniziamo con i descrittori
     """
     if(error.testenviron(os.environ, mimeturtle)):
+        error.errhttp("406")
         return
-    
     if(not chiave) and (not confronto) and (not valore):
         file=open(poste, "r")
         print("Content-type: text/turtle; charset=UTF-8\n")

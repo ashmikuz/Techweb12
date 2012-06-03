@@ -105,7 +105,7 @@ def main():
     if(not chiave) and (not confronto) and (not valore) and not error.testenviron(os.environ, mimexml):
         xml=os.path.splitext(source)[0]+".xml"
         file=open(xml, "r")
-        print("Content-type: text/xml; charset=UTF-8\n")
+        print("Content-type: application/xml; charset=UTF-8\n")
         content=file.read()
         print content
         return
