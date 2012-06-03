@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">
+<locations>
+  <metadata>
+    <creator>Working Group LTW 2011/2012</creator>
+    <created>2011-12-20</created>
+    <version>1.2</version>
+    <source>http://www.aziendedibologna.it/poste_bologna_e_provincia.htm</source>
+    <valid>2011-02-21</valid>
+  </metadata>
+  <location lat="44.489953" id="pt0006" long="11.343463">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 6</name>
+    <address>Via Garibaldi Giuseppe 3/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 580769</tel>
+  </location>
+  <location lat="44.500574" id="pt0029" long="11.279079">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 32</name>
+    <address>Via Caduti Di Casteldebole 34/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 565118</tel>
+  </location>
+  <location lat="44.498004" id="pt0016" long="11.338825">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 17</name>
+    <address>Via Morgagni 6, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 232183</tel>
+  </location>
+  <location lat="44.502678" id="pt0020" long="11.366227">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 23</name>
+    <address>Via Dell'Artigiano 32/a, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 519547</tel>
+  </location>
+  <location lat="44.503859" id="pt0017" long="11.298051">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 18</name>
+    <address>Via Vittoria 10/c, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 312064</tel>
+  </location>
+  <location lat="44.513552" id="pt0035" long="11.410777">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 38</name>
+    <address>Via Canali Paolo 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0700-1100.</opening>
+    <tel>051 6331744</tel>
+  </location>
+  <location lat="44.504192" id="pt0001" long="11.338661">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 1</name>
+    <address>Via Cairoli 9, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 243425</tel>
+  </location>
+  <location lat="44.530124" id="pt0025" long="11.356845">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 28</name>
+    <address>Via Corazza Natalino 4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 4170924</tel>
+  </location>
+  <location lat="44.516186" id="pt0027" long="11.283273">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 30</name>
+    <address>Via Sciesa Amatore 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230.</opening>
+    <tel>051 4143680</tel>
+  </location>
+  <location lat="44.512511" id="pt0014" long="11.348908">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 15</name>
+    <address>Via Saliceto 4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed: 0800-1830. Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 352341</tel>
+  </location>
+  <location lat="44.522737" id="pt0036" long="11.293982">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna Aeroporto</name>
+    <address>Via Triumvirato 84, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230.</opening>
+    <tel>051 6472356</tel>
+  </location>
+  <location lat="44.500304" id="pt0013" long="11.346021">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 14</name>
+    <address>Piazza dell'Otto Agosto 24, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 250054</tel>
+  </location>
+  <location lat="44.494190" id="pt0034" long="11.346519">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 37</name>
+    <address>Via Pupilli Giancarlo 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon: 0800-1930. Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 333066</tel>
+  </location>
+  <location lat="44.460853" id="pt0033" long="11.373772">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 36</name>
+    <address>Via Corelli 23/d, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 477472</tel>
+  </location>
+  <location lat="44.485972" id="pt0007" long="11.354573">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 7</name>
+    <address>Via S.Stefano 140/a, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 344233</tel>
+  </location>
+  <location lat="44.496282" id="pt0021" long="11.293529">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 24</name>
+    <address>Piazza Bonazzi 6/b, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6195555</tel>
+  </location>
+  <location lat="44.481485" id="pt0011" long="11.337032">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 11</name>
+    <address>Via S.Mamolo 62, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 331034</tel>
+  </location>
+  <location lat="44.472627" id="pt0018" long="11.369996">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 20</name>
+    <address>Via Delle Armi 1/2/3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 442404</tel>
+  </location>
+  <location lat="44.484023" id="pt0003" long="11.391462">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 3</name>
+    <address>Viale Lincoln Abramo 48/a, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 540946</tel>
+  </location>
+  <location lat="44.485905" id="pt0040" long="11.400536">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna Roveri</name>
+    <address>Via Canova Antonio 19/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230.</opening>
+    <tel>051 535611</tel>
+  </location>
+  <location lat="44.511685" id="pt0031" long="11.389748">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 34</name>
+    <address>Via Pirandello Luigi 22, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6330345</tel>
+  </location>
+  <location lat="44.471766" id="pt0028" long="11.387267">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 31</name>
+    <address>Via Firenze 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 454948</tel>
+  </location>
+  <location lat="44.497513" id="pt0009" long="11.348464">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 9</name>
+    <address>Via Delle Belle Arti 9/5, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 2917631</tel>
+  </location>
+  <location lat="44.499198" id="pt0005" long="11.333820">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 5</name>
+    <address>Via Grimaldi 6, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230.</opening>
+    <tel>051 5282731</tel>
+  </location>
+  <location lat="44.518946" id="pt0022" long="11.326964">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 25</name>
+    <address>Piazza Da Verazzano Giovanni 6, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6346586</tel>
+  </location>
+  <location lat="44.517876" id="pt0030" long="11.351981">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 33</name>
+    <address>Via Vasari Giorgio 30, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 371063</tel>
+  </location>
+  <location lat="44.490860" id="pt0008" long="11.321256">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 8</name>
+    <address>Via XXI Aprile, 2/4/6, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6145521</tel>
+  </location>
+  <location lat="44.483523" id="pt0038" long="11.374377">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna Emilia Levante</name>
+    <address>Via Emilia Levante 7, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230.</opening>
+    <tel>051 6246522</tel>
+  </location>
+  <location lat="44.522387" id="pt0026" long="11.263779">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 29</name>
+    <address>Via Normandia 12, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6414004</tel>
+  </location>
+  <location lat="44.490744" id="pt0004" long="11.355755">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 4</name>
+    <address>Strada Maggiore 82/a-b, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 4293231</tel>
+  </location>
+  <location lat="44.457251" id="pt0023" long="11.369803">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 26</name>
+    <address>Via Toscana 140/d, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 489511</tel>
+  </location>
+  <location lat="44.504460" id="pt0024" long="11.390458">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 27</name>
+    <address>Via Dell'Industria 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6013098</tel>
+  </location>
+  <location lat="44.495487" id="pt0010" long="11.322795">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 10</name>
+    <address>Via Costa Andrea 71, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6142017</tel>
+  </location>
+  <location lat="44.493623" id="pt0002" long="11.334441">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 2</name>
+    <address>Via S.Isaia 3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6440025</tel>
+  </location>
+  <location lat="44.511030" id="pt0032" long="11.361781">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 35</name>
+    <address>Piazza Della Costituzione 8, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 352778</tel>
+  </location>
+  <location lat="44.490340" id="pt0012" long="11.366939">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 13</name>
+    <address>Via Pizzardi 17/a, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 349836</tel>
+  </location>
+  <location lat="44.507852" id="pt0015" long="11.343074">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 16</name>
+    <address>Via De Maria Mario 3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 353596</tel>
+  </location>
+  <location lat="44.501264" id="pt0039" long="11.321414">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna Ponente</name>
+    <address>Via Saffi Aurelio 30/32, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230.</opening>
+    <tel>051 5282913</tel>
+  </location>
+  <location lat="44.494910" id="pt0019" long="11.315771">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna 22</name>
+    <address>Via Andrea Costa 154, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1330. Sat: 0800-1230.</opening>
+    <tel>051 6143686</tel>
+  </location>
+  <location lat="44.491618" id="pt0037" long="11.344993">
+    <category>Poste e Telegrafi</category>
+    <name>Ufficio Bologna Centro</name>
+    <address>Piazza Minghetti 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1830. Sat: 0800-1230.</opening>
+    <tel>051 230699</tel>
+  </location>
+</locations>
+

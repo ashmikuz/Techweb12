@@ -4,11 +4,12 @@
 import sys
 import cgi
 import error
-from costanti import mimeturtle, poste, uencoding, fourl, vcurl, dcturl
+from costanti import mimeturtle, poste, uencoding, fourl, vcurl, dcturl, mimexml
 sys.path.append("/home/web/ltw1218/cgi-bin/libs/")
 import rdflib
 from rdflib import plugin
 import rdfextras
+import os
 
 vcard=rdflib.Namespace(vcurl)
 dcterms=rdflib.Namespace(dcturl)
@@ -232,12 +233,20 @@ def main():
     chiave=fs.getvalue("key")
     confronto=fs.getvalue("comp")
     valore=fs.getvalue("value")
+    if(not chiave) and (not confronto) and (not valore) and not error.testenviron(os.environ, mimexml):
+        xml=os.path.splitext(poste)[0]+".xml"
+        file=open(xml, "r")
+        print("Content-type: text/xml; charset=UTF-8\n")
+        content=file.read()
+        print content
+        return
     """
     questa parte serve per controllare che json in questo caso sia accettato dal descrittore. tuttavia se la abilitiamo adesso, siccome il browser non accetta json non va...
     la lascio commentata finche non iniziamo con i descrittori
+    """
     if(error.testenviron(os.environ, mimeturtle)):
         return
-    """
+    
     if(not chiave) and (not confronto) and (not valore):
         file=open(poste, "r")
         print("Content-type: text/turtle; charset=UTF-8\n")

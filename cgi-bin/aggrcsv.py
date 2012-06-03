@@ -4,7 +4,7 @@
 import os
 import codecs
 import error
-from costanti import uencoding, mimecsv, smaterne, medici
+from costanti import uencoding, mimecsv, smaterne, medici, mimexml
 import cgi
 import csv
 import operator
@@ -102,12 +102,19 @@ def main():
         source=medici
     else:
         error.errhttp("404")
-    """
-    questa parte serve per controllare che json in questo caso sia accettato dal descrittore. tuttavia se la abilitiamo adesso, siccome il browser non accetta json non va...
-    la lascio commentata finche non iniziamo con i descrittori
-    if(error.testenviron(os.environ, mimecsv)):
+    if(not chiave) and (not confronto) and (not valore) and not error.testenviron(os.environ, mimexml):
+        xml=os.path.splitext(source)[0]+".xml"
+        file=open(xml, "r")
+        print("Content-type: text/xml; charset=UTF-8\n")
+        content=file.read()
+        print content
         return
     """
+    questa parte serve per controllare che json in questo caso sia accettato dal descrittore. tuttavia se la abilitiamo adesso, siccome il browser non accetta json non va...
+    la lascio commentata finche non iniziamo con i descrittori"""
+    if(error.testenviron(os.environ, mimecsv)):
+        error.errhttp("406")
+        return
     if(not chiave) and (not confronto) and (not valore):
         file=open(source, "r")
         print("Content-type: text/csv; charset=UTF-8\n")

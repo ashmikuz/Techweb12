@@ -1,9 +1,9 @@
 var aggregatori = new Array();
 aggregatori['farmacie'] = "http://ltw1218.web.cs.unibo.it/ltw1218-farmacie";
-aggregatori['medici'] = "http://ltw1218.web.cs.unibo.it/converti/ltw1218-medici";
-aggregatori['supermarket'] = "http://ltw1218.web.cs.unibo.it/converti/ltw1218-supermarket";
-aggregatori['poste'] = "http://ltw1218.web.cs.unibo.it/converti/ltw1218-poste";
-aggregatori['materne'] = "http://ltw1218.web.cs.unibo.it/converti/ltw1218-materne";
+aggregatori['medici'] = "http://ltw1218.web.cs.unibo.it/ltw1218-medici";
+aggregatori['supermarket'] = "http://ltw1218.web.cs.unibo.it/ltw1218-supermarket";
+aggregatori['poste'] = "http://ltw1218.web.cs.unibo.it/ltw1218-poste";
+aggregatori['materne'] = "http://ltw1218.web.cs.unibo.it/ltw1218-materne";
 var nodes;
 
 function getxml(checkbox) {

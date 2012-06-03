@@ -1,0 +1,817 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">
+<locations>
+  <metadata>
+    <creator>Working Group LTW 2011/2012</creator>
+    <created>2011-12-20</created>
+    <version>1.1</version>
+    <source>Unknown</source>
+    <valid>2012-10-01</valid>
+  </metadata>
+  <location lat="44.509771" id="knd0001" long="11.285184">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Casa Del Bosco</name>
+    <address>via  della Pietra, 21/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.519767" id="knd0002" long="11.268638">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Gallon</name>
+    <address>via  M. E. Lepido, 175, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.522931" id="knd0003" long="11.267416">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Mazzini Infanzia</name>
+    <address>via  Legnano, 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.519387" id="knd0004" long="11.293412">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Aldo Moro</name>
+    <address>via  Calvi, 3/3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.500466" id="knd0005" long="11.277653">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Gida Rossi</name>
+    <address>via  Caduti di Casteldebole, 19, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.520254" id="knd0006" long="11.274776">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Villa May</name>
+    <address>via  Bufalini, 16, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.49419 " id="knd0007" long="11.346519">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Via Bragaglia</name>
+    <address>via  Bragaglia, 28, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Direzione Didattica XI Circolo)</note>
+  </location>
+  <location lat="44.516067" id="knd0008" long="11.338242">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Flora (ex Acri)</name>
+    <address>via  Flora, 7, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.516067" id="knd0009" long="11.338242">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Bolzani</name>
+    <address>via  Flora, 3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.512593" id="knd0010" long="11.349145">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Ceccarelli</name>
+    <address>via  Saliceto, 8/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.522264" id="knd0011" long="11.331306">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Coop Azzurra Comunale</name>
+    <address>via  della Beverara, 188, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.525692" id="knd0012" long="11.349892">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Del Mugnaio</name>
+    <address>via  Corticella, 147/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.50807 " id="knd0013" long="11.344266">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Federzoni</name>
+    <address>via  di Vincenzo, 11, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.526438" id="knd0014" long="11.341896">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Grosso</name>
+    <address>via  Erbosa, 20-22, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.531681" id="knd0015" long="11.351279">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Lanzarini</name>
+    <address>via  Marziale, 10, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.518619" id="knd0016" long="11.326924">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Manzini</name>
+    <address>Piazza Giovanni da Verazzano, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.544344" id="knd0017" long="11.357195">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Marsili</name>
+    <address>via  Colombarola, 38/6, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.544344" id="knd0018" long="11.357195">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Neri Attilia</name>
+    <address>via  Colombarola, 38/6, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.523911" id="knd0019" long="11.322076">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Zucchelli</name>
+    <address>via  Ca' Bianca, 13 /2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.529724" id="knd0020" long="11.365238">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Dozza</name>
+    <address>via  della Dozza, 8, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 15)</note>
+  </location>
+  <location lat="44.522264" id="knd0021" long="11.331306">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Coop Azzurra Statale</name>
+    <address>via  della Beverara, 188, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 3)</note>
+  </location>
+  <location lat="44.516292" id="knd0022" long=" 11.35131">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Succ. Dozza "il Flauto Magico"</name>
+    <address>via  Lombardi, 40, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 15)</note>
+  </location>
+  <location lat="44.542559" id="knd0023" long="11.356417">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Girotondo</name>
+    <address>via  Pettazzoni, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 4)</note>
+  </location>
+  <location lat="44.49419 " id="knd0024" long="11.346519">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Nuova Scuola Infanzia Navile</name>
+    <address>via  C. da Bologna BO, 29, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 5)</note>
+  </location>
+  <location lat="44.501026" id="knd0025" long="11.327732">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Andersen</name>
+    <address>via  dello Scalo, 17/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.502883" id="knd0026" long="11.311513">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Dall'olio</name>
+    <address>via  Monterumici, 1/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.502883" id="knd0027" long="11.311513">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Dozza Giuseppe</name>
+    <address>via  Monterumici, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.500459" id="knd0028" long="11.331048">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Guidi Teresina</name>
+    <address>via  Calori, 8, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.502015" id="knd0029" long="11.334835">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Mago Merlino</name>
+    <address>via  Azzogardino, 63, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.502883" id="knd0030" long="11.311513">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Marzabotto</name>
+    <address>via  Monterumici, 1/4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.503364" id="knd0031" long="11.341215">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>De Amicis</name>
+    <address>via  Milazzo, 3/1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 18)</note>
+  </location>
+  <location lat="44.504141" id="knd0032" long=" 11.30702">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Albertazzi</name>
+    <address>via  Berretta Rossa, 15, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.49868 " id="knd0033" long="11.292606">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Don Milani</name>
+    <address>via  Gucci, 14, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.491564" id="knd0034" long="11.291981">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Fantini</name>
+    <address>via  Lorenzetti, 8, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.493332" id="knd0035" long="11.292301">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Morandi</name>
+    <address>via  Beccaccino, 27, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.510913" id="knd0036" long="11.303224">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Pedrielli</name>
+    <address>via  del Giacinto, 35, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.496909" id="knd0037" long="11.288299">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Presi</name>
+    <address>via  Tolstoi, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.508344" id="knd0038" long="11.297679">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Seragnoli</name>
+    <address>via  Speranza, 32, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-2, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.497995" id="knd0039" long="11.285222">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Giovanni XXIII</name>
+    <address>via  Verga, 4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist.Comp. 1)</note>
+  </location>
+  <location lat="44.504513" id="knd0040" long="11.375013">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Iole Baroncini</name>
+    <address>via  Benini, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.512879" id="knd0041" long="11.397628">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Negri Ada</name>
+    <address>via  Campana, 53, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.50409 " id="knd0042" long="11.356314">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Rocca</name>
+    <address>via  Gandusio 4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.507814" id="knd0043" long="11.377621">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Tobagi</name>
+    <address>viale Zagabria, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.503574" id="knd0044" long="11.374711">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Benini</name>
+    <address>via  Benini, 3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist.Comp 11)</note>
+  </location>
+  <location lat="44.502975" id="knd0045" long="11.365932">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Gualandi - Palazzina</name>
+    <address>via  Beroaldo, 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 10)</note>
+  </location>
+  <location lat="44.502317" id="knd0046" long="11.365456">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Gualandi</name>
+    <address>via  dell?Artigiano, 5, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 10)</note>
+  </location>
+  <location lat="44.508666" id="knd0047" long="11.393961">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Panzini</name>
+    <address>via  Panzini, 5, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist.Comp. 11)</note>
+  </location>
+  <location lat="44.500221" id="knd0048" long="11.373355">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Garibaldi</name>
+    <address>via  Andreini, 41, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 11)</note>
+  </location>
+  <location lat="44.50517 " id="knd0049" long="11.365258">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Gualandi - Gioannetti</name>
+    <address>via  Gioannetti, 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 10)</note>
+  </location>
+  <location lat="44.481359" id="knd0050" long=" 11.33838">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Bacchi</name>
+    <address>via  Bellombra, 28/3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.486272" id="knd0051" long="11.350441">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Baraccano</name>
+    <address>via  Pascoli, 3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.481005" id="knd0052" long="11.345771">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Beltrame</name>
+    <address>via  Putti, 32, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.487015" id="knd0053" long="11.354487">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Carducci</name>
+    <address>via  Dante, 3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.479292" id="knd0054" long="11.372281">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Cattaneo</name>
+    <address>Largo Lercaro, 10, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.482221" id="knd0055" long=" 11.35603">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Degli Esposti</name>
+    <address>P.le Jacchia, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(interno Giardini Margherita)</note>
+  </location>
+  <location lat="44.481359" id="knd0056" long=" 11.33838">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Gabelli</name>
+    <address>via  Bellombra, 28/3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.480279" id="knd0057" long="11.373761">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Gastone Rossi</name>
+    <address>via  Nadi, 23, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.481479" id="knd0058" long="11.373148">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Il Monello</name>
+    <address>via  Pellizza da Volpedo, 11, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.482216" id="knd0059" long="11.356058">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Molino Tamburi</name>
+    <address>P.le Jacchia, 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(interno Giardini Margherita)</note>
+  </location>
+  <location lat="44.475161" id="knd0060" long="11.367607">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Testi Rasponi</name>
+    <address>via  Murri, 159, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.488788" id="knd0061" long="11.341083">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Padiglione</name>
+    <address>via  Tovaglie, 4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.48297 " id="knd0062" long="11.368087">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Marconi</name>
+    <address>via  L. Bassi, 20-22, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Direz. Didatt. 13)</note>
+  </location>
+  <location lat="44.473982" id="knd0063" long="11.368527">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Tambroni</name>
+    <address>via  Murri, 158, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Direz. Didatt. 13)</note>
+  </location>
+  <location lat="44.487967" id="knd0064" long="11.374803">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Arcobaleno</name>
+    <address>via  Arcobaleno, 17, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.492592" id="knd0065" long=" 11.37799">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Frank Anna</name>
+    <address>via  Spartaco, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.487967" id="knd0066" long="11.374803">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Marighetto</name>
+    <address>via  Arcobaleno, 17, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.496404" id="knd0067" long="11.380437">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>XVIII Aprile</name>
+    <address>via  Scandellara, 9/4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.495952" id="knd0068" long="11.349976">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Zamboni</name>
+    <address>via  Zamboni, 15, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.501148" id="knd0069" long="11.344708">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Betti Pl. 2</name>
+    <address>via  Irnerio, 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.501148" id="knd0070" long="11.344708">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Betti Pl. 3</name>
+    <address>via  Irnerio, 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.490315" id="knd0071" long="11.370613">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Don Bosco</name>
+    <address>via  Vizzani, 56, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 16)</note>
+  </location>
+  <location lat="44.496229" id="knd0072" long="11.366244">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Giordani</name>
+    <address>via  Sante Vincenzi, 43, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 6)</note>
+  </location>
+  <location lat="44.494829" id="knd0073" long=" 11.40024">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Villetta Mattei</name>
+    <address>via  Mattei, 20, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 7)</note>
+  </location>
+  <location lat="44.496405" id="knd0074" long="11.382982">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Scandellara</name>
+    <address>via  Scandellara, 56, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 7)</note>
+  </location>
+  <location lat="44.492028" id="knd0075" long="11.308149">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Cantalamessa</name>
+    <address>via  dello Sport, 23-25, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.476499" id="knd0076" long="11.3072578">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Casaglia</name>
+    <address>via  Casaglia, 39, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.486646" id="knd0077" long="11.315649">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>De Stefani</name>
+    <address>via  Dotti, 21, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.491331" id="knd0078" long="11.322608">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Gobetti</name>
+    <address>via  Perti, 26, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.492998" id="knd0079" long="11.311466">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Arco Guidi Pace</name>
+    <address>Piazza della Pace, 3 /3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.493806" id="knd0080" long="11.311814">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Arco Guidi Costa</name>
+    <address>via Andrea Costa 162, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.49296 " id="knd0081" long="11.333066">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Serra Anna Pl. 1 e Pl. 2</name>
+    <address>via  Ca' Selvatica, 11/3, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.49158 " id="knd0082" long="11.314505">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>XXI Aprile</name>
+    <address>via  Onofri, 7, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.493607" id="knd0083" long="11.333758">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Manzolini</name>
+    <address>via  S. Isaia, 20, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Direz. Didatt. 3)</note>
+  </location>
+  <location lat="44.47651" id="knd0084" long="11.380112">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Ciari Bruno</name>
+    <address>L.go Brescia, 10, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.468453" id="knd0085" long="11.383844">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Walt Disney</name>
+    <address>via  Bezzecca, 8, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.459525" id="knd0086" long="11.369679">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Ferrari Nuova</name>
+    <address>via  Buon Pastore, 2/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.485664" id="knd0087" long="11.377008">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Follerau</name>
+    <address>viale Felsina, 25, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.468717" id="knd0088" long="11.389813">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Gli Amici Di Giovanni</name>
+    <address>via  Bassano del Grappa, 4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.472872" id="knd0089" long="11.381261">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Mazzoni</name>
+    <address>via  Milano, 11, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.477883" id="knd0090" long="11.396403">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>S. Domenico Savio</name>
+    <address>via  Golinelli, 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.468076" id="knd0091" long="11.372347">
+    <category>Scuola Materna</category>
+    <subcategory>comunale</subcategory>
+    <name>Scarlatti</name>
+    <address>via  Scarlatti, 1, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+  </location>
+  <location lat="44.473474" id="knd0092" long="11.387286">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Deledda</name>
+    <address>via  Domodossola, 2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Direz. Didatt. 5)</note>
+  </location>
+  <location lat="44.488675" id="knd0093" long="11.384213">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Don Marella</name>
+    <address>via  Populonia, 9, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 12)</note>
+  </location>
+  <location lat="44.459525" id="knd0094" long="11.369679">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Ferrari Statale</name>
+    <address>via Buon Pastore, 2/2, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 13)</note>
+  </location>
+  <location lat="44.471764" id="knd0095" long="11.379907">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Bertolini (ex Costa)</name>
+    <address>via  Milano, 13, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Direz. Didatt. 5)</note>
+  </location>
+  <location lat="44.465019" id="knd0096" long="11.378828">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Sanzio</name>
+    <address>via  Abba, 5, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 9)</note>
+  </location>
+  <location lat="44.481647" id="knd0097" long="11.382663">
+    <category>Scuola Materna</category>
+    <subcategory>statale</subcategory>
+    <name>Viscardi</name>
+    <address>via  Bartolini, 4, Bologna BO, Italy</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 07-15, 07-01, 12-08, 12-25, 12-26, -08-: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0730-1730.</opening>
+    <note>(Ist. Comp. 12)</note>
+  </location>
+</locations>
+

@@ -1,0 +1,3196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">
+<locations>
+  <metadata>
+    <creator>Gruppo MAL 2012</creator>
+    <created>2012-01-02</created>
+    <version>1.0</version>
+    <source>From http://www.salute.bologna.it/</source>
+    <valid>2012-12-31</valid>
+  </metadata>
+  <location lat="44.5114173" id="amb001" long="11.3910366">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Acciarri Sandro</name>
+    <address>Via Luigi Pirandello, 14/i, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1600-1800. Mon, Wed, Fri: 0900-1100.</opening>
+  </location>
+  <location lat="44.4883772" id="amb002" long="11.3491521">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Acciarri Sandro</name>
+    <address>Via Rialto, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1800. Tue, Thu: 1000-1200. Wed, Fri: 1500-1800.</opening>
+  </location>
+  <location lat="44.4953812" id="amb003" long="11.2850627">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Adalio Giuseppina</name>
+    <address>Piazza Giovanni Xxiii, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1630-1830. Tue: 0830-1030. Wed: 1345-1545. Thu: 0800-1130. Fri: 1400-1530.</opening>
+  </location>
+  <location lat="44.4919269" id="amb004" long="11.315698">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Adalio Giuseppina</name>
+    <address>Via Mario Bastia, 18, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1100-1230. Thu: 1630-1830. Mon, Wed, Fri: 0830-1030.</opening>
+  </location>
+  <location lat="44.5168254" id="amb005" long="11.3413632">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Adamo Francesca</name>
+    <address>Via Francesco Barbieri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1100-1300. Tue, Thu: 1700-1900. Mon, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.496069" id="amb006" long="11.3643345">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Adamo Francesca</name>
+    <address>Via Giuseppe Bentivogli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1700-1930. Tue, Thu: 0930-1130.</opening>
+  </location>
+  <location lat="44.4895186" id="amb007" long="11.3471222">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Adani Carlo</name>
+    <address>Via Castiglione, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1500-1900. Mon, Thu: 1530-1900. Tue, Fri: 0930-1300.</opening>
+  </location>
+  <location lat="44.4993731" id="amb008" long="11.3193538">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Alberti Alessandro</name>
+    <address>Via Podgora, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1500-1700. Mon, Wed: 1500-1800. Tue, Thu: 1000-1300.</opening>
+  </location>
+  <location lat="44.5025562" id="amb009" long="11.2909967">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Albini Ugo</name>
+    <address>Via Filippo De Pisis, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1730-2000. Wed, Thu, Fri: 1700-2000. Tue, Sat: 0800-1030.</opening>
+  </location>
+  <location lat="44.5019096" id="amb010" long="11.3396991">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Aldrovandi Emanuela</name>
+    <address>Piazza Dei Martiri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0900-1200. Thu: 0900-1100.</opening>
+  </location>
+  <location lat="44.5001516" id="amb011" long="11.3429453">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Aldrovandi Emanuela</name>
+    <address>Via Galliera, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1900. Wed: 1700-1900. Thu: 1130-1300. Tue, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="" id="amb012" long="">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Alessi Pasquale</name>
+    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1500-1800. Mon, Wed: 1500-1900. Tue, Thu: 0830-1200.</opening>
+  </location>
+  <location lat="44.5019684" id="amb013" long="11.3737344">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ammar Khodor</name>
+    <address>Via Isabella Andreini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 0900-1200;1600-1800.</opening>
+  </location>
+  <location lat="44.4894478" id="amb014" long="11.3201805">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Amorati Paolo</name>
+    <address>Via Saragozza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu: 1430-1930. Wed, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.5478296" id="amb015" long="11.3561424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Amovilli Marco</name>
+    <address>Via Genuzio Bentini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 1700-1900. Tue, Fri: 0900-1100.</opening>
+  </location>
+  <location lat="44.5092957" id="amb016" long="11.3437528">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Amovilli Marco</name>
+    <address>Via Zampieri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 0830-1130. Tue, Fri: 1530-1830.</opening>
+  </location>
+  <location lat="44.475348" id="amb017" long="11.3842196">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Anania Alfonso</name>
+    <address>Via Sardegna, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0830-1130. Wed: 0830-1145. Tue, Thu, Fri: 1600-1900.</opening>
+  </location>
+  <location lat="44.4850914" id="amb018" long="11.3486392">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Anconetani Bruno</name>
+    <address>Piazza Di Porta Castiglione, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1830-1930. Wed: 1100-1200. Fri: 1800-1900.</opening>
+  </location>
+  <location lat="44.4807479" id="amb019" long="11.3677052">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Anconetani Bruno</name>
+    <address>Via Ruggi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 1500-1800. Mon, Fri: 1100-1300.</opening>
+  </location>
+  <location lat="44.5078385" id="amb020" long="11.3459951">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Andreoli Stefano</name>
+    <address>Via Giacomo Matteotti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-2000. Wed, Thu: 1600-2000. Tue, Fri: 0900-1300.</opening>
+  </location>
+  <location lat="44.5072533" id="amb021" long="11.3600789">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Anselmi Antonio</name>
+    <address>Via Cleto Tomba, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1500-1700. Tue, Wed: 1730-1900. Mon, Thu: 1030-1200.</opening>
+  </location>
+  <location lat="44.488149" id="amb022" long="11.3101833">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Antonucci Asmerino</name>
+    <address>Via Del Meloncello, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0900-1300. Mon, Wed: 1530-1900.</opening>
+  </location>
+  <location lat="44.5066061" id="amb023" long="11.2996065">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Antonucci Asmerino</name>
+    <address>Via Lemonia, 45/e, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1600-1900. Mon, Wed: 1400-1500. Tue, Thu: 0830-1200.</opening>
+  </location>
+  <location lat="44.4953812" id="amb024" long="11.2850627">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Arcuri Rita Filomena</name>
+    <address>Piazza Giovanni Xxiii, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0930-1130. Mon, Wed: 0930-1200. Tue, Thu: 1700-1900.</opening>
+  </location>
+  <location lat="44.5173608" id="amb025" long="11.3377901">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Arcuri Rita Filomena</name>
+    <address>Via Piero Gobetti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1000-1200. Mon, Wed: 1630-1830.</opening>
+  </location>
+  <location lat="44.4892525" id="amb026" long="11.3510745">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ardito Patrizia</name>
+    <address>Via Santo Stefano, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1200-1300;1400-1500. Tue, Thu: 1600-1900. Wed, Fri: 1000-1400.</opening>
+  </location>
+  <location lat="44.4989253" id="amb027" long="11.345221">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Assirelli Barbara</name>
+    <address>Via Augusto Righi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1730-1900. Thu: 1500-1800. Tue, Wed, Fri: 0830-1200.</opening>
+  </location>
+  <location lat="44.5104827" id="amb028" long="11.3017072">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bagala' Gaetano</name>
+    <address>Via Giorgione, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1530-1830. Mon, Wed: 1000-1200.</opening>
+  </location>
+  <location lat="44.5189023" id="amb029" long="11.2773105">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bagala' Gaetano</name>
+    <address>Via Nani, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1700. Wed: 1600-1900. Fri: 1430-1730. Tue, Thu: 0930-1230.</opening>
+  </location>
+  <location lat="44.4877214" id="amb030" long="11.3611131">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bagnoli Luigi</name>
+    <address>Piazza Trento E Trieste, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0800-1200. Thu: 0800-1200;1600-1800. Fri: 1530-1900. Mon, Wed: 1500-1900.</opening>
+  </location>
+  <location lat="44.4921377" id="amb031" long="11.3057748">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Balduzzi Antonio</name>
+    <address>Via Dal Lino, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1000-1200. Thu: 1000-1230. Mon, Wed, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.4883772" id="amb032" long="11.3491521">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Balduzzi Antonio</name>
+    <address>Via Rialto, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1500-1700. Mon, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.5011683" id="amb033" long="11.3365419">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Barbieri Massimo</name>
+    <address>Via Azzogardino, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1600-1800. Mon, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.4794751" id="amb034" long="11.3835926">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Barbieri Massimo</name>
+    <address>Via Marche, 2, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1630-1830. Tue, Thu: 1000-1200. Wed, Fri: 1630-1900.</opening>
+  </location>
+  <location lat="44.4895186" id="amb035" long="11.3471222">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bassi Beatrice</name>
+    <address>Via Castiglione, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0900-1200. Fri: 0900-1200;1400-1600. Mon, Tue, Thu: 1500-1900.</opening>
+  </location>
+  <location lat="44.5320902" id="amb036" long="11.3531639">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Belotti Barbara</name>
+    <address>Via Di Corticella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed: 1530-1815. Mon, Thu, Fri: 0830-1145.</opening>
+  </location>
+  <location lat="44.4953812" id="amb037" long="11.2850627">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Belotti Massimo</name>
+    <address>Piazza Giovanni Xxiii, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0830-1030. Wed: 0830-1100. Fri: 1530-1800. Tue, Thu: 1530-1830.</opening>
+  </location>
+  <location lat="44.5104827" id="amb038" long="11.3017072">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Belotti Massimo</name>
+    <address>Via Giorgione, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1600-1830. Thu: 0900-1100.</opening>
+  </location>
+  <location lat="44.4791299" id="amb039" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Beltrani Mario</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0800-1200;1300-1500. Mon, Wed, Fri: 0800-1200.</opening>
+  </location>
+  <location lat="44.5290248" id="amb040" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Benassi Rita</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0930-1200. Fri: 0930-1030. Tue, Thu: 1600-1830.</opening>
+  </location>
+  <location lat="44.4974618" id="amb041" long="11.3322049">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Benassi Rita</name>
+    <address>Via San Felice, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1600-1830. Thu: 0930-1200;1700-1830. Fri: 1130-1230. Tue, Wed: 0930-1200.</opening>
+  </location>
+  <location lat="44.4791896" id="amb042" long="11.3695529">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Berardi Salvatore</name>
+    <address>Via Dagnini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0830-0930;1630-1900. Wed: 0900-1200. Mon, Thu, Fri: 1630-1900.</opening>
+  </location>
+  <location lat="44.4942188" id="amb043" long="11.3518204">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bernasconi Tommaso</name>
+    <address>Via San Vitale, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0900-1100. Wed: 1400-1600. Fri: 0800-1000. Mon, Thu: 1700-1900.</opening>
+  </location>
+  <location lat="44.4671475" id="amb044" long="11.3799324">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bevini Maurizio</name>
+    <address>Via Della Battaglia, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1000-1230;1700-1930. Mon, Wed: 1430-1700. Thu, Fri: 1000-1230.</opening>
+  </location>
+  <location lat="44.4991789" id="amb045" long="11.3217276">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Biavati Francesco</name>
+    <address>Via Montello, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1600-1900. Mon, Wed, Fri: 1000-1300.</opening>
+  </location>
+  <location lat="44.4825916" id="amb046" long="11.3885805">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Boldrini Maria Patrizia</name>
+    <address>Viale Abramo Lincoln, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0900-1200. Tue, Thu: 1600-1900. Wed, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.4953139" id="amb047" long="11.2928214">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bolelli Milvia</name>
+    <address>Piazza Aldo Capitini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0900-1100. Mon, Wed, Fri: 1500-1800.</opening>
+  </location>
+  <location lat="44.5211022" id="amb048" long="11.2964445">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Borgatti Roberto</name>
+    <address>Via Del Triumvirato, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1400-1500. Tue, Thu, Fri: 1530-1900.</opening>
+  </location>
+  <location lat="44.5099443" id="amb049" long="11.285356">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Borgatti Roberto</name>
+    <address>Via Della Pietra,, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1900. Wed, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.488149" id="amb050" long="11.3101833">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Borghi Paolo</name>
+    <address>Via Del Meloncello, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0830-1100. Wed: 0800-1100. Fri: 1500-1830. Tue, Thu: 0830-1100;1530-1830.</opening>
+  </location>
+  <location lat="44.4806921" id="amb051" long="11.3816329">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Breschi Paolo</name>
+    <address>Via Emilia Levante, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1000-1300. Mon, Wed, Fri: 1700-2000.</opening>
+  </location>
+  <location lat="44.5095583" id="amb052" long="11.3967888">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bruni Monica</name>
+    <address>Via Grazia Deledda, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1230-1300;1300-1330. Tue, Wed: 1500-1700. Mon, Thu: 1130-1230.</opening>
+  </location>
+  <location lat="44.4966975" id="amb053" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Bruni Monica</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed: 1830-1930.</opening>
+  </location>
+  <location lat="44.5211784" id="amb054" long="11.3123682">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Businello Mario</name>
+    <address>Via Agucchi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1400-1900. Wed: 1630-1900. Fri: 1400-1700. Tue, Thu: 1000-1230.</opening>
+  </location>
+  <location lat="44.4850914" id="amb055" long="11.3486392">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Caccavelli Angela</name>
+    <address>Piazza Di Porta Castiglione, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1700. Tue: 1100-1230. Wed: 1700-1900. Thu: 1100-1300. Fri: 0830-1030.</opening>
+  </location>
+  <location lat="44.4953418" id="amb056" long="11.3397028">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Caccavelli Angela</name>
+    <address>Via Ugo Bassi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0830-1000. Wed: 1530-1630. Fri: 1115-1230. Mon, Thu: 1800-1900.</opening>
+  </location>
+  <location lat="44.5073634" id="amb057" long="11.3004325">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cadeddu Maria Grazia</name>
+    <address>Via Decumana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1500-1800. Tue, Thu, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.4791299" id="amb058" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Calamelli Riccardo</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0930-1230. Mon, Wed, Fri: 1530-1830.</opening>
+  </location>
+  <location lat="44.5320902" id="amb059" long="11.3531639">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Callegati Maria Luisa</name>
+    <address>Via Di Corticella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1530-1830. Thu: 1700-2000. Mon, Wed, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.4810942" id="amb060" long="11.3772552">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Calogiuri Francesco</name>
+    <address>Via Fiorita, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0900-1200;1600-1900. Mon, Wed: 1530-1930. Tue, Thu: 0900-1200.</opening>
+  </location>
+  <location lat="44.5320902" id="amb061" long="11.3531639">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Calzoni Paolo</name>
+    <address>Via Di Corticella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0900-1200. Mon, Wed, Fri: 1430-1800.</opening>
+  </location>
+  <location lat="44.4671501" id="amb062" long="11.378227">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cameranesi Alessandro</name>
+    <address>Via Cherubini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1630-1830. Mon, Wed, Fri: 1230-1430.</opening>
+  </location>
+  <location lat="44.6393636" id="amb063" long="11.1872138">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cammarata Antonino</name>
+    <address>Via D'azeglio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1030-1230.</opening>
+  </location>
+  <location lat="44.4810942" id="amb064" long="11.3772552">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cammarata Antonino</name>
+    <address>Via Fiorita, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1530-1830. Mon, Wed, Fri: 1000-1300.</opening>
+  </location>
+  <location lat="44.4992356" id="amb065" long="11.3438494">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Campanelli Anna Rita</name>
+    <address>Via Dell'indipendenza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 1030-1230. Mon, Fri: 1500-1800.</opening>
+  </location>
+  <location lat="44.5186571" id="amb066" long="11.3525736">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Campanelli Anna Rita</name>
+    <address>Via Don G. Fornasini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed: 1700-1930. Mon, Fri: 1100-1200.</opening>
+  </location>
+  <location lat="44.4958628" id="amb067" long="11.365058">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Campanelli Anna Rita</name>
+    <address>Via Giuseppe Ceneri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0830-0930.</opening>
+  </location>
+  <location lat="44.5184235" id="amb068" long="11.3944254">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Capelli Carla</name>
+    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed, Thu: 1030-1300. Mon, Tue, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.5290248" id="amb069" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Capobianco Claudio</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1000-1300;1300-1330. Mon, Wed: 1530-1900. Tue, Thu: 0900-1230.</opening>
+  </location>
+  <location lat="44.5320902" id="amb070" long="11.3531639">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Casadei Massimo</name>
+    <address>Via Di Corticella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed: 0900-1200. Mon, Thu, Fri: 1500-1800.</opening>
+  </location>
+  <location lat="44.4992356" id="amb071" long="11.3438494">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Casadio Roberto</name>
+    <address>Via Dell'indipendenza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0830-1230. Wed: 1530-1900. Fri: 0830-1200. Mon, Thu: 1530-1800.</opening>
+  </location>
+  <location lat="44.4877214" id="amb072" long="11.3611131">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Casarini Piero</name>
+    <address>Piazza Trento E Trieste, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0830-1230. Mon, Wed: 0930-1130;1500-1900. Tue, Thu: 1500-1900.</opening>
+  </location>
+  <location lat="44.4896654" id="amb073" long="11.3693644">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Casarini Piero</name>
+    <address>Via Carlo Alberto Pizzardi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 0900-1200. Tue, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.4895186" id="amb074" long="11.3471222">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Castellitto Anthony</name>
+    <address>Via Castiglione, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1500-1630. Fri: 1500-1600.</opening>
+  </location>
+  <location lat="44.5290248" id="amb075" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Castellitto Anthony</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0900-1000. Tue: 1530-1630. Thu: 0830-1000.</opening>
+  </location>
+  <location lat="44.5137744" id="amb076" long="11.3882182">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Castellitto Anthony</name>
+    <address>Via San Donato, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 1700-1900. Tue, Wed, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.5478296" id="amb077" long="11.3561424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cau Roberto</name>
+    <address>Via Genuzio Bentini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0830-1100;1500-1900. Fri: 1500-1900. Mon, Tue, Thu: 0830-1200.</opening>
+  </location>
+  <location lat="44.4758466" id="amb078" long="11.3773975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cavallo Lo Magno Mario</name>
+    <address>Via Degli Orti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1000-1100. Mon, Wed: 1430-1600. Thu, Fri: 1030-1200.</opening>
+  </location>
+  <location lat="44.4974618" id="amb079" long="11.3322049">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cavallo Lo Magno Mario</name>
+    <address>Via San Felice, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1100-1200. Tue, Wed, Fri: 1600-1730.</opening>
+  </location>
+  <location lat="44.5066061" id="amb080" long="11.2996065">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cavazzoni Renzo</name>
+    <address>Via Lemonia, 45/e, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1500-1930. Thu: 1500-1900. Mon, Wed, Fri: 1100-1300.</opening>
+  </location>
+  <location lat="44.4980875" id="amb081" long="11.3190464">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cavazzoni Renzo</name>
+    <address>Via Pasubio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1100-1230. Mon, Wed, Fri: 1530-1830.</opening>
+  </location>
+  <location lat="44.5115449" id="amb082" long="11.3474324">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Chierici Stefano</name>
+    <address>Piazza Dell'unita', Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1830-2000. Tue, Thu, Fri: 1800-1930.</opening>
+  </location>
+  <location lat="44.475348" id="amb083" long="11.3842196">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Chiesura Antonio</name>
+    <address>Via Sardegna, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1600-1900. Tue, Thu, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.5433551" id="amb084" long="11.3559214">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Chiriaco' Luciano</name>
+    <address>Via Gatti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0930-1230. Mon, Wed: 0900-1230. Tue, Thu: 1630-1900.</opening>
+  </location>
+  <location lat="44.5078385" id="amb085" long="11.3459951">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Chiriaco' Luciano</name>
+    <address>Via Giacomo Matteotti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1600-2000. Tue: 1430-1630. Wed: 0800-0900. Thu: 0800-1000. Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.4810942" id="amb086" long="11.3772552">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ciardulli Carmine</name>
+    <address>Via Fiorita, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1430-1600. Wed: 0830-1030. Thu: 1800-1930. Fri: 0845-1100.</opening>
+  </location>
+  <location lat="44.4933814" id="amb087" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ciardulli Carmine</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1500-1900. Wed: 1500-1730. Thu: 1500-1800. Mon, Fri: 1630-1900.</opening>
+  </location>
+  <location lat="44.4744583" id="amb088" long="11.3875088">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cicognani Michele</name>
+    <address>Via Alfonsine, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1530-1900. Mon, Tue: 1600-1900. Wed, Fri: 0830-1130.</opening>
+  </location>
+  <location lat="44.4765426" id="amb089" long="11.3620714">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cipollani Franca</name>
+    <address>Via Adelaide Borghi Mamo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1500-1600. Thu: 0900-1030. Fri: 1200-1300. Mon, Wed: 0900-1200.</opening>
+  </location>
+  <location lat="44.4791299" id="amb090" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cipollani Franca</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1600-1830. Thu: 1530-1630. Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.5198613" id="amb091" long="11.2683093">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Colella Pasquale</name>
+    <address>Via Marco Emilio Lepido, 177, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed, Thu: 1500-1900. Mon, Tue, Fri: 0900-1300.</opening>
+  </location>
+  <location lat="44.4926348" id="amb092" long="11.3551263">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Comellini Marco</name>
+    <address>Via Broccaindosso, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1600-2000. Tue, Thu, Fri: 1600-1930.</opening>
+  </location>
+  <location lat="44.4870673" id="amb093" long="11.3652409">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Consolini Pier Luigi</name>
+    <address>Via Mazzini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1000-1200. Tue: 1800-1930. Thu: 1400-1600.</opening>
+  </location>
+  <location lat="44.4700223" id="amb094" long="11.3731526">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Consolini Pier Luigi</name>
+    <address>Via Pietro Mascagni, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 0900-1100. Mon, Wed: 1630-1900. Tue, Fri: 1400-1630.</opening>
+  </location>
+  <location lat="44.4966975" id="amb095" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Contini Luigi</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1700-1830. Tue, Thu, Fri: 1030-1200.</opening>
+  </location>
+  <location lat="44.4768763" id="amb096" long="11.3974968">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Contissa Felice</name>
+    <address>Piazza Grigoris Lambrakis, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1600-1800. Wed: 1700-1830. Fri: 1030-1230. Mon, Thu: 1100-1230.</opening>
+  </location>
+  <location lat="44.4933814" id="amb097" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Contissa Felice</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1615-1800. Mon, Wed: 1600-1800.</opening>
+  </location>
+  <location lat="44.5095583" id="amb098" long="11.3967888">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Contissa Felice</name>
+    <address>Via Grazia Deledda, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1600-1900. Fri: 1500-1600. Mon, Tue, Wed: 1100-1230.</opening>
+  </location>
+  <location lat="44.4989253" id="amb099" long="11.345221">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cordella Antonio</name>
+    <address>Via Augusto Righi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1830-1930. Tue: 1130-1230. Thu: 1100-1200. Fri: 1330-1430.</opening>
+  </location>
+  <location lat="44.502228" id="amb100" long="11.297766">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cordella Antonio</name>
+    <address>Via Battindarno, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0930-1100. Wed: 1700-1830. Fri: 0930-1030.</opening>
+  </location>
+  <location lat="44.4966975" id="amb101" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cordella Antonio</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0930-1030. Thu: 0830-1030. Fri: 1130-1300. Mon, Wed: 1500-1600.</opening>
+  </location>
+  <location lat="44.4892525" id="amb102" long="11.3510745">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Costantini Alessandro</name>
+    <address>Via Santo Stefano, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Sat: 1100-1200. Tue, Wed, Thu: 1700-1900. Mon, Fri: 1030-1230.</opening>
+  </location>
+  <location lat="44.502228" id="amb103" long="11.297766">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cremonini Paolo</name>
+    <address>Via Battindarno, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1830. Thu: 1600-1830. Fri: 1430-1530. Tue, Wed: 0930-1200.</opening>
+  </location>
+  <location lat="44.4966975" id="amb104" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Crooke Aldo Stefano</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1100-1300. Wed: 0830-1030. Tue, Thu, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.5114173" id="amb105" long="11.3910366">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Cuppini Anna Rosa</name>
+    <address>Via Luigi Pirandello, 14/l, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1000-1230. Tue: 1630-1830. Wed: 0930-1100;1500-1600. Thu, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.5127276" id="amb106" long="11.3414972">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Curti Gabriele</name>
+    <address>Via Aristotile Fioravanti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1600-1930.</opening>
+  </location>
+  <location lat="44.5211784" id="amb107" long="11.3123682">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Curti Maurizio</name>
+    <address>Via Agucchi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1900-2100. Tue: 1730-1900. Wed: 1430-1600. Thu, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.4909998" id="amb108" long="11.351089">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Dalaiti Andrea</name>
+    <address>Via Guerrazzi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 0830-1000;1500-1900. Tue, Wed, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.5137744" id="amb109" long="11.3882182">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Bellis Pietro</name>
+    <address>Via San Donato, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed, Thu: 1430-1930. Mon, Tue, Fri: 0800-1100.</opening>
+  </location>
+  <location lat="44.4989253" id="amb110" long="11.345221">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Camillis Manuela</name>
+    <address>Via Augusto Righi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0830-1300. Wed, Thu: 1400-1600. Tue, Fri: 0830-1200.</opening>
+  </location>
+  <location lat="44.4923288" id="amb111" long="11.3270592">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Santis Franco</name>
+    <address>Via Rodolfo Audinot, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0900-1200. Wed: 0900-1100. Mon, Fri: 1600-1900.</opening>
+  </location>
+  <location lat="44.4953418" id="amb112" long="11.3397028">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Santis Franco</name>
+    <address>Via Ugo Bassi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0900-1200. Thu: 0900-1100. Fri: 0915-1200. Tue, Wed: 1500-1700.</opening>
+  </location>
+  <location lat="44.5021583" id="amb113" long="11.3526702">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Seneen Michele</name>
+    <address>Piazza Di Porta Mascarella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1600-1700. Wed: 1700-1800.</opening>
+  </location>
+  <location lat="44.4791299" id="amb114" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Seneen Michele</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1630-1800. Mon, Wed: 1130-1300. Tue, Thu: 1730-1900.</opening>
+  </location>
+  <location lat="44.5021583" id="amb115" long="11.3526702">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Vicariis Maria Immacolata</name>
+    <address>Piazza Di Porta Mascarella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Fri: 0830-0930.</opening>
+  </location>
+  <location lat="44.494466" id="amb116" long="11.2959151">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Vicariis Maria Immacolata</name>
+    <address>Via Della Barca, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1700. Wed: 1800-1900. Thu: 0930-1130. Tue, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.5187664" id="amb117" long="11.2719514">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>De Vicariis Maria Immacolata</name>
+    <address>Via Marco Emilio Lepido, 151, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1000-1200. Tue, Thu: 1700-1900. Wed, Fri: 1500-1700.</opening>
+  </location>
+  <location lat="44.496323" id="amb118" long="11.2930951">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Del Vecchio Aurelio</name>
+    <address>Piazza Clodoveo Bonazzi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0830-1030. Tue: 0900-1000. Thu: 1400-1500. Wed, Fri: 0830-1000.</opening>
+  </location>
+  <location lat="44.494466" id="amb119" long="11.2959151">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Del Vecchio Aurelio</name>
+    <address>Via Della Barca, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1630-2000. Mon, Tue, Thu, Fri: 1645-1930.</opening>
+  </location>
+  <location lat="44.506448" id="amb120" long="11.3058634">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Dell'isola Giulio</name>
+    <address>Via Emilia Ponente, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1600-1830. Tue, Wed, Thu, Fri: 1000-1230.</opening>
+  </location>
+  <location lat="44.5198613" id="amb121" long="11.2683093">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Deni Cecilia</name>
+    <address>Via Marco Emilio Lepido, 177, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1500-1900. Mon, Wed, Fri: 0900-1300.</opening>
+  </location>
+  <location lat="44.4965546" id="amb122" long="11.3459426">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Di Falco Antonella</name>
+    <address>Via Guglielmo Oberdan, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1600-1800. Thu: 1330-1430. Mon, Tue, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.506448" id="amb123" long="11.3058634">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Di Giacomo Arturo</name>
+    <address>Via Emilia Ponente, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu: 1000-1300. Wed, Fri: 1530-1830.</opening>
+  </location>
+  <location lat="44.4758466" id="amb124" long="11.3773975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Donato Alfonso</name>
+    <address>Via Degli Orti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1700. Tue: 1500-1600. Wed: 1700-1900. Thu: 1600-1700. Fri: 1630-1900.</opening>
+  </location>
+  <location lat="44.5137744" id="amb125" long="11.3882182">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Dovesi Anna</name>
+    <address>Via San Donato, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu: 1500-1800. Wed, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.6393636" id="amb126" long="11.1872138">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Eleonori Roberto</name>
+    <address>Via D'azeglio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1600-1730.</opening>
+  </location>
+  <location lat="44.4810942" id="amb127" long="11.3772552">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Eleonori Roberto</name>
+    <address>Via Fiorita, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1045-1200.</opening>
+  </location>
+  <location lat="44.4992356" id="amb128" long="11.3438494">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ermini Giuliano</name>
+    <address>Via Dell'indipendenza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1530-1900. Mon, Wed: 0830-1100.</opening>
+  </location>
+  <location lat="44.5236897" id="amb129" long="11.2670702">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ermini Giuliano</name>
+    <address>Via Pontida, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 1600-1900. Tue, Fri: 0800-1100.</opening>
+  </location>
+  <location lat="44.5433551" id="amb130" long="11.3559214">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Fantinelli Sauro</name>
+    <address>Via Gatti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1000-1230. Mon, Wed, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.4671501" id="amb131" long="11.378227">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Farina Giampaolo</name>
+    <address>Via Cherubini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1630-1930. Thu: 1500-1830. Fri: 0900-1230. Mon, Wed: 0930-1230.</opening>
+  </location>
+  <location lat="44.5078385" id="amb132" long="11.3459951">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Farioli Francesca</name>
+    <address>Via Giacomo Matteotti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0830-1030. Tue: 1000-1300. Fri: 1600-1900. Wed, Thu: 1000-1200.</opening>
+  </location>
+  <location lat="44.4768763" id="amb133" long="11.3974968">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Farneti Piero</name>
+    <address>Piazza Grigoris Lambrakis, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1800-1900. Mon, Fri: 1130-1230.</opening>
+  </location>
+  <location lat="44.4791299" id="amb134" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Farneti Piero</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1000-1200. Mon, Wed, Fri: 1500-1730.</opening>
+  </location>
+  <location lat="44.5019684" id="amb135" long="11.3737344">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ferocino Agata</name>
+    <address>Via Isabella Andreini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1530-1900. Mon, Wed, Fri: 0830-1230.</opening>
+  </location>
+  <location lat="44.496323" id="amb136" long="11.2930951">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ferraresi Andrea</name>
+    <address>Piazza Clodoveo Bonazzi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1630-1730. Wed: 1430-1530. Fri: 1730-1830. Tue, Thu: 1130-1230.</opening>
+  </location>
+  <location lat="44.5137744" id="amb137" long="11.3882182">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ferrari Claudio</name>
+    <address>Via San Donato, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed, Thu: 1000-1100;1500-1900. Mon, Tue, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.4989253" id="amb138" long="11.345221">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ferrari Giuseppe</name>
+    <address>Via Augusto Righi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1730. Wed: 0800-0830. Fri: 1130-1230.</opening>
+  </location>
+  <location lat="44.4933814" id="amb139" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ferrari Giuseppe</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1030-1300. Fri: 1600-1830. Mon, Wed, Thu: 1100-1300.</opening>
+  </location>
+  <location lat="44.5115358" id="amb140" long="11.3431467">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ferrerio Giuseppe</name>
+    <address>Via Nicolo' Dall'arca, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1600-1900. Mon, Wed: 0930-1230. Tue, Fri: 0930-1230;1600-1900.</opening>
+  </location>
+  <location lat="44.487724" id="amb141" long="11.3507367">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Fersini Franco</name>
+    <address>Via De' Coltelli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1000-1200. Mon, Wed, Fri: 1515-1900.</opening>
+  </location>
+  <location lat="44.5320902" id="amb142" long="11.3531639">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Finelli Irene</name>
+    <address>Via Di Corticella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1530-1830. Mon, Thu: 1500-1830. Wed, Fri: 0900-1130.</opening>
+  </location>
+  <location lat="44.4966975" id="amb143" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Foresti Alessandra</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1400-1730. Thu: 0900-1300. Fri: 1300-1300;1300-1730. Mon, Wed: 1000-1300.</opening>
+  </location>
+  <location lat="44.4825916" id="amb144" long="11.3885805">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Foresti Alessandra</name>
+    <address>Viale Abramo Lincoln, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1100-1230. Mon, Wed: 1700-1830.</opening>
+  </location>
+  <location lat="44.5177666" id="amb145" long="11.3392195">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Franze' Maria Grazia</name>
+    <address>Via Alceste Giovannini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1300-1400. Mon, Wed: 1530-1900. Tue, Thu: 0930-1230.</opening>
+  </location>
+  <location lat="44.4791299" id="amb146" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Franze' Maria Grazia</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1530-1730. Wed, Fri: 0930-1130.</opening>
+  </location>
+  <location lat="44.5188681" id="amb147" long="11.3287859">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Frezzotti Daniela</name>
+    <address>Via Marco Polo, 22/b, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1530-1830. Tue, Thu: 0900-1200;1530-1830. Mon, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.6393636" id="amb148" long="11.1872138">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Furlo' Giancarlo</name>
+    <address>Via D'azeglio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu, Fri: 0800-0930.</opening>
+  </location>
+  <location lat="44.4758466" id="amb149" long="11.3773975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Furlo' Giancarlo</name>
+    <address>Via Degli Orti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 0800-1100. Tue, Thu, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.5478296" id="amb150" long="11.3561424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gabusi Stefano</name>
+    <address>Via Genuzio Bentini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 0900-1000. Tue, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.5092957" id="amb151" long="11.3437528">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gabusi Stefano</name>
+    <address>Via Zampieri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0830-1130. Fri: 0830-1200. Mon, Wed, Thu: 1600-1900.</opening>
+  </location>
+  <location lat="44.4931132" id="amb152" long="11.3399864">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gaggioli Giorgio</name>
+    <address>Vicolo Sant'arcangelo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1530-1830.</opening>
+  </location>
+  <location lat="44.474803" id="amb153" long="11.3889243">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Galati Michele</name>
+    <address>Via Arno, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1530-1800. Mon, Wed: 1530-1900. Tue, Thu: 0930-1230.</opening>
+  </location>
+  <location lat="44.5211022" id="amb154" long="11.2964445">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Galaverni Giorgio</name>
+    <address>Via Del Triumvirato, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1600-1730. Mon, Fri: 0930-1100.</opening>
+  </location>
+  <location lat="44.5040837" id="amb155" long="11.293102">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Galaverni Giorgio</name>
+    <address>Via Taddeo Alderotti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed: 0900-1100. Mon, Thu, Fri: 1530-1800.</opening>
+  </location>
+  <location lat="44.503457" id="amb156" long="11.3405348">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Galbiati Maurizio</name>
+    <address>Via Amendola, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1415-1600.</opening>
+  </location>
+  <location lat="44.5244893" id="amb157" long="11.3212182">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Galbiati Maurizio</name>
+    <address>Via Della Ca' Bianca, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0900-1100. Mon, Tue, Thu, Fri: 1630-1830.</opening>
+  </location>
+  <location lat="44.4944468" id="amb158" long="11.3565917">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Galvani Roberto</name>
+    <address>Via G. Cesare Croce, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1530-1700.</opening>
+  </location>
+  <location lat="44.4921377" id="amb159" long="11.3057748">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gamberini Pier Stefano</name>
+    <address>Via Dal Lino, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1000-1230. Tue, Thu: 1600-1900.</opening>
+  </location>
+  <location lat="44.4999578" id="amb160" long="11.3506972">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gamberini Pier Stefano</name>
+    <address>Via Mascarella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1830. Wed: 0900-1200. Fri: 1600-1830. Tue, Thu: 0900-1100.</opening>
+  </location>
+  <location lat="44.5176026" id="amb161" long="11.3311391">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gamberini Silvano</name>
+    <address>Via Della Beverara, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1430-1830.</opening>
+  </location>
+  <location lat="44.484984" id="amb162" long="11.3668168">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gardelli Tullio</name>
+    <address>Via Leandro Alberti, 50/a, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1700-1930. Wed: 0900-1230. Fri: 0900-1200. Tue, Thu: 1500-1900.</opening>
+  </location>
+  <location lat="44.4979994" id="amb163" long="11.2743331">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gardo Vittoria</name>
+    <address>Via Caduti Di Casteldebole, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1530-1900. Mon, Wed, Fri: 0800-1130.</opening>
+  </location>
+  <location lat="44.4786459" id="amb164" long="11.329786">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gatti Giovanni</name>
+    <address>Via San Mamolo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0900-1200. Tue, Wed: 1500-1900. Mon, Thu: 0900-1300.</opening>
+  </location>
+  <location lat="44.488149" id="amb165" long="11.3101833">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gaudioso Monica</name>
+    <address>Via Del Meloncello, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1100-1230. Thu: 1100-1200. Fri: 1530-1630. Mon, Wed: 1800-1900.</opening>
+  </location>
+  <location lat="44.4700223" id="amb166" long="11.3731526">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gaudioso Monica</name>
+    <address>Via Pietro Mascagni, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1800-1900. Thu: 1500-1600. Mon, Wed, Fri: 0900-1000.</opening>
+  </location>
+  <location lat="" id="amb167" long="">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gelati Giancarla</name>
+    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1500-1830. Mon, Wed, Fri: 0830-1130.</opening>
+  </location>
+  <location lat="44.4758466" id="amb168" long="11.3773975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gentili Fabio</name>
+    <address>Via Degli Orti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed: 1100-1300. Thu, Fri: 1500-1800.</opening>
+  </location>
+  <location lat="44.5137744" id="amb169" long="11.3882182">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gentili Fabio</name>
+    <address>Via San Donato, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1030-1230. Mon, Tue: 1500-1800.</opening>
+  </location>
+  <location lat="44.5173608" id="amb170" long="11.3377901">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gerson Kenneth</name>
+    <address>Via Piero Gobetti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 1600-1930. Tue, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.4671501" id="amb171" long="11.378227">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ghilardi Brunella</name>
+    <address>Via Cherubini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1100-1300. Mon, Wed: 1530-1830. Tue, Thu: 0900-1130.</opening>
+  </location>
+  <location lat="44.5198613" id="amb172" long="11.2683093">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Giovetti Enzo</name>
+    <address>Via Marco Emilio Lepido, 177, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0900-1300. Mon, Wed, Fri: 1530-1900.</opening>
+  </location>
+  <location lat="44.4965546" id="amb173" long="11.3459426">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Grandini Paola</name>
+    <address>Via Guglielmo Oberdan, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0930-1130;1300-1330. Mon, Wed, Fri: 0930-1130.</opening>
+  </location>
+  <location lat="44.4791299" id="amb174" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Grassi Marilena</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 0900-1200. Mon, Fri: 1500-1800.</opening>
+  </location>
+  <location lat="44.5189023" id="amb175" long="11.2773105">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Grillini Gigliola</name>
+    <address>Via Nani, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1630-1930. Tue, Thu: 1600-1930. Mon, Fri: 0900-1230.</opening>
+  </location>
+  <location lat="44.4979994" id="amb176" long="11.2743331">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Gualandra Rossella</name>
+    <address>Via Caduti Di Casteldebole, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0800-1100. Thu: 0830-1130. Fri: 1530-1830. Mon, Wed: 1530-1900.</opening>
+  </location>
+  <location lat="44.4880273" id="amb177" long="11.3707508">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Guasina Marco</name>
+    <address>Via Pietro Mengoli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu: 1530-1900. Wed, Fri: 1000-1230.</opening>
+  </location>
+  <location lat="44.4791299" id="amb178" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ienna Salvatore</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1530-1800. Fri: 0900-1100;1530-1900. Mon, Tue, Thu: 0900-1100;1600-1800.</opening>
+  </location>
+  <location lat="44.4671501" id="amb179" long="11.378227">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Infusini Antonio Ernesto</name>
+    <address>Via Cherubini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Fri: 1100-1300.</opening>
+  </location>
+  <location lat="44.458903" id="amb180" long="11.3700585">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Infusini Antonio Ernesto</name>
+    <address>Via Toscana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 1600-1900. Mon, Fri: 0900-1000.</opening>
+  </location>
+  <location lat="44.4992356" id="amb181" long="11.3438494">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lafratta Vincenzo</name>
+    <address>Via Dell'indipendenza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1530-1830. Wed: 1530-1900. Thu: 0930-1200. Mon, Fri: 0930-1130.</opening>
+  </location>
+  <location lat="44.5320902" id="amb182" long="11.3531639">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lalli Antonio Luigi</name>
+    <address>Via Di Corticella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed: 1500-1830. Mon, Thu, Fri: 0900-1230.</opening>
+  </location>
+  <location lat="44.4771684" id="amb183" long="11.3856847">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lanzoni Ivano</name>
+    <address>Via Bellaria, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0930-1100. Thu: 1000-1200. Mon, Tue, Fri: 1700-1830.</opening>
+  </location>
+  <location lat="44.474803" id="amb184" long="11.3889243">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lelli Omar</name>
+    <address>Via Arno, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0930-1200. Mon, Thu: 1800-2000. Tue, Fri: 1030-1300.</opening>
+  </location>
+  <location lat="44.4806921" id="amb185" long="11.3816329">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lelli Omar</name>
+    <address>Via Emilia Levante, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1130-1300. Wed: 1200-1300. Thu: 1630-1800. Tue, Fri: 1800-1930.</opening>
+  </location>
+  <location lat="44.4970571" id="amb186" long="11.3233298">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lenzi Donatella</name>
+    <address>Via Sabotino, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 1500-1900. Mon, Fri: 0900-1230.</opening>
+  </location>
+  <location lat="44.476693" id="amb187" long="11.3700833">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Leonelli Giuliano</name>
+    <address>Via Augusto Romagnoli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0830-1130;1600-1830. Tue, Thu: 0830-1200. Mon, Fri: 0830-1130.</opening>
+  </location>
+  <location lat="44.524146" id="amb188" long="11.3226975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Linsalata Isabella</name>
+    <address>Via Zanardi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1130-1230. Wed: 1630-1830. Thu: 0915-1015. Tue, Fri: 0930-1100.</opening>
+  </location>
+  <location lat="44.4988138" id="amb189" long="11.3384067">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lipparini Stefano</name>
+    <address>Via Guglielmo Marconi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.5290248" id="amb190" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Livani Maria Francesca</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0930-1230. Mon, Wed: 1700-2000. Thu, Fri: 1000-1230.</opening>
+  </location>
+  <location lat="44.4758466" id="amb191" long="11.3773975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lolli Graziano</name>
+    <address>Via Degli Orti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1600-1900. Tue, Thu, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.4922762" id="amb192" long="11.3320711">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Lusvardi Andrea</name>
+    <address>Via Frassinago, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1400-1800.</opening>
+  </location>
+  <location lat="44.5045119" id="amb193" long="11.3411052">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Maccaferri Marco</name>
+    <address>Via Cesare Boldrini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Fri: 1130-1230.</opening>
+  </location>
+  <location lat="44.4894478" id="amb194" long="11.3201805">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Maccaferri Marco</name>
+    <address>Via Saragozza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1430-1830. Mon, Tue, Wed, Thu: 1500-1830.</opening>
+  </location>
+  <location lat="44.496323" id="amb195" long="11.2930951">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Maccari Sandra</name>
+    <address>Piazza Clodoveo Bonazzi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0830-1130.</opening>
+  </location>
+  <location lat="44.4966975" id="amb196" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Maccari Sandra</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 1530-1900. Tue, Fri: 0830-1200.</opening>
+  </location>
+  <location lat="44.5478296" id="amb197" long="11.3561424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Magagni Paolo</name>
+    <address>Via Genuzio Bentini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1000-1300. Wed, Thu: 1600-1900. Mon, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.5204529" id="amb198" long="11.2756893">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Majonchi Roberto</name>
+    <address>Via Carlo Cattaneo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1700-1900. Mon, Wed, Fri: 1500-1700.</opening>
+  </location>
+  <location lat="44.5159297" id="amb199" long="11.3454588">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Malavolti Luca</name>
+    <address>Via D. Calvart, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 1500-1800. Tue, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.4806921" id="amb200" long="11.3816329">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Manganaro Domenico</name>
+    <address>Via Emilia Levante, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0900-1100. Wed: 1700-1830. Thu, Fri: 1100-1200.</opening>
+  </location>
+  <location lat="44.5042689" id="amb201" long="11.3655201">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Manganaro Domenico</name>
+    <address>Via Tommaso Salvini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1830-2000. Fri: 0900-1045. Tue, Wed, Thu: 1430-1630.</opening>
+  </location>
+  <location lat="44.475348" id="amb202" long="11.3842196">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Manganaro Giovanni</name>
+    <address>Via Sardegna, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1630-1900. Wed: 1600-1900. Fri: 1000-1200. Tue, Thu: 0930-1130.</opening>
+  </location>
+  <location lat="44.5025381" id="amb203" long="11.3708495">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Manuzzi Patrizia</name>
+    <address>Via Adelaide Ristori, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1730. Wed, Thu: 1045-1300;1300-1330. Tue, Fri: 1400-1500.</opening>
+  </location>
+  <location lat="44.4938074" id="amb204" long="11.3385139">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Maoddi Caterina</name>
+    <address>Via Cesare Battisti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue: 1500-1600. Wed, Thu, Fri: 0900-1000.</opening>
+  </location>
+  <location lat="44.4791299" id="amb205" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Marando Grazia Maria</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue: 1500-1600. Wed, Thu, Fri: 0900-1000.</opening>
+  </location>
+  <location lat="44.506448" id="amb206" long="11.3058634">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Marchesini Fabio</name>
+    <address>Via Emilia Ponente, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1130-1300;1300-1400. Tue, Thu: 1700-1900.</opening>
+  </location>
+  <location lat="44.5066061" id="amb207" long="11.2996065">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Marchesini Fabio</name>
+    <address>Via Lemonia, 45/e, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1100-1300. Thu: 1200-1330. Mon, Wed, Fri: 1700-1930.</opening>
+  </location>
+  <location lat="44.4758466" id="amb208" long="11.3773975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Marino' Vincenzo</name>
+    <address>Via Degli Orti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1930. Tue, Thu: 1530-2000. Wed, Fri: 0800-1200.</opening>
+  </location>
+  <location lat="44.4768763" id="amb209" long="11.3974968">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Martella Maria Lucia</name>
+    <address>Piazza Grigoris Lambrakis, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1730. Wed: 1530-1900. Tue, Thu, Fri: 1730-1900.</opening>
+  </location>
+  <location lat="44.5066061" id="amb210" long="11.2996065">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Martelli Daniela</name>
+    <address>Via Lemonia, 45/e, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1630-1900. Tue, Thu, Fri: 1000-1230.</opening>
+  </location>
+  <location lat="44.4965546" id="amb211" long="11.3459426">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Marzo Carla</name>
+    <address>Via Guglielmo Oberdan, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1530-1700. Wed: 1730-1900. Fri: 1100-1300;1300-1330. Mon, Thu: 0930-1100.</opening>
+  </location>
+  <location lat="" id="amb212" long="">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Marzo Carla</name>
+    <address>Via Tullio Golfarelli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1600-1900. Wed: 0900-1100. Fri: 0900-1030.</opening>
+  </location>
+  <location lat="44.506448" id="amb213" long="11.3058634">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mascagni Giuseppe</name>
+    <address>Via Emilia Ponente, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0930-1100. Mon, Wed, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.4980875" id="amb214" long="11.3190464">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mascagni Giuseppe</name>
+    <address>Via Pasubio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Fri: 0830-1000.</opening>
+  </location>
+  <location lat="44.5027219" id="amb215" long="11.3372826">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mascia Filomena</name>
+    <address>Via Don Minzoni, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1600-1800. Mon, Tue: 0815-1100. Wed, Fri: 1800-1900.</opening>
+  </location>
+  <location lat="44.4962573" id="amb216" long="11.3153172">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mascia Filomena</name>
+    <address>Via Montefiorino, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1600-1800. Wed: 0815-1100. Fri: 1000-1130.</opening>
+  </location>
+  <location lat="44.4938074" id="amb217" long="11.3385139">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Masotti Massimo</name>
+    <address>Via Cesare Battisti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1100-1400. Tue, Thu: 1600-1900. Wed, Fri: 1600-1800.</opening>
+  </location>
+  <location lat="44.5172964" id="amb218" long="11.2757796">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Masotti Massimo</name>
+    <address>Via Marco Emilio Lepido, 45/c, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Fri: 0900-1000.</opening>
+  </location>
+  <location lat="44.4680013" id="amb219" long="11.3734924">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Matera Gianni</name>
+    <address>Via Ghirardini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1430-1800. Tue, Wed: 0930-1230. Mon, Thu: 1430-1930.</opening>
+  </location>
+  <location lat="44.4843527" id="amb220" long="11.3880229">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Matra' Annunzio</name>
+    <address>Via Salvador Allende, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1600-1900. Thu: 1600-1930. Fri: 1000-1300;1600-1800. Mon, Tue: 1000-1300;1600-1900.</opening>
+  </location>
+  <location lat="44.4953139" id="amb221" long="11.2928214">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mazzanti Patrizia</name>
+    <address>Piazza Aldo Capitini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 1600-1900. Tue, Wed, Fri: 1100-1400.</opening>
+  </location>
+  <location lat="44.4771684" id="amb222" long="11.3856847">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mazzetti Gaito Piero</name>
+    <address>Via Bellaria, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1500-1800. Wed: 0800-1030;1400-1700. Fri: 0800-1030;1500-1800. Mon, Thu: 0800-1230.</opening>
+  </location>
+  <location lat="44.489745" id="amb223" long="11.3434185">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mazzetti Gaito Piero</name>
+    <address>Via Garibaldi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0800-1030. Mon, Thu: 1530-1730.</opening>
+  </location>
+  <location lat="44.4980875" id="amb224" long="11.3190464">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mazzoni Giampiero</name>
+    <address>Via Pasubio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1100-1300;1500-1830. Wed: 0830-1030;1500-1830. Tue, Thu, Fri: 1500-1830.</opening>
+  </location>
+  <location lat="44.4980875" id="amb225" long="11.3190464">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mazzoni Gianluigi</name>
+    <address>Via Pasubio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1500-1900. Tue, Thu, Fri: 1500-1800.</opening>
+  </location>
+  <location lat="44.4900031" id="amb226" long="11.3334144">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mazzoni Gianluigi</name>
+    <address>Via Saragozza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu, Fri: 1015-1100.</opening>
+  </location>
+  <location lat="44.5290248" id="amb227" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Merlo Dario</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0930-1100. Thu: 0900-1030. Fri: 1500-1630. Mon, Wed: 1530-1700.</opening>
+  </location>
+  <location lat="44.5198613" id="amb228" long="11.2683093">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Minghelli Maria Cristina</name>
+    <address>Via Marco Emilio Lepido, 177, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 0900-1300. Mon, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.5290248" id="amb229" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mohamed Alamin Munira</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1330-1430. Wed: 1730-1930. Thu: 1030-1230. Mon, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.4942188" id="amb230" long="11.3518204">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mohamed Alamin Munira</name>
+    <address>Via San Vitale, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1700-1800.</opening>
+  </location>
+  <location lat="44.4989253" id="amb231" long="11.345221">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Monorchio Saverio</name>
+    <address>Via Augusto Righi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1800-1900. Tue: 0900-1100. Wed: 0800-0900. Thu: 1200-1300. Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.5041685" id="amb232" long="11.329189">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Monorchio Saverio</name>
+    <address>Via Casarini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed: 1600-1900. Mon, Thu, Fri: 0900-1100.</opening>
+  </location>
+  <location lat="44.4966975" id="amb233" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Monorchio Saverio</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 1630-1745. Tue, Fri: 1130-1230.</opening>
+  </location>
+  <location lat="" id="amb234" long="">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Montanari Maria Teresa</name>
+    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed, Thu: 1500-1800. Mon, Tue, Fri: 0830-1130.</opening>
+  </location>
+  <location lat="44.4872918" id="amb235" long="11.3570444">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Monti Dante</name>
+    <address>Via Dante, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu: 1500-1900. Wed, Fri: 0900-1100;1700-1900.</opening>
+  </location>
+  <location lat="44.5019684" id="amb236" long="11.3737344">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Montosi Paolo</name>
+    <address>Via Isabella Andreini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1530-1900.</opening>
+  </location>
+  <location lat="44.4933814" id="amb237" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Morini Emidio</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 0845-1045.</opening>
+  </location>
+  <location lat="44.4899785" id="amb238" long="11.3411702">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Morini Emidio</name>
+    <address>Via Marsili, 1, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Fri: 1530-1700.</opening>
+  </location>
+  <location lat="44.4966975" id="amb239" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Moruzzi Giampiero</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1000-1230. Fri: 0930-1230. Mon, Tue, Wed: 1400-1900.</opening>
+  </location>
+  <location lat="44.5290248" id="amb240" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mottaran Carlo</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1530-1830. Thu: 1530-1900. Mon, Wed, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.5342535" id="amb241" long="11.3535379">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Musconi Marinella</name>
+    <address>Via G. Papini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1800. Wed: 1430-1630.</opening>
+  </location>
+  <location lat="44.5478296" id="amb242" long="11.3561424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Musconi Marinella</name>
+    <address>Via Genuzio Bentini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1700-1800. Thu: 1430-1530. Fri: 1500-1800. Mon, Tue: 1400-1500.</opening>
+  </location>
+  <location lat="44.524146" id="amb243" long="11.3226975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Mustafa Attaib</name>
+    <address>Via Zanardi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1300-1300;1300-1800. Mon, Wed, Fri: 0830-1230.</opening>
+  </location>
+  <location lat="44.4925668" id="amb244" long="11.3024479">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Naldoni Paola</name>
+    <address>Via Andrea Costa, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1400-1600.</opening>
+  </location>
+  <location lat="44.5189023" id="amb245" long="11.2773105">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Naldoni Paola</name>
+    <address>Via Nani, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0800-1100. Mon, Tue, Thu, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.4892525" id="amb246" long="11.3510745">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Nicosia Salvatore</name>
+    <address>Via Santo Stefano, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0930-1030. Wed: 1600-1700.</opening>
+  </location>
+  <location lat="44.475348" id="amb247" long="11.3842196">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Nicosia Salvatore</name>
+    <address>Via Sardegna, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1700. Tue: 1300-1500. Fri: 1030-1230. Wed, Thu: 1000-1230.</opening>
+  </location>
+  <location lat="44.5189023" id="amb248" long="11.2773105">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Nigro Graziano</name>
+    <address>Via Nani, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0930-1230;1300-1315. Tue, Thu: 1530-1900. Wed, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.5113385" id="amb249" long="11.3473655">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Oggianu Massimo</name>
+    <address>Piazza Dell'unita', Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1700-1930. Wed: 1700-1900. Thu: 1430-1630. Mon, Fri: 0830-1030.</opening>
+  </location>
+  <location lat="44.5007973" id="amb250" long="11.3233227">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Oggianu Massimo</name>
+    <address>Via Saffi, 63, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0900-1100. Wed: 0900-1030. Thu: 1700-1900. Mon, Fri: 1630-1830.</opening>
+  </location>
+  <location lat="44.4953812" id="amb251" long="11.2850627">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ognibene Gian Luca</name>
+    <address>Piazza Giovanni Xxiii, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1630. Tue: 1030-1200. Wed: 1545-1715. Thu: 1300-1400. Fri: 0830-0930.</opening>
+  </location>
+  <location lat="44.4919269" id="amb252" long="11.315698">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ognibene Gian Luca</name>
+    <address>Via Mario Bastia, 18, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1530-1700. Thu: 1000-1130. Mon, Wed: 1730-1830.</opening>
+  </location>
+  <location lat="44.5229975" id="amb253" long="11.2636782">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ognibene Gian Luca</name>
+    <address>Via Normandia, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1730-1900. Mon, Wed, Fri: 1000-1130.</opening>
+  </location>
+  <location lat="44.5066061" id="amb254" long="11.2996065">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Orsoni Sonia</name>
+    <address>Via Lemonia, 45/e, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1800-1900. Thu: 1730-1830. Fri: 1300-1400. Mon, Wed: 1230-1330.</opening>
+  </location>
+  <location lat="44.4999578" id="amb255" long="11.3506972">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Orsoni Sonia</name>
+    <address>Via Mascarella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1600-1730. Mon, Wed, Thu: 1500-1630.</opening>
+  </location>
+  <location lat="" id="amb256" long="">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Paganini Luisa</name>
+    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1500-1700. Tue, Thu, Fri: 0900-1100.</opening>
+  </location>
+  <location lat="44.5127276" id="amb257" long="11.3414972">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Paggiola Cristina</name>
+    <address>Via Aristotile Fioravanti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0900-1000. Mon, Wed, Fri: 1530-1630.</opening>
+  </location>
+  <location lat="44.4923288" id="amb258" long="11.3270592">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Palasciano Maria</name>
+    <address>Via Rodolfo Audinot, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0900-1230. Thu: 0930-1230;1630-1900. Fri: 0930-1230. Tue, Wed: 1630-1900.</opening>
+  </location>
+  <location lat="44.4933814" id="amb259" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Palazzi Trivelli Alberto</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0930-1100;1600-1730. Thu: 0930-1100. Fri: 0930-1100;1600-1700. Tue, Wed: 1600-1730.</opening>
+  </location>
+  <location lat="44.5021583" id="amb260" long="11.3526702">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Palmieri Stefano</name>
+    <address>Piazza Di Porta Mascarella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1000-1100. Fri: 1600-1700.</opening>
+  </location>
+  <location lat="44.4933814" id="amb261" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Palmieri Stefano</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1500-1600. Wed: 1630-1830. Thu: 1000-1100. Mon, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.4964623" id="amb262" long="11.3380397">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Palmieri Stefano</name>
+    <address>Via San Gervasio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1700-1800. Thu: 1600-1700.</opening>
+  </location>
+  <location lat="44.5187664" id="amb263" long="11.2719514">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Paolo Marcello</name>
+    <address>Via Marco Emilio Lepido, 151, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu: 1600-1900. Wed, Fri: 1500-1600.</opening>
+  </location>
+  <location lat="44.4671475" id="amb264" long="11.3799324">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Parrinello Tullio</name>
+    <address>Via Della Battaglia, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1730-1900. Tue, Thu, Fri: 1530-1700.</opening>
+  </location>
+  <location lat="44.5003953" id="amb265" long="11.3253712">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pasi Claudio</name>
+    <address>Via Floriano Ambrosini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed: 1630-1830.</opening>
+  </location>
+  <location lat="44.4966975" id="amb266" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pasi Claudio</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1830-1930. Fri: 1500-1900. Mon, Tue, Sat: 1030-1200.</opening>
+  </location>
+  <location lat="44.5066061" id="amb267" long="11.2996065">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pasqualoni Paolo</name>
+    <address>Via Lemonia, 45/e, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0930-1200. Tue, Thu: 1630-1900.</opening>
+  </location>
+  <location lat="44.5189023" id="amb268" long="11.2773105">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pasqualoni Paolo</name>
+    <address>Via Nani, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1630-1930. Tue: 0900-1200. Wed: 1600-1900. Thu: 1030-1300. Fri: 1600-1930.</opening>
+  </location>
+  <location lat="44.4896654" id="amb269" long="11.3693644">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Paternico' Anna</name>
+    <address>Via Carlo Alberto Pizzardi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0830-1130;1500-1600. Wed, Thu: 1530-1900. Mon, Fri: 0830-1130.</opening>
+  </location>
+  <location lat="44.5115" id="amb270" long="11.3489">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Patierno Marco</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 1600-1900. Mon, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.4765426" id="amb271" long="11.3620714">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pellecchia Gabriele</name>
+    <address>Via Adelaide Borghi Mamo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1800-1900. Mon, Thu: 1500-1630.</opening>
+  </location>
+  <location lat="44.4899785" id="amb272" long="11.3411702">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pellecchia Gabriele</name>
+    <address>Via Marsili, 1, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 0930-1130. Tue, Fri: 1000-1130.</opening>
+  </location>
+  <location lat="44.4966975" id="amb273" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pellecchia Gabriele</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1730-1830. Wed: 1530-1700. Thu: 1800-1930. Tue, Fri: 0830-0930.</opening>
+  </location>
+  <location lat="44.4771684" id="amb274" long="11.3856847">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Perini Aurelia</name>
+    <address>Via Bellaria, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue: 1500-1600. Wed, Thu, Fri: 0900-1000.</opening>
+  </location>
+  <location lat="44.4758466" id="amb275" long="11.3773975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Petrignani Alberto</name>
+    <address>Via Degli Orti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0800-1030. Fri: 0900-1000;1530-1930. Mon, Tue, Thu: 1530-1930.</opening>
+  </location>
+  <location lat="44.5433551" id="amb276" long="11.3559214">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pezzoli Andrea</name>
+    <address>Via Gatti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1700-2000. Mon, Wed, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.5478296" id="amb277" long="11.3561424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pezzoli Andrea</name>
+    <address>Via Genuzio Bentini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Fri: 1700-2000.</opening>
+  </location>
+  <location lat="44.5188681" id="amb278" long="11.3287859">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pierro Antonella</name>
+    <address>Via Marco Polo, 22/b, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1645-1915.</opening>
+  </location>
+  <location lat="44.5133826" id="amb279" long="11.3441834">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pierro Antonella</name>
+    <address>Via Procaccini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1430-1530. Thu: 1645-1915. Mon, Wed, Fri: 0845-1215.</opening>
+  </location>
+  <location lat="44.497219" id="amb280" long="11.3633179">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pini Martino</name>
+    <address>Via Massenzio Masia, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1500-1800. Mon, Wed, Fri: 0830-1030.</opening>
+  </location>
+  <location lat="44.487259" id="amb281" long="11.3653579">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Piola Lia</name>
+    <address>Via Mazzini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 1630-1900. Tue, Fri: 0930-1130.</opening>
+  </location>
+  <location lat="44.4953418" id="amb282" long="11.3397028">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Piola Lia</name>
+    <address>Via Ugo Bassi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1000-1200.</opening>
+  </location>
+  <location lat="44.5078385" id="amb283" long="11.3459951">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Piromallo Sandro</name>
+    <address>Via Giacomo Matteotti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1000-1230. Tue: 1100-1300. Wed: 1800-2000. Thu: 1630-1800. Fri: 0830-1000.</opening>
+  </location>
+  <location lat="44.5019684" id="amb284" long="11.3737344">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Piromallo Sandro</name>
+    <address>Via Isabella Andreini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1700-2000. Tue: 0830-1000. Wed: 1500-1700. Thu: 1400-1600. Fri: 1100-1300.</opening>
+  </location>
+  <location lat="44.4953625" id="amb285" long="11.3326162">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pizzi Mirella</name>
+    <address>Via Del Pratello, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1630-1830. Mon, Wed, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.488149" id="amb286" long="11.3101833">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pretto Paola</name>
+    <address>Via Del Meloncello, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1630-1830. Thu: 1530-1700. Mon, Wed, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.5200426" id="amb287" long="11.2726059">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pretto Paola</name>
+    <address>Via F. Magni, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1000-1200. Mon, Wed: 1700-1900.</opening>
+  </location>
+  <location lat="44.5066061" id="amb288" long="11.2996065">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Procopio Pietro</name>
+    <address>Via Lemonia, 45/e, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 0930-1130. Tue, Thu, Fri: 1600-1900.</opening>
+  </location>
+  <location lat="44.4979994" id="amb289" long="11.2743331">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pugnalin Massimo</name>
+    <address>Via Caduti Di Casteldebole, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 0800-1100. Mon, Tue: 0830-1130. Wed, Fri: 1600-1900.</opening>
+  </location>
+  <location lat="44.4965546" id="amb290" long="11.3459426">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Pugnalin Massimo</name>
+    <address>Via Guglielmo Oberdan, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0900-1000. Mon, Thu: 1700-1900.</opening>
+  </location>
+  <location lat="44.4992356" id="amb291" long="11.3438494">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Quadrelli Stefano</name>
+    <address>Via Dell'indipendenza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1530-1900. Mon, Wed, Fri: 0830-1200.</opening>
+  </location>
+  <location lat="44.5168254" id="amb292" long="11.3413632">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Quaranta Francesco</name>
+    <address>Via Francesco Barbieri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1400-1530. Tue: 1400-1500. Thu: 1230-1330. Fri: 1345-1515.</opening>
+  </location>
+  <location lat="44.5092957" id="amb293" long="11.3437528">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Quaranta Francesco</name>
+    <address>Via Zampieri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1530-1900. Mon, Thu: 0830-1200. Tue, Fri: 1630-1900.</opening>
+  </location>
+  <location lat="44.496069" id="amb294" long="11.3643345">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Raggiotto Giannina</name>
+    <address>Via Giuseppe Bentivogli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0830-1100. Tue, Thu: 1530-1800. Mon, Fri: 0945-1100.</opening>
+  </location>
+  <location lat="44.4996822" id="amb295" long="11.3505157">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Raimondi Fabio</name>
+    <address>Via Irnerio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 1530-1800. Mon, Fri: 0900-1130.</opening>
+  </location>
+  <location lat="44.5478296" id="amb296" long="11.3561424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rambaldi Francesca</name>
+    <address>Via Genuzio Bentini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1630-1830. Mon, Wed: 1630-1900. Tue, Thu: 1100-1300.</opening>
+  </location>
+  <location lat="44.5095583" id="amb297" long="11.3967888">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rambaldi Francesca</name>
+    <address>Via Grazia Deledda, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1730-1900. Mon, Wed, Fri: 1000-1200.</opening>
+  </location>
+  <location lat="44.4921775" id="amb298" long="11.3377354">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ramini Giovanni</name>
+    <address>Via Barberia, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1530-1700. Tue, Thu, Fri: 1130-1330.</opening>
+  </location>
+  <location lat="44.4942188" id="amb299" long="11.3518204">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ramini Giovanni</name>
+    <address>Via San Vitale, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 0900-1100.</opening>
+  </location>
+  <location lat="44.5067685" id="amb300" long="11.367787">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rappocciolo Antonino</name>
+    <address>Via Piana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0830-1030. Thu: 0900-1200. Mon, Wed, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.4953418" id="amb301" long="11.3397028">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rappocciolo Antonino</name>
+    <address>Via Ugo Bassi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0915-1030. Mon, Wed: 0830-1030.</opening>
+  </location>
+  <location lat="44.4832613" id="amb302" long="11.3657507">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Righi Irene</name>
+    <address>Via Giuseppe Mezzofanti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1430-1830. Tue, Wed: 0830-1130. Mon, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.4933814" id="amb303" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rinaldi Angela Maria</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1030-1230;1300-1400. Wed: 1030-1230. Thu: 1100-1230;1300-1400. Mon, Fri: 1100-1230.</opening>
+  </location>
+  <location lat="44.4900031" id="amb304" long="11.3334144">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rinaldi Marco</name>
+    <address>Via Saragozza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1200-1300;1630-1830. Thu: 1200-1300;1630-1800. Mon, Wed, Fri: 1430-1630.</opening>
+  </location>
+  <location lat="44.4959366" id="amb305" long="11.3311651">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rocchi Piergiovanni</name>
+    <address>Via Pietralata, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0800-0900;1530-1830. Wed: 0900-1200. Fri: 0800-1200. Mon, Thu: 1530-1830.</opening>
+  </location>
+  <location lat="44.4944468" id="amb306" long="11.3565917">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Romagnoli Daniele</name>
+    <address>Via G. Cesare Croce, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0915-1015. Wed: 0900-1100. Fri: 0900-1000. Tue, Thu: 1500-1900.</opening>
+  </location>
+  <location lat="44.4933814" id="amb307" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Romagnoli Daniele</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1500-1700. Mon, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.5320902" id="amb308" long="11.3531639">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Romagnoli Giancarlo</name>
+    <address>Via Di Corticella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 1800-1930. Tue, Fri: 0900-1100.</opening>
+  </location>
+  <location lat="44.4965546" id="amb309" long="11.3459426">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Romagnoli Giancarlo</name>
+    <address>Via Guglielmo Oberdan, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Fri: 1500-1700.</opening>
+  </location>
+  <location lat="44.4870826" id="amb310" long="11.3784441">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Romualdi Anna</name>
+    <address>Via Fossolo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1000-1300. Tue, Thu: 1600-1900. Mon, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.4753166" id="amb311" long="11.3697911">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rosato Francesco</name>
+    <address>Via Alfredo Catalani, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1600-1830. Mon, Wed, Fri: 0930-1200.</opening>
+  </location>
+  <location lat="44.4933814" id="amb312" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rossi Claudia</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1830. Thu: 1630-1900. Tue, Wed, Fri: 0930-1200.</opening>
+  </location>
+  <location lat="44.4980875" id="amb313" long="11.3190464">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rossi Rosa Maria</name>
+    <address>Via Pasubio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1130-1530. Mon, Wed: 1400-1830. Tue, Thu: 0900-1300.</opening>
+  </location>
+  <location lat="44.4791299" id="amb314" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Roversi Tiziano</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1530-1830. Thu: 1600-1830. Mon, Wed, Fri: 1000-1230.</opening>
+  </location>
+  <location lat="44.5246346" id="amb315" long="11.3470267">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rubini Stefano</name>
+    <address>Via F.de Giovanni, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 0830-1045. Mon, Tue, Wed: 1530-1900.</opening>
+  </location>
+  <location lat="44.5290248" id="amb316" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Rubini Stefano</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1430-1600. Fri: 1530-1900. Mon, Tue, Wed: 1100-1300.</opening>
+  </location>
+  <location lat="44.4896238" id="amb317" long="11.3209597">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Salera Marcello</name>
+    <address>Via Saragozza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 1430-1830. Tue, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.5025381" id="amb318" long="11.3708495">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Samori' Giuseppe</name>
+    <address>Via Adelaide Ristori, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1500-1730. Mon, Thu: 1500-1800. Tue, Fri: 0845-1200.</opening>
+  </location>
+  <location lat="44.4977103" id="amb319" long="11.3505595">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Santi Marzio</name>
+    <address>Via Delle Belle Arti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 1530-1700. Mon, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.4904063" id="amb320" long="11.3702931">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Santoro Giuseppe</name>
+    <address>Via Pompeo Vizzani, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0900-1130. Tue, Wed: 1030-1230. Mon, Thu: 1730-1930.</opening>
+  </location>
+  <location lat="44.4877214" id="amb321" long="11.3611131">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Savorani Giandomenico</name>
+    <address>Piazza Trento E Trieste, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 0830-1230. Tue, Thu, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.5092957" id="amb322" long="11.3437528">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Schirato Roberto</name>
+    <address>Via Zampieri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0830-1130. Tue, Wed: 0900-1200. Mon, Thu: 1530-1830.</opening>
+  </location>
+  <location lat="44.4810942" id="amb323" long="11.3772552">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Serio Alberto</name>
+    <address>Via Fiorita, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu: 1500-1800. Wed, Fri: 1000-1300.</opening>
+  </location>
+  <location lat="44.497219" id="amb324" long="11.3633179">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Serra Cosimo</name>
+    <address>Via Massenzio Masia, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1730. Wed: 1730-1900. Fri: 1530-1700. Tue, Thu: 0900-1030.</opening>
+  </location>
+  <location lat="44.475348" id="amb325" long="11.3842196">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Serra Cosimo</name>
+    <address>Via Sardegna, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0830-1100. Mon, Wed: 0930-1130. Tue, Thu: 1500-1700.</opening>
+  </location>
+  <location lat="44.4987799" id="amb326" long="11.3639476">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Siena Matteo</name>
+    <address>Via Gastone Rossi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0900-1100. Fri: 0900-1100;1600-1830. Mon, Tue, Thu: 1600-1830.</opening>
+  </location>
+  <location lat="44.4992356" id="amb327" long="11.3438494">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Silletti Antonella</name>
+    <address>Via Dell'indipendenza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 0900-1130;1530-1630. Thu: 1530-1800. Mon, Wed, Fri: 0900-1130.</opening>
+  </location>
+  <location lat="44.4999578" id="amb328" long="11.3506972">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Simoncini Elisabetta</name>
+    <address>Via Mascarella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1130-1230. Wed, Thu: 1600-1800. Mon, Fri: 0930-1130.</opening>
+  </location>
+  <location lat="44.4922887" id="amb329" long="11.3993094">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Simoncini Elisabetta</name>
+    <address>Via Tommaso Martelli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0915-1115. Mon, Fri: 1600-1800.</opening>
+  </location>
+  <location lat="44.474803" id="amb330" long="11.3889243">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Sireni Valerio</name>
+    <address>Via Arno, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1100-1230. Wed: 1630-1930. Sat: 1000-1230.</opening>
+  </location>
+  <location lat="44.4966999" id="amb331" long="11.3625469">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Sireni Valerio</name>
+    <address>Via Paolo Fabbri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1000-1230. Mon, Tue: 1600-1800. Thu, Fri: 1500-1630.</opening>
+  </location>
+  <location lat="44.4765426" id="amb332" long="11.3620714">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Somaroli Marinella</name>
+    <address>Via Adelaide Borghi Mamo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed, Thu: 1500-1800. Tue, Fri: 0930-1230.</opening>
+  </location>
+  <location lat="44.4870826" id="amb333" long="11.3784441">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Sorgarello Enrico</name>
+    <address>Via Fossolo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1030-1230. Mon, Wed, Fri: 1600-1830.</opening>
+  </location>
+  <location lat="44.476693" id="amb334" long="11.3700833">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Sorrentino Maria Adele</name>
+    <address>Via Augusto Romagnoli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1100-1300. Mon, Wed: 1630-1900.</opening>
+  </location>
+  <location lat="44.4966975" id="amb335" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Sorrentino Maria Adele</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1430-1530. Thu: 0900-1030;1530-1630. Fri: 1600-1700. Mon, Tue: 0930-1100.</opening>
+  </location>
+  <location lat="44.5073634" id="amb336" long="11.3004325">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Spadavecchia Corrado Emilio</name>
+    <address>Via Decumana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1400-1900.</opening>
+  </location>
+  <location lat="44.4921775" id="amb337" long="11.3377354">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Speziali Pietro</name>
+    <address>Via Barberia, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1130-1300. Mon, Tue, Thu, Fri: 1730-1930.</opening>
+  </location>
+  <location lat="44.494466" id="amb338" long="11.2959151">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Speziali Pietro</name>
+    <address>Via Della Barca, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0800-1100. Wed: 0800-1130. Tue, Thu, Fri: 1430-1645.</opening>
+  </location>
+  <location lat="44.4671501" id="amb339" long="11.378227">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Spinnato Luigi</name>
+    <address>Via Cherubini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1430-1800. Thu: 1700-1930. Fri: 1430-1730. Mon, Wed: 0830-1130.</opening>
+  </location>
+  <location lat="44.4960542" id="amb340" long="11.4068668">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Spinnato Luigi</name>
+    <address>Via Enrico Mattei, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1830-2000. Mon, Wed: 1745-1930.</opening>
+  </location>
+  <location lat="44.458903" id="amb341" long="11.3700585">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Strocchi Alessandra</name>
+    <address>Via Toscana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 1600-1930. Tue, Wed, Fri: 0830-1200.</opening>
+  </location>
+  <location lat="44.5025381" id="amb342" long="11.3708495">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Sturani Annalisa</name>
+    <address>Via Adelaide Ristori, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu: 1500-1800. Wed, Fri: 0900-1000.</opening>
+  </location>
+  <location lat="44.4877214" id="amb343" long="11.3611131">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tamburini Michele Cosimo</name>
+    <address>Piazza Trento E Trieste, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1500-1900. Thu: 1530-1830. Fri: 0930-1130;1530-1730. Mon, Wed: 0930-1130.</opening>
+  </location>
+  <location lat="44.4791299" id="amb344" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tarantini Paolo</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1400-1600. Fri: 1600-1800. Tue, Wed, Thu: 0930-1200.</opening>
+  </location>
+  <location lat="44.6393636" id="amb345" long="11.1872138">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tarantini Paolo</name>
+    <address>Via D'azeglio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1530-1700. Mon, Fri: 1030-1200.</opening>
+  </location>
+  <location lat="44.4970571" id="amb346" long="11.3233298">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tavernelli Stefano</name>
+    <address>Via Sabotino, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0900-1200. Mon, Wed, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.4895186" id="amb347" long="11.3471222">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tedeschi Roberto</name>
+    <address>Via Castiglione, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1130-1300. Tue: 1145-1300. Thu: 1900-2000.</opening>
+  </location>
+  <location lat="44.5172964" id="amb348" long="11.2757796">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tedeschi Roberto</name>
+    <address>Via Marco Emilio Lepido, 45/c, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1630-1800.</opening>
+  </location>
+  <location lat="44.4966975" id="amb349" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tedeschi Roberto</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1600-1800. Wed: 1000-1200. Thu: 1600-1900. Tue, Fri: 1000-1130.</opening>
+  </location>
+  <location lat="44.494466" id="amb350" long="11.2959151">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Testoni Liano</name>
+    <address>Via Della Barca, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1500-1630. Tue, Thu: 1730-1900. Mon, Fri: 0800-1030.</opening>
+  </location>
+  <location lat="44.4966975" id="amb351" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Testoni Liano</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0800-1100. Tue, Thu: 1500-1730. Mon, Fri: 1500-1700.</opening>
+  </location>
+  <location lat="44.5073634" id="amb352" long="11.3004325">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Testoni Simonetta</name>
+    <address>Via Decumana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1800. Wed: 1530-1830. Tue, Thu, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.5073634" id="amb353" long="11.3004325">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tibaldi Marco</name>
+    <address>Via Decumana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu: 1500-1900. Fri, Sat: 1000-1200.</opening>
+  </location>
+  <location lat="44.4768763" id="amb354" long="11.3974968">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tiocchi Pier Paolo</name>
+    <address>Piazza Grigoris Lambrakis, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 1000-1130. Mon, Wed: 1800-1900.</opening>
+  </location>
+  <location lat="44.4794751" id="amb355" long="11.3835926">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tiocchi Pier Paolo</name>
+    <address>Via Marche, 2, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 0900-1230. Tue, Thu, Fri: 1600-1930.</opening>
+  </location>
+  <location lat="44.4933814" id="amb356" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Torchi Paola</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed: 0900-1200. Mon, Thu, Fri: 1500-1830.</opening>
+  </location>
+  <location lat="44.4896654" id="amb357" long="11.3693644">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tozzi Rossano</name>
+    <address>Via Carlo Alberto Pizzardi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0830-1230. Mon, Tue, Thu, Fri: 1500-1900.</opening>
+  </location>
+  <location lat="44.4933814" id="amb358" long="11.3739186">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Tozzi Rossano</name>
+    <address>Via Giuseppe Massarenti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu, Fri: 1130-1230.</opening>
+  </location>
+  <location lat="44.4844113" id="amb359" long="11.3683284">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Trenti Manuela</name>
+    <address>Via Leandro Alberti, 50/a, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1630. Wed: 1500-1800. Fri: 1230-1400. Tue, Thu: 1000-1200.</opening>
+  </location>
+  <location lat="44.4786459" id="amb360" long="11.329786">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Trento Lino</name>
+    <address>Via San Mamolo, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Fri: 0900-1200. Tue, Wed: 1500-1900. Mon, Thu: 0900-1300.</opening>
+  </location>
+  <location lat="44.4945959" id="amb361" long="11.3144647">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Urso Giovanni</name>
+    <address>Via Andrea Costa, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0830-1130. Thu: 1530-1830.</opening>
+  </location>
+  <location lat="44.4966975" id="amb362" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Urso Giovanni</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0900-1200.</opening>
+  </location>
+  <location lat="44.4974618" id="amb363" long="11.3322049">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Urso Giovanni</name>
+    <address>Via San Felice, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1200-1230. Tue: 1530-1830. Wed: 1230-1300. Thu: 1430-1500. Fri: 0830-1130.</opening>
+  </location>
+  <location lat="44.4791299" id="amb364" long="11.3640459">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Vacirca Maurizio</name>
+    <address>Via Augusto Murri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1000-1200. Tue: 1500-1600. Wed: 1530-1730. Thu: 1030-1130. Fri: 1130-1230.</opening>
+  </location>
+  <location lat="44.6393636" id="amb365" long="11.1872138">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Vacirca Maurizio</name>
+    <address>Via D'azeglio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1730. Thu: 1500-1800. Fri: 1630-1930.</opening>
+  </location>
+  <location lat="44.5290248" id="amb366" long="11.363979">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Valenti Rosa Maria</name>
+    <address>Via Ferrarese, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1600-1900. Mon, Wed, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.4974618" id="amb367" long="11.3322049">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Valenti Rosa Maria</name>
+    <address>Via San Felice, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1500-1700. Wed: 1530-1630. Thu: 0830-0930.</opening>
+  </location>
+  <location lat="44.5320902" id="amb368" long="11.3531639">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Valentini Giulio</name>
+    <address>Via Di Corticella, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed, Thu: 1430-1800. Mon, Tue, Fri: 0800-1130.</opening>
+  </location>
+  <location lat="44.6393636" id="amb369" long="11.1872138">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Valli Vittorio</name>
+    <address>Via D'azeglio, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Sat: 0930-1200. Mon, Tue, Wed, Thu, Fri: 1130-1230.</opening>
+  </location>
+  <location lat="44.5188681" id="amb370" long="11.3287859">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Valli Vittorio</name>
+    <address>Via Marco Polo, 22/a, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Thu, Fri: 0830-1100.</opening>
+  </location>
+  <location lat="44.4966975" id="amb371" long="11.3405424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Valli Vittorio</name>
+    <address>Via Parigi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0900-1100. Mon, Tue, Thu, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.5066061" id="amb372" long="11.2996065">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Vecchiatini Roberto</name>
+    <address>Via Lemonia, 45/e, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0900-1200. Mon, Wed, Fri: 1500-1830.</opening>
+  </location>
+  <location lat="44.4921775" id="amb373" long="11.3377354">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Velona' Pietro</name>
+    <address>Via Barberia, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 0800-0930.</opening>
+  </location>
+  <location lat="44.5114173" id="amb374" long="11.3910366">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Velona' Pietro</name>
+    <address>Via Luigi Pirandello, 14/l, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1500-1900. Mon, Wed, Fri: 1500-1830.</opening>
+  </location>
+  <location lat="44.5095583" id="amb375" long="11.3967888">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Ventre Michele</name>
+    <address>Via Grazia Deledda, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1530-1700.</opening>
+  </location>
+  <location lat="44.4768763" id="amb376" long="11.3974968">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Venturini Mariella</name>
+    <address>Piazza Grigoris Lambrakis, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1530-1630. Tue, Wed, Thu, Fri: 0830-0930.</opening>
+  </location>
+  <location lat="44.4992356" id="amb377" long="11.3438494">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Verri Andrea</name>
+    <address>Via Dell'indipendenza, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed, Thu: 0830-1200. Mon, Fri: 1530-1900.</opening>
+  </location>
+  <location lat="" id="amb378" long="">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Virgilio Silvana</name>
+    <address>Via Tullio Golfarelli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1700-1930. Tue: 1500-1700. Fri: 1700-1900. Wed, Thu: 0830-1030.</opening>
+  </location>
+  <location lat="44.4825916" id="amb379" long="11.3885805">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Virgilio Silvana</name>
+    <address>Viale Abramo Lincoln, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1500-1700. Mon, Fri: 0900-1100.</opening>
+  </location>
+  <location lat="44.4824904" id="amb380" long="11.3739422">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Vita Paolo</name>
+    <address>Via Alfredo Protti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1030-1130;1630-1930.</opening>
+  </location>
+  <location lat="44.4953139" id="amb381" long="11.2928214">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Vitali Valeria</name>
+    <address>Piazza Aldo Capitini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 1330-1630. Tue: 1600-1900. Wed, Thu, Fri: 0800-1100.</opening>
+  </location>
+  <location lat="44.458903" id="amb382" long="11.3700585">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Vitolo Andrea</name>
+    <address>Via Toscana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Wed: 1030-1300;1430-1700. Tue, Thu, Fri: 1030-1300.</opening>
+  </location>
+  <location lat="44.458903" id="amb383" long="11.3700585">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Vitolo Emanuele</name>
+    <address>Via Toscana, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Wed: 1430-1700. Mon, Thu, Fri: 1030-1230.</opening>
+  </location>
+  <location lat="44.5019684" id="amb384" long="11.3737344">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Volpe Antonio</name>
+    <address>Via Isabella Andreini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1530-1700. Mon, Tue, Thu, Fri: 1100-1200.</opening>
+  </location>
+  <location lat="44.524146" id="amb385" long="11.3226975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Volpe Antonio</name>
+    <address>Via Zanardi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 0800-0930. Mon, Tue, Thu, Fri: 1500-1830.</opening>
+  </location>
+  <location lat="44.5433551" id="amb386" long="11.3559214">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Voza Mauro</name>
+    <address>Via Gatti, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1000-1300. Thu: 1500-1800. Mon, Wed, Fri: 1400-1700.</opening>
+  </location>
+  <location lat="44.4904063" id="amb387" long="11.3702931">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Voza Mauro</name>
+    <address>Via Pompeo Vizzani, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon: 0800-1100;1730-1930. Wed: 0800-1030;1730-1930. Fri: 0800-1100.</opening>
+  </location>
+  <location lat="44.4921561" id="amb388" long="11.3518739">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zacchia Rondinini Tanari Paolo Emilio</name>
+    <address>Strada Maggiore, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 1500-1630. Tue, Fri: 0900-1100.</opening>
+  </location>
+  <location lat="44.496069" id="amb389" long="11.3643345">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zacchia Rondinini Tanari Paolo Emilio</name>
+    <address>Via Giuseppe Bentivogli, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Thu: 0900-1100;1700-1900. Tue, Wed, Fri: 1700-1900.</opening>
+  </location>
+  <location lat="44.4951947" id="amb390" long="11.3525726">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zamboni Stefano</name>
+    <address>Via Francesco Acri, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1000-1300;1600-1700. Mon, Wed, Fri: 1000-1300.</opening>
+  </location>
+  <location lat="44.5478296" id="amb391" long="11.3561424">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zanasi Massimo</name>
+    <address>Via Genuzio Bentini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed: 1100-1200. Tue, Thu: 1530-1930. Mon, Fri: 0800-1130.</opening>
+  </location>
+  <location lat="44.4953139" id="amb392" long="11.2928214">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zannoni Stefano</name>
+    <address>Piazza Aldo Capitini, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Wed, Thu: 1500-1900. Mon, Tue, Fri: 0900-1200.</opening>
+  </location>
+  <location lat="44.5113385" id="amb393" long="11.3473655">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zingoni Stefano</name>
+    <address>Piazza Dell'unita', Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Mon, Tue, Wed, Thu, Fri: 1500-1915.</opening>
+  </location>
+  <location lat="44.4992404" id="amb394" long="11.3351604">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zini Pierpaolo</name>
+    <address>Via Delle Lame, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1400-1500. Mon, Fri: 1730-1900.</opening>
+  </location>
+  <location lat="44.5095583" id="amb395" long="11.3967888">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zini Pierpaolo</name>
+    <address>Via Grazia Deledda, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1600-1800. Mon, Wed, Fri: 0800-1000.</opening>
+  </location>
+  <location lat="44.4766119" id="amb396" long="11.3823052">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zocchi Donato</name>
+    <address>Piazza Belluno, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Thu: 1000-1300. Mon, Tue, Wed, Fri: 1530-1930.</opening>
+  </location>
+  <location lat="44.5172964" id="amb397" long="11.2757796">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zoccoli Giuseppe</name>
+    <address>Via Marco Emilio Lepido, 45/c, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue, Thu: 1330-1700.</opening>
+  </location>
+  <location lat="44.524146" id="amb398" long="11.3226975">
+    <category>Medico di Medicina Generale</category>
+    <subcategory>privato</subcategory>
+    <name>Zoccoli Giuseppe</name>
+    <address>Via Zanardi, Bologna BO, Italy</address>
+    <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
+    <opening> Tue: 1000-1200. Thu: 0930-1200. Mon, Wed, Fri: 1330-1800.</opening>
+  </location>
+</locations>
+

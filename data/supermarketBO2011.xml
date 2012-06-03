@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE locations SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/locations.dtd">
+<locations>
+  <metadata>
+    <creator>Working Group LTW 2011/2012</creator>
+    <created>2011-12-20</created>
+    <version>1.1</version>
+    <source>http://vitali.web.cs.unibo.it/TechWeb12/Formati</source>
+    <valid>2011-12-31</valid>
+  </metadata>
+  <location lat="44.495049" id="sup0058" long="11.314387">
+    <category>Supermarket</category>
+    <name>Natura Sì Bologna</name>
+    <address>Via Montefiorino, 2/D 40134 Bologna</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Sat: 0900-1930. Mon: 1400-2000. Fri: 0900-2000.</opening>
+    <tel>051/6144011</tel>
+  </location>
+  <location lat="44.479354" id="sup0059" long="11.381041">
+    <category>Supermarket</category>
+    <name>Natura Sì Bologna</name>
+    <address>Via Po, 3 40139 Bologna</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Sat: 0900-1930. Mon: 1400-2000. Fri: 0900-2000.</opening>
+    <tel>051/6241205</tel>
+  </location>
+  <location lat="44.49446 " id="sup0054" long="11.347176">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via San Vitale 1 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Thu, Fri: 0800-1300, 1600-1930. Wed: 0800-1300. Sat: 0800-1930.</opening>
+    <tel>051/561705</tel>
+  </location>
+  <location lat="44.508476" id="sup0055" long="11.29464">
+    <category>Supermarket</category>
+    <name>Esselunga Santa Viola</name>
+    <address>Via Emilia Ponente, 72 - Bologna, BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1200-2100.</opening>
+    <tel>051 310781</tel>
+  </location>
+  <location lat="44.492147" id="sup0056" long="11.384687">
+    <category>Supermarket</category>
+    <name>Esselunga San Vitale</name>
+    <address>Via Guelfa - Bologna, BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1200-2100.</opening>
+    <tel>051 6010727</tel>
+  </location>
+  <location lat="44.482447" id="sup0057" long="11.27078">
+    <category>Supermarket</category>
+    <name>Esselunga Casalecchio Di Reno</name>
+    <address>Piazza Degli Etruschi, 2 - Casalecchio Di Reno, BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1200-2100.</opening>
+    <tel>051 6132544</tel>
+  </location>
+  <location lat="44.523877" id="sup0050" long="11.320876">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via Della Ca' Bianca 5 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930.</opening>
+    <tel>051/6341703</tel>
+  </location>
+  <location lat="44.50838 " id="sup0051" long="11.297693">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via Speranza 52 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930.</opening>
+    <tel>051/6190116</tel>
+  </location>
+  <location lat="44.484063" id="sup0052" long="11.373465">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via Emilia Levante 6-5 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Thu, Fri, Sat: 0800-2000. Wed: 0800-1400.</opening>
+    <tel>051/540300</tel>
+  </location>
+  <location lat="44.497877" id="sup0053" long="11.393373">
+    <category>Supermarket</category>
+    <name>E. LeClerc CONAD</name>
+    <address>Via Larga 10 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri: 0830-2130. Mon: 1200-2100. Sat: 0830-2100.</opening>
+    <tel>051/6003811</tel>
+  </location>
+  <location lat="44.518424" id="sup0060" long="11.394425">
+    <category>Supermarket</category>
+    <name>Natura Sì Bologna</name>
+    <address>Viale Della Repubblica, 23/Ii - Zona Fiera - 40127 Bologna</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Sat: 0900-1930. Mon: 1400-2000. Fri: 0900-2000.</opening>
+    <tel>051/503902</tel>
+  </location>
+  <location lat="44.499747" id="sup0048" long="11.327904">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Viale Antonio Silvani 3/7 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0815-2000.</opening>
+    <tel>051/6494577</tel>
+  </location>
+  <location lat="44.506156" id="sup0038" long="11.360072">
+    <category>Supermarket</category>
+    <name>Supermercato COOP Viale della Repubblica</name>
+    <address>via Casciarolo 3 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri: 0800-2030. Mon: 1200-2000. Sat: 0800-2000.</opening>
+    <tel>051 502187</tel>
+  </location>
+  <location lat="44.490708" id="sup0003" long="11.355418">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Strada Maggiore, 59 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 1000-1400.</opening>
+    <tel>051 399790</tel>
+  </location>
+  <location lat="44.484886" id="sup0002" long="11.348829">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Piazza Porta Castiglione, 14 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Sat: 0830-2030. Fri: 1200-2030. Sun: 0930-1400, 1630-1930.</opening>
+    <tel>051 6449992</tel>
+  </location>
+  <location lat="44.491637" id="sup0001" long="11.348056">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via Farini, 30 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 0930-1400, 1630-1930.</opening>
+    <tel>051 236113</tel>
+  </location>
+  <location lat="44.520618" id="sup0039" long="11.266071">
+    <category>Supermarket</category>
+    <name>Ipermercato COOP Centro Borgo</name>
+    <address>Via Marco Emilio Lepido, 184 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri: 0830-2130. Mon: 1200-2130. Sat: 0830-2100.</opening>
+    <tel>051 4131011</tel>
+  </location>
+  <location lat="44.491163" id="sup0007" long="11.320062">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via 21 Aprile 1945, 8 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100.</opening>
+    <tel>051 7173654</tel>
+  </location>
+  <location lat="44.499685" id="sup0006" long="11.350914">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via Irnerio, 24 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100. Sun: 0930-1400, 1630-1930.</opening>
+    <tel>051 4210066</tel>
+  </location>
+  <location lat="44.501952" id="sup0005" long="11.339334">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Piazza dei Martiri, 5 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0830-2030. Sun: 0930-1400, 1630-1930.</opening>
+    <tel>051 245799</tel>
+  </location>
+  <location lat="44.495913" id="sup0004" long="11.33998">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via Monte Grappa, 11 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0830-2030. Sun: 1000-1400.</opening>
+    <tel>051 7459206</tel>
+  </location>
+  <location lat="44.495457" id="sup0025" long="11.329253">
+    <category>Supermarket</category>
+    <name>Minimercato COOP Via del Pratello</name>
+    <address>Via del Pratello 98 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-2000.</opening>
+    <tel>051 524608</tel>
+  </location>
+  <location lat="44.474357" id="sup0024" long="11.369936">
+    <category>Supermarket</category>
+    <name>Minimercato COOP Via dei Lamponi</name>
+    <address>via dei Lamponi 5 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Fri, Sat: 0830-2000. Thu: 0800-1330.</opening>
+    <tel>051 6231118</tel>
+  </location>
+  <location lat="44.461116" id="sup0009" long="11.424135">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via S. Calindri, 90 - San Lazzaro di Savena BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-2000.</opening>
+    <tel>051 6257433</tel>
+  </location>
+  <location lat="44.503958" id="sup0008" long="11.454376">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via Tosarelli, 109 - Castenaso BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-2100.</opening>
+    <tel>051 789143</tel>
+  </location>
+  <location lat="44.510478" id="sup0021" long="11.340164">
+    <category>Supermarket</category>
+    <name>Minimercato COOP DUC</name>
+    <address>Piazza Liber Paradisus 3 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-1930. Sat: 0800-1400.</opening>
+    <tel>0</tel>
+  </location>
+  <location lat="44.498893" id="sup0020" long="11.33866">
+    <category>Supermarket</category>
+    <name>PAM MARCONI</name>
+    <address>Via Guglielmo Marconi, 28 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0730-2030. Sun: 0900-1900.</opening>
+    <tel>051/520404</tel>
+  </location>
+  <location lat="44.469286" id="sup0023" long="11.383067">
+    <category>Supermarket</category>
+    <name>Minimercato COOP Gallia</name>
+    <address>via Savigno 3 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Fri, Sat: 0800-2000. Thu: 0800-1330.</opening>
+    <tel>051 444003</tel>
+  </location>
+  <location lat="44.494593" id="sup0022" long="11.347581">
+    <category>Supermarket</category>
+    <name>Minimercato COOP Due Torri</name>
+    <address>via San Vitale 4 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-2030. Sun: 0900-1330.</opening>
+    <tel>051 232243</tel>
+  </location>
+  <location lat="44.472382" id="sup0062" long="11.637416">
+    <category>Supermarket</category>
+    <name>Natura Sì Casalecchio Di Reno</name>
+    <address>Via Porrettana, 388 Rotonda Biagi 40033 Casalecchio di Reno</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Sat: 0900-1930. Mon: 1400-2000. Fri: 0900-2000.</opening>
+    <tel>051 0494944</tel>
+  </location>
+  <location lat="44.501592" id="sup0049" long="11.350069">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via Angelo Finelli 8 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0815-1945.</opening>
+    <tel>051/241518</tel>
+  </location>
+  <location lat="44.496308" id="sup0029" long="11.2897">
+    <category>Supermarket</category>
+    <name>Supermercato COOP Barca</name>
+    <address>Via della Barca, 57 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri: 0800-2000. Mon: 1430-2000. Sat: 0800-1930.</opening>
+    <tel>051 562002</tel>
+  </location>
+  <location lat="44.511685" id="sup0047" long="11.389748">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via Luigi Pirandello 18 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0730-1930.</opening>
+    <tel>051/501127</tel>
+  </location>
+  <location lat="44.49438 " id="sup0046" long="11.330186">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via Sant'Isaia 67-2 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0815-2000.</opening>
+    <tel>051/6492194</tel>
+  </location>
+  <location lat="44.477163" id="sup0045" long="11.384121">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via Lombardia 17/2 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930.</opening>
+    <tel>051/541207</tel>
+  </location>
+  <location lat="44.487358" id="sup0044" long="11.377794">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Viale Felsina 31 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Fri, Sat: 0745-1930. Thu: 0745-1300.</opening>
+    <tel>051/543773</tel>
+  </location>
+  <location lat="44.481791" id="sup0043" long="11.390335">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Viale Abramo Lincoln 5 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Fri, Sat: 0800-2000. Thu: 0800-1300.</opening>
+    <tel>051/541052</tel>
+  </location>
+  <location lat="44.50359 " id="sup0042" long="11.277442">
+    <category>Supermarket</category>
+    <name>CONAD</name>
+    <address>Via De Nicola 1 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-1930.</opening>
+    <tel>051/561200</tel>
+  </location>
+  <location lat="44.491966" id="sup0041" long="11.425446">
+    <category>Supermarket</category>
+    <name>Ipermercato COOP Centro Nova</name>
+    <address>Via Villanova, 29 - Castenaso BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri: 0830-2130. Mon: 1200-2130. Sat: 0830-2100.</opening>
+    <tel>051 5067011</tel>
+  </location>
+  <location lat="44.51437 " id="sup0040" long="11.330923">
+    <category>Supermarket</category>
+    <name>Ipermercato COOP Centro Lame</name>
+    <address>Via Beverara, 50 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri: 0830-2130. Mon: 1200-2130. Sat: 0830-2100.</opening>
+    <tel>051 6359111</tel>
+  </location>
+  <location lat="44.500928" id="sup0032" long="11.341877">
+    <category>Supermarket</category>
+    <name>Supermercato COOP Piazza Martiri</name>
+    <address>Via Montebello, 2/3 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri: 0800-2000. Sat: 0800-1930.</opening>
+    <tel>051 249469</tel>
+  </location>
+  <location lat="44.63356 " id="sup0061" long="11.191114">
+    <category>Supermarket</category>
+    <name>Natura Sì San Giovanni In Persiceto</name>
+    <address>Via Bologna, 15/B 400San-17 Giovanni In Persiceto</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri, Sat: 0900-1300, 1600-2000. Mon: 1600-2000.</opening>
+    <tel>051 825832</tel>
+  </location>
+  <location lat="44.502158" id="sup0033" long="11.315506">
+    <category>Supermarket</category>
+    <name>Supermercato COOP Saffi</name>
+    <address>Via Francesco Baracca, 14 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Thu, Fri: 0800-2000. Wed: 0800-1330. Sat: 0800-1930.</opening>
+    <tel>051 380064</tel>
+  </location>
+  <location lat="44.496024" id="sup0027" long="11.338974">
+    <category>Supermarket</category>
+    <name>Minimercato COOP Via Ugo Bassi</name>
+    <address>Via Nazario Sauro 4 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0800-2030. Sun: 0930-1330.</opening>
+    <tel>051 6486245</tel>
+  </location>
+  <location lat="44.490382" id="sup0026" long="11.37212">
+    <category>Supermarket</category>
+    <name>Minimercato COOP Via Mengoli</name>
+    <address>via Mengoli 34 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Fri, Sat: 0800-2000. Thu: 0800-1330.</opening>
+    <tel>051 6360493</tel>
+  </location>
+  <location lat="44.493806" id="sup0028" long="11.311814">
+    <category>Supermarket</category>
+    <name>Supermercato COOP Andrea Costa</name>
+    <address>via Andrea Costa, 160 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri: 0800-2030. Mon: 1400-2000. Sat: 0800-2000.</opening>
+    <tel>051 6154939</tel>
+  </location>
+  <location lat="0" id="sup0010" long="0">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via San Vitale, 22/B - Budrio BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0830-1930.</opening>
+    <tel>051 800986</tel>
+  </location>
+  <location lat="44.68893 " id="sup0011" long="11.397271">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via Galliera Sud, 87/89 - San Pietro in Casale BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0830-2000.</opening>
+    <tel>051 818010</tel>
+  </location>
+  <location lat="44.353653" id="sup0012" long="11.713672">
+    <category>Supermarket</category>
+    <name>Plenty Market</name>
+    <address>Via Emilia, 210 - Imola BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0830-2000. Sun: 0930-1330, 1630-1930.</opening>
+    <tel>0542 39142</tel>
+  </location>
+  <location lat="44.490647" id="sup0013" long="11.343564">
+    <category>Supermarket</category>
+    <name>Plenty Market EXPRESS</name>
+    <address>Via Giuseppe Garibaldi, 1 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 1000-1400.</opening>
+    <tel>051 331700</tel>
+  </location>
+  <location lat="44.496863" id="sup0014" long="11.345932">
+    <category>Supermarket</category>
+    <name>Plenty Market EXPRESS</name>
+    <address>Via Guglielmo Oberdan, 24 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100. Sun: 1000-1400.</opening>
+    <tel>051 239753</tel>
+  </location>
+  <location lat="44.494057" id="sup0015" long="11.357421">
+    <category>Supermarket</category>
+    <name>Plenty Market EXPRESS</name>
+    <address>Via Massarenti, 2 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2100.</opening>
+    <tel>051 341826</tel>
+  </location>
+  <location lat="44.500477" id="sup0016" long="11.334048">
+    <category>Supermarket</category>
+    <name>Plenty Market EXPRESS</name>
+    <address>Via Calori, 1 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030. Sun: 0930-1330, 1630-1930.</opening>
+    <tel>051 6494036</tel>
+  </location>
+  <location lat="44.501864" id="sup0017" long="11.364544">
+    <category>Supermarket</category>
+    <name>Plenty Market EXPRESS</name>
+    <address>Via Amaseo, 25 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Thu, Fri, Sat: 0900-2030.</opening>
+    <tel>051 7414327</tel>
+  </location>
+  <location lat="44.476004" id="sup0018" long="11.387036">
+    <category>Supermarket</category>
+    <name>PAM BELLARIA</name>
+    <address>Via Bellaria, 47 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Fri, Sat: 0800-2100. Thu: 0800-1300.</opening>
+    <tel>051/544759</tel>
+  </location>
+  <location lat="44.552458" id="sup0019" long="11.346763">
+    <category>Supermarket</category>
+    <name>PAM CORTICELLA</name>
+    <address>Via Di Corticella, 3 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Wed, Fri, Sat: 0800-2100. Thu: 0800-1300.</opening>
+    <tel>051/356403</tel>
+  </location>
+  <location lat="44.480341" id="sup0030" long="11.370032">
+    <category>Supermarket</category>
+    <name>Supermercato COOP Dagnini</name>
+    <address>Via Dagnini, 32 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Thu, Fri: 0800-2000. Wed: 0800-1300. Sat: 0800-1930.</opening>
+    <tel>516056559</tel>
+  </location>
+  <location lat="44.511279" id="sup0031" long="11.352105">
+    <category>Supermarket</category>
+    <name>Supermercato COOP Officine Minganti</name>
+    <address>via della Liberazione 11 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri, Sat: 0900-2100. Mon: 1200-2100.</opening>
+    <tel>051 6313370</tel>
+  </location>
+  <location lat="44.492323" id="sup0036" long="11.364156">
+    <category>Supermarket</category>
+    <name>Supermercato COOP San Vitale</name>
+    <address>Via Massarenti, 102 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri, Sat: 0800-2000. Mon: 1430-2000.</opening>
+    <tel>051 342723</tel>
+  </location>
+  <location lat="44.513576" id="sup0037" long="11.402059">
+    <category>Supermarket</category>
+    <name>Supermercato COOP Viale Carnacini</name>
+    <address>viale Carnacini, 37 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri, Sat: 0830-2100. Mon: 1300-2100.</opening>
+    <tel>051 6335086</tel>
+  </location>
+  <location lat="44.505751" id="sup0034" long="11.372429">
+    <category>Supermarket</category>
+    <name>Supermercato COOP San Donato</name>
+    <address>Via San Donato, 87 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Mon, Tue, Thu, Fri: 0800-2000. Wed: 0800-1330. Sat: 0800-1930.</opening>
+    <tel>051 6334416</tel>
+  </location>
+  <location lat="44.466146" id="sup0035" long="11.373505">
+    <category>Supermarket</category>
+    <name>Supermercato COOP San Ruffillo</name>
+    <address>via Ponchielli, 23 - Bologna BO</address>
+    <closing>01-01, 01-06, P, LA, 04-25, 05-01, 06-02, 08-15, 11-01, 12-08, 12-25, 12-26: .</closing>
+    <opening>Tue, Wed, Thu, Fri, Sat: 0800-2100. Mon: 1300-2100.</opening>
+    <tel>051 481474</tel>
+  </location>
+</locations>
+
