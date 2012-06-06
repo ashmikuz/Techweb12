@@ -7,18 +7,22 @@ Ext.onReady(function() {
 		var aggr = Ext.create('Ext.Panel', {
 		title: 'Categorie',
 		contentEl:'box1',
+		layout: 'fit',
+		border: false,
 		//html: '&lt;Sex Pisto&gt;',
 		cls:'empty'
 	});
 	//vicino a
 	var descr1 = Ext.create('Ext.Panel', {
 		title: 'Vicino a',
+		layout: 'fit',
 		contentEl:'box2',
 		cls:'empty'
 	});
 	//aperto in data
 	var descr2 = Ext.create('Ext.Panel', {
 		title: 'Aperto in data',
+		layout: 'fit',
 		contentEl:'box3',
 		cls:'empty'
 	});
@@ -26,14 +30,12 @@ Ext.onReady(function() {
 	// Panel for the west
     var accordionPanel = new Ext.Panel({
 	    // xtype: 'panel' implied by default
-	    region:'west',
-	    xtype: 'panel',
-	    margins: '5 0 0 5',
-	    width: 200,
-	    collapsible: true,   // make collapsible
+    	flex:1,
+    	//width: 200,
+	    //collapsible: true,   // make collapsible
 	    id: 'west-region-container',
 	    layout:'accordion',
-        items: [aggr, descr1, descr2]
+        items: [descr1, descr2]
     });
 
 	var MainTab = new Ext.TabPanel({
@@ -61,7 +63,28 @@ Ext.onReady(function() {
 	    xtype: 'panel',
 	    layout: 'fit',
 	    items: [MainTab],
-		margins: '5 5 0 0'
+	    border: false,
+    });
+	
+	var leftPanel = new Ext.Panel({
+	    region: 'west',
+	    //xtype: 'fieldset',
+	    //collapsible: true,
+	    // center region is required, no width/height specified
+	    //xtype: 'panel',
+	    layout: {
+	        type: 'vbox',
+	        align : 'stretch',
+	        
+	        pack  : 'start'
+	    },
+	    items: [
+	           
+	           aggr
+	           
+	           ,
+	        	accordionPanel
+	            ],
     });
 	
 
@@ -73,10 +96,13 @@ Ext.onReady(function() {
 	    	resize: {
 	    		fn: function()
 	    		{
+	    			if(mappa!=null)
+	    			{
 	    			punto=mappa.getCenter();
 	    			google.maps.event.trigger(mappa, "resize");
 	    			mappa.setCenter(punto);
-	    		}
+	    			}
+	    			}
 	    	}
 	    	},
 	    items: [
@@ -87,16 +113,17 @@ Ext.onReady(function() {
 	            	anchor: '100%',
 	            	height: 70,
 	            	minHeight: 70,
-	            	html: '<div style="color:white ;font-size:500%; text-align:center;">MAL</div>',
-	            	bodyStyle:{"background-color":"#333333"}
+	            	html: '<div style="color:black ;font-size:500%; text-align:center;">MAL</div>',
+	            	bodyStyle:"background-image:url(images/texture.jpg) !important; background-repeat: repeat;"
 	            },
 	            {
 	            	xtype:'panel',
 	            	layout:'border',
 	            	border:false,
-	            	items: [accordionPanel,mainPanel],
+	            	items: [leftPanel,mainPanel],
 	            	anchor: '80%, -80',
 	            	style: {
+	            		split: true,
 	            	        marginLeft: 'auto',
 	            	        marginRight: 'auto'
 	            	}
