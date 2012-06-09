@@ -6,11 +6,13 @@ Ext.onReady(function() {
 	//pannello che contiene i controlli per caricare da aggregatori
 		var aggr = Ext.create('Ext.Panel', {
 		title: 'Categorie',
-		contentEl:'box1',
 		layout: 'fit',
+		//flex:1,
 		border: false,
+		xtype: 'panel',
+		contentEl:'box1',
 		//html: '&lt;Sex Pisto&gt;',
-		cls:'empty'
+		//cls:'empty'
 	});
 	//vicino a
 	var descr1 = Ext.create('Ext.Panel', {
@@ -22,7 +24,7 @@ Ext.onReady(function() {
 	//aperto in data
 	var descr2 = Ext.create('Ext.Panel', {
 		title: 'Aperto in data',
-		layout: 'fit',
+		layouyt: 'fit',
 		contentEl:'box3',
 		cls:'empty'
 	});
@@ -30,12 +32,14 @@ Ext.onReady(function() {
 	// Panel for the west
     var accordionPanel = new Ext.Panel({
 	    // xtype: 'panel' implied by default
-    	flex:1,
-    	//width: 200,
 	    //collapsible: true,   // make collapsible
 	    id: 'west-region-container',
 	    layout:'accordion',
-        items: [descr1, descr2]
+	    layoutConfig:{
+	    fill: true,
+	    fitHeight:true
+	    },
+	    items: [descr1, descr2]
     });
 
 	var MainTab = new Ext.TabPanel({
@@ -67,21 +71,14 @@ Ext.onReady(function() {
     });
 	
 	var leftPanel = new Ext.Panel({
-	    region: 'west',
-	    //xtype: 'fieldset',
-	    //collapsible: true,
-	    // center region is required, no width/height specified
-	    //xtype: 'panel',
+	    //region: 'west',
 	    layout: {
 	        type: 'vbox',
 	        align : 'stretch',
-	        
 	        pack  : 'start'
 	    },
 	    items: [
-	           
 	           aggr
-	           
 	           ,
 	        	accordionPanel
 	            ],
@@ -120,10 +117,15 @@ Ext.onReady(function() {
 	            	xtype:'panel',
 	            	layout:'border',
 	            	border:false,
-	            	items: [leftPanel,mainPanel],
+	            	items: [{
+	            			xtype: 'panel',
+	            			region: 'west',
+	            	    	collapsible: true,
+	            	        items:[leftPanel]
+	            			},mainPanel],
 	            	anchor: '80%, -80',
 	            	style: {
-	            		split: true,
+	            			split: true,
 	            	        marginLeft: 'auto',
 	            	        marginRight: 'auto'
 	            	}
