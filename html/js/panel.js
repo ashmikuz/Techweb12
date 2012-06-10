@@ -1,6 +1,7 @@
 	var altezza = 550;
 	var lunghezza =1000;
 	var targetRender = 'container';
+	var accordionh;
 	
 Ext.onReady(function() {
 	//pannello che contiene i controlli per caricare da aggregatori
@@ -28,17 +29,17 @@ Ext.onReady(function() {
 		contentEl:'box3',
 		cls:'empty'
 	});
-		
+	
+	accordionh=((Ext.getBody().getViewSize().height) - 225);
+	
 	// Panel for the west
     var accordionPanel = new Ext.Panel({
 	    // xtype: 'panel' implied by default
 	    //collapsible: true,   // make collapsible
 	    id: 'west-region-container',
 	    layout:'accordion',
-	    layoutConfig:{
-	    fill: true,
-	    fitHeight:true
-	    },
+	    height: accordionh,
+	    minHeight: 180,
 	    items: [descr1, descr2]
     });
 
@@ -86,8 +87,10 @@ Ext.onReady(function() {
 	
 
 /*Creo il viewport generale che contiene tutto*/
-	Ext.create('Ext.Viewport', {
+	var viewport=Ext.create('Ext.Viewport', {
 	    layout:'anchor',
+	    autoScroll:true,
+	    minHeight: 460,
 	    listeners:
 	    	{
 	    	resize: {
@@ -117,10 +120,12 @@ Ext.onReady(function() {
 	            	xtype:'panel',
 	            	layout:'border',
 	            	border:false,
+	            	minHeight: 380,
 	            	items: [{
 	            			xtype: 'panel',
 	            			region: 'west',
 	            	    	collapsible: true,
+	            	    	minHeight: 300,
 	            	        items:[leftPanel]
 	            			},mainPanel],
 	            	anchor: '80%, -80',
@@ -133,4 +138,11 @@ Ext.onReady(function() {
 	]
 	    //renderTo: targetRender
 	});
+	
+	Ext.EventManager.onWindowResize(function () {
+		accordionh=((Ext.getBody().getViewSize().height) - 225);
+		accordionPanel.setHeight(accordionh);
+		viewport.setHeight(Ext.getBody().getViewSize().height);
+		//accordionPanel.doLayout();
+    });
 });
