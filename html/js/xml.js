@@ -6,29 +6,28 @@ aggregatori['poste'] = "http://ltw1218.web.cs.unibo.it/ltw1218-poste";
 aggregatori['materne'] = "http://ltw1218.web.cs.unibo.it/ltw1218-materne";
 var nodes;
 
+function drawgrid(xmlloc)
+{
+	dataroot = data.getElementsByTagName("locations")
+	var lunghezza = nodes.length;
+	for( j = 0; j < lunghezza; j++) {
+		xmlroot[0].appendChild(nodes[j].cloneNode(true));
+		el = nodes[j].cloneNode(true);
+		dataroot[0].appendChild(el);
+	}
+	store.loadRawData(data);
+	store.load();
+}
+
 function getxml(checkbox) {
 	var xmlretval = newDocument("locations", "");
 	var xmlroot = xmlretval.getElementsByTagName("locations");
 	var aggrxml;
 	var el;
-	var checkboxes = new Array();
-	//checkboxes[0]=document.getElementById("farmacie");
-	//checkboxes[1]=document.getElementById("materne");
-	//checkboxes[2]=document.getElementById("poste");
-	//checkboxes[3]=document.getElementById("supermarket");
-	//checkboxes[4]=document.getElementById("medici");
 	if(checkbox.checked) {
 		urlaggr = aggregatori[checkbox.id];
 		nodes = loadXMLDoc(urlaggr).getElementsByTagName("location");
-		dataroot = data.getElementsByTagName("locations")
-		var lunghezza = nodes.length;
-		for( j = 0; j < lunghezza; j++) {
-			xmlroot[0].appendChild(nodes[j].cloneNode(true));
-			el = nodes[j].cloneNode(true);
-			dataroot[0].appendChild(el);
-		}
-		store.loadRawData(data);
-		store.load();
+		drawgrid(nodes);
 	} else {
 		removemarkers(checkbox.id);
 		removegrid(checkbox.id);

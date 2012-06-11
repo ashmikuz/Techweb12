@@ -30,6 +30,14 @@ Ext.onReady(function() {
 		cls:'empty'
 	});
 	
+	var descr3 = Ext.create('Ext.Panel', {
+		title: 'Trova',
+		layouyt: 'fit',
+		contentEl:'box4',
+		cls:'empty'
+	});
+	
+	
 	accordionh=((Ext.getBody().getViewSize().height) - 225);
 	
 	// Panel for the west
@@ -39,8 +47,8 @@ Ext.onReady(function() {
 	    id: 'west-region-container',
 	    layout:'accordion',
 	    height: accordionh,
-	    minHeight: 180,
-	    items: [descr1, descr2]
+	    minHeight: 145,
+	    items: [descr1, descr2, descr3]
     });
 
 	var MainTab = new Ext.TabPanel({
@@ -91,6 +99,7 @@ Ext.onReady(function() {
 	    layout:'anchor',
 	    autoScroll:true,
 	    minHeight: 460,
+	    minWidth: 750,
 	    listeners:
 	    	{
 	    	resize: {
@@ -121,11 +130,13 @@ Ext.onReady(function() {
 	            	layout:'border',
 	            	border:false,
 	            	minHeight: 380,
+	            	minWidth: 600,
 	            	items: [{
 	            			xtype: 'panel',
 	            			region: 'west',
 	            	    	collapsible: true,
 	            	    	minHeight: 300,
+	            	    	minWidth: 150,
 	            	        items:[leftPanel]
 	            			},mainPanel],
 	            	anchor: '80%, -80',
@@ -142,7 +153,5 @@ Ext.onReady(function() {
 	Ext.EventManager.onWindowResize(function () {
 		accordionh=((Ext.getBody().getViewSize().height) - 225);
 		accordionPanel.setHeight(accordionh);
-		viewport.setHeight(Ext.getBody().getViewSize().height);
-		//accordionPanel.doLayout();
     });
 });
