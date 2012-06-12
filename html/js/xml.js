@@ -6,29 +6,32 @@ aggregatori['poste'] = "http://ltw1218.web.cs.unibo.it/ltw1218-poste";
 aggregatori['materne'] = "http://ltw1218.web.cs.unibo.it/ltw1218-materne";
 var nodes;
 
-function drawgrid(xmlloc)
+function drawgrid(nodes)
 {
-	dataroot = data.getElementsByTagName("locations")
+	var xmlretval = newDocument("locations", "");
+	var xmlroot = xmlretval.getElementsByTagName("locations");
+	var dataroot = data.getElementsByTagName("locations");
 	var lunghezza = nodes.length;
 	for( j = 0; j < lunghezza; j++) {
 		xmlroot[0].appendChild(nodes[j].cloneNode(true));
 		el = nodes[j].cloneNode(true);
 		dataroot[0].appendChild(el);
 	}
+	console.log(data);
 	store.loadRawData(data);
 	store.load();
+	return xmlretval;
 }
 
 function getxml(checkbox) {
-	var xmlretval = newDocument("locations", "");
-	var xmlroot = xmlretval.getElementsByTagName("locations");
 	var aggrxml;
 	var el;
 	if(checkbox.checked) {
 		urlaggr = aggregatori[checkbox.id];
 		nodes = loadXMLDoc(urlaggr).getElementsByTagName("location");
-		drawgrid(nodes);
+		xmlretval=drawgrid(nodes);
 	} else {
+		var xmlretval = newDocument("locations", "");
 		removemarkers(checkbox.id);
 		removegrid(checkbox.id);
 	}

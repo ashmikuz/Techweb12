@@ -7,11 +7,11 @@ categorie['supermarket'] = "supermarket";
 categorie['poste'] = "Poste e Telegrafi";
 categorie['materne'] = "Scuola Materna";
 
-var data;
 var store;
 var grid;
 var categlist;
-data = newDocument("locations", "");
+var data;
+data= newDocument("locations", "");data
 
 //Definisco la feature per raggruppare le location per categoria
 var groupingFeature = Ext.create('Ext.grid.feature.Grouping', {
@@ -32,7 +32,22 @@ function removegrid(checkboxid) {
 	store.load();
 }
 
+function cleargrid(){
+	console.log(data);
+	loclist = data.getElementsByTagName("location");
+	var i=0;
+	while(data.getElementsByTagName("location").length > 0){
+			console.log(i);
+			data.getElementsByTagName("locations")[0].removeChild(loclist[0]);
+			i=i+1;
+	}
+	console.log(data);
+	store.loadRawData(data);
+	store.load();
+}
+
 Ext.onReady(function() {
+	
 	Ext.define('Location', {
 		extend : 'Ext.data.Model',
 		fields : [

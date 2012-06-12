@@ -63,9 +63,11 @@ function getdescrurl(descrname, args) {
 
 function descrfilter(arg, descrname) {
 	descr[descrname] = true;
+	console.log(data);
 	cancelladescr(descrname);
 	//clean grid and map
 	cleargrid();
+	console.log(data);
 	if( descrname = 'vicinoa') {
 		var lat, lng;
 		geocoder.geocode({
@@ -81,7 +83,8 @@ function descrfilter(arg, descrname) {
 				for(i=0;i<patharray.length;i++){
 					//alert(patharray[i]);
 					var xml = loadXMLDoc(patharray[i]);
-					var xmlroot = xml.getElementsByTagName("locations");
+					var xmlroot = xml.getElementsByTagName("location");
+					//var nodes = data.getElementsByTagName("locations");
 					console.log(xmlroot);
 					drawgrid(xmlroot);
 					

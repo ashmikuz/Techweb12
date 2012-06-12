@@ -67,7 +67,7 @@ function mostra_mappa(posizione) {
 //function
 
 function drawmarkers(checkbox) {
-	xml = getxml(checkbox);
+	xml=getxml(checkbox);
 	var lat, longitude, id, marker, myLatlng, category, name, address, tel, opening, info;
 	locations = xml.getElementsByTagName("location");
 	//mappa=document.getElementById("mia_mappa");
