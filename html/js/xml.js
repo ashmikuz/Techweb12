@@ -17,7 +17,6 @@ function drawgrid(nodes)
 		el = nodes[j].cloneNode(true);
 		dataroot[0].appendChild(el);
 	}
-	console.log(data);
 	store.loadRawData(data);
 	store.load();
 	return xmlretval;
@@ -26,16 +25,16 @@ function drawgrid(nodes)
 function getxml(checkbox) {
 	var aggrxml;
 	var el;
+	var xmlretval;
 	if(checkbox.checked) {
 		urlaggr = aggregatori[checkbox.id];
-		nodes = loadXMLDoc(urlaggr).getElementsByTagName("location");
-		xmlretval=drawgrid(nodes);
+		xmlretval = loadXMLDoc(urlaggr);
 	} else {
-		var xmlretval = newDocument("locations", "");
+		xmlretval = newDocument("locations", "");
 		removemarkers(checkbox.id);
 		removegrid(checkbox.id);
 	}
-	return xmlretval;
+	return (xmlretval.getElementsByTagName("location"));
 }
 
 function loadXMLDoc(dname) {

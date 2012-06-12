@@ -20,21 +20,47 @@ Ext.onReady(function() {
 		title: 'Vicino a',
 		layout: 'fit',
 		contentEl:'box2',
-		cls:'empty'
+		cls:'empty',
+		
 	});
+	
+	
 	//aperto in data
 	var descr2 = Ext.create('Ext.Panel', {
 		title: 'Aperto in data',
 		layouyt: 'fit',
-		contentEl:'box3',
-		cls:'empty'
+		cls:'empty',
+		//contentEl: 'datepicker',
+		items:[
+		       {
+		    	   xtype:'panel',
+		    	   width: 200,
+		    	   border: false,
+		    	   contentEl: 'box3',
+		    	   
+		       },
+		       
+		       {
+		    	   xtype: 'datefield',
+		           width: 180,
+		           name: 'from_date',
+		           style:
+		        	   {
+		        	   		marginTop: '5px',
+		        	   		marginLeft: 'auto',
+		        	   		marginRight: 'auto'
+		        	   }
+		           //maxValue: new Date()
+		       }
+		       ]
 	});
 	
 	var descr3 = Ext.create('Ext.Panel', {
 		title: 'Trova',
 		layouyt: 'fit',
 		contentEl:'box4',
-		cls:'empty'
+		cls:'empty',
+		
 	});
 	
 	
@@ -61,13 +87,16 @@ Ext.onReady(function() {
         },
         items: [{
         	contentEl:'mia_mappa',
-            title: 'Mappa'
+            title: 'Mappa',
+            bodyStyle:"background:#CBDDF3"
         },{
             items:[grid], 
-            title: 'Tabella'
+            title: 'Tabella',
+            bodyStyle:"background-image:url(images/texture.jpg) transparent; background-repeat: repeat;"
         },{
         	contentEl:'info',
-            title: 'Help'
+            title: 'Help',
+            bodyStyle:"background:#CBDDF3"
         }]
 	});
 	
@@ -131,6 +160,11 @@ Ext.onReady(function() {
 	            	border:false,
 	            	minHeight: 380,
 	            	minWidth: 600,
+	            	style: {
+            			split: true,
+            	        marginLeft: 'auto',
+            	        marginRight: 'auto'
+	            	},
 	            	items: [{
 	            			xtype: 'panel',
 	            			region: 'west',
@@ -139,12 +173,7 @@ Ext.onReady(function() {
 	            	    	minWidth: 150,
 	            	        items:[leftPanel]
 	            			},mainPanel],
-	            	anchor: '80%, -80',
-	            	style: {
-	            			split: true,
-	            	        marginLeft: 'auto',
-	            	        marginRight: 'auto'
-	            	}
+	            	anchor: '80%, -80'
 	            }
 	]
 	    //renderTo: targetRender

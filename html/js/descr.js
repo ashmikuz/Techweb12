@@ -63,16 +63,15 @@ function getdescrurl(descrname, args) {
 
 function descrfilter(arg, descrname) {
 	descr[descrname] = true;
-	console.log(data);
 	cancelladescr(descrname);
 	//clean grid and map
 	cleargrid();
-	console.log(data);
+	removemarkers(undefined);
 	if( descrname = 'vicinoa') {
 		var lat, lng;
 		geocoder.geocode({
-			'address' : arg + " BO",
-			'region' : 'Italy'
+			'address' : arg + ",40100 Bologna",
+			'region' : 'it'
 		}, function(results, status) {
 			if(status == google.maps.GeocoderStatus.OK) {
 				/*recupero lat e long*/
@@ -84,10 +83,8 @@ function descrfilter(arg, descrname) {
 					//alert(patharray[i]);
 					var xml = loadXMLDoc(patharray[i]);
 					var xmlroot = xml.getElementsByTagName("location");
-					//var nodes = data.getElementsByTagName("locations");
-					console.log(xmlroot);
 					drawgrid(xmlroot);
-					
+					drawmarkers(xmlroot);
 				}
 			} else {
 				alert("Indirizzo non trovato: " + status);

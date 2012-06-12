@@ -1,6 +1,5 @@
 var mappa = null;
 var markers = [];
-var marker;
 var punto;
 
 var icone = new Array()
@@ -32,7 +31,6 @@ function inizialize() {
 		pmaggiore["coords"]["latitude"] = 44.4942;
 		pmaggiore["coords"]["longitude"] = 11.3433;
 		mostra_mappa(pmaggiore);
-		inizialize(pmaggiore);
 	}
 	/*se ricarico la pagina tutte le checkbox vengono "pulite" */
 	var ins = document.getElementsByTagName('input');
@@ -66,10 +64,16 @@ function mostra_mappa(posizione) {
 
 //function
 
-function drawmarkers(checkbox) {
-	xml=getxml(checkbox);
-	var lat, longitude, id, marker, myLatlng, category, name, address, tel, opening, info;
-	locations = xml.getElementsByTagName("location");
+function drawaggr(checkbox)
+{
+	var xml=getxml(checkbox);
+	drawmarkers(xml);
+	drawgrid(xml);
+}
+
+function drawmarkers(locations) {
+	var lat, longitude, id, myLatlng, category, name, address, tel, opening, info;
+	//var locations = xml.getElementsByTagName("location");
 	//mappa=document.getElementById("mia_mappa");
 	for( i = 0; i < locations.length; i++) {
 		lat = locations[i].attributes.getNamedItem("lat").value;
@@ -135,8 +139,8 @@ function drawmarkers(checkbox) {
 }
 
 function removemarkers(category) {
-	for( i = 0; i < markers.length; i++) {
-		if(markers[i].getIcon() == icone[category]) {
+	for(var i = 0; i < markers.length; i++) {
+		if(category==undefined ||markers[i].getIcon() == icone[category]) {
 			//alert("trovato!");
 			markers[i].setMap(null);
 			markers.splice(i, 1);
