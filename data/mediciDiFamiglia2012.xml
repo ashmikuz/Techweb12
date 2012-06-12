@@ -96,11 +96,11 @@
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Mon: 1500-1900. Wed: 1700-1900. Thu: 1130-1300. Tue, Fri: 0900-1200.</opening>
   </location>
-  <location lat="" id="amb012" long="">
+  <location lat="44.501172" id="amb012" long="11.369713">
     <category>Medico di Medicina Generale</category>
     <subcategory>privato</subcategory>
     <name>Alessi Pasquale</name>
-    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <address>Via Filippo Beroaldo, Bologna BO, Italy</address>
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Fri: 1500-1800. Mon, Wed: 1500-1900. Tue, Thu: 0830-1200.</opening>
   </location>
@@ -548,7 +548,7 @@
     <category>Medico di Medicina Generale</category>
     <subcategory>privato</subcategory>
     <name>Capelli Carla</name>
-    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <address>Via Filippo Beroaldo, Bologna BO, Italy</address>
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Wed, Thu: 1030-1300. Mon, Tue, Fri: 1500-1900.</opening>
   </location>
@@ -1336,11 +1336,11 @@
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Tue: 1800-1900. Thu: 1500-1600. Mon, Wed, Fri: 0900-1000.</opening>
   </location>
-  <location lat="" id="amb167" long="">
+  <location lat="44.5011721" id="amb167" long="11.3697133">
     <category>Medico di Medicina Generale</category>
     <subcategory>privato</subcategory>
     <name>Gelati Giancarla</name>
-    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <address>Via Filippo Beroaldo, Bologna BO, Italy</address>
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Tue, Thu: 1500-1830. Mon, Wed, Fri: 0830-1130.</opening>
   </location>
@@ -1696,11 +1696,11 @@
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Tue: 1530-1700. Wed: 1730-1900. Fri: 1100-1300;1300-1330. Mon, Thu: 0930-1100.</opening>
   </location>
-  <location lat="" id="amb212" long="">
+  <location lat="44.491595849522035" id="amb212" long="11.377968192100525">
     <category>Medico di Medicina Generale</category>
     <subcategory>privato</subcategory>
     <name>Marzo Carla</name>
-    <address>Via Tullio Golfarelli, Bologna BO, Italy</address>
+    <address>Via Tullo Golfarelli, Bologna BO, Italy</address>
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Mon: 1600-1900. Wed: 0900-1100. Fri: 0900-1030.</opening>
   </location>
@@ -1872,11 +1872,11 @@
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Mon, Thu: 1630-1745. Tue, Fri: 1130-1230.</opening>
   </location>
-  <location lat="" id="amb234" long="">
+  <location lat="44.5011721" id="amb234" long="11.3697133">
     <category>Medico di Medicina Generale</category>
     <subcategory>privato</subcategory>
     <name>Montanari Maria Teresa</name>
-    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <address>Via Filippo Beroaldo, Bologna BO, Italy</address>
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Wed, Thu: 1500-1800. Mon, Tue, Fri: 0830-1130.</opening>
   </location>
@@ -2048,11 +2048,11 @@
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Tue: 1600-1730. Mon, Wed, Thu: 1500-1630.</opening>
   </location>
-  <location lat="" id="amb256" long="">
+  <location lat="44.5011721" id="amb256" long="11.3697133">
     <category>Medico di Medicina Generale</category>
     <subcategory>privato</subcategory>
     <name>Paganini Luisa</name>
-    <address>Via Federico Beroaldo, Bologna BO, Italy</address>
+    <address>Via Filippo Beroaldo, Bologna BO, Italy</address>
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Mon, Wed: 1500-1700. Tue, Thu, Fri: 0900-1100.</opening>
   </location>
@@ -3024,11 +3024,11 @@
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Tue, Wed, Thu: 0830-1200. Mon, Fri: 1530-1900.</opening>
   </location>
-  <location lat="" id="amb378" long="">
+  <location lat="44.491595849522035" id="amb378" long="11.377968192100525">
     <category>Medico di Medicina Generale</category>
     <subcategory>privato</subcategory>
     <name>Virgilio Silvana</name>
-    <address>Via Tullio Golfarelli, Bologna BO, Italy</address>
+    <address>Via Tullo Golfarelli, Bologna BO, Italy</address>
     <closing>1 Jan, 6 Jan, P, LA, 25 Apr, 1 May, 2 Jun, 15 Aug, 1 Nov, 8 Dec, 25 Dec, 26 Dec, Aug</closing>
     <opening> Mon: 1700-1930. Tue: 1500-1700. Fri: 1700-1900. Wed, Thu: 0830-1030.</opening>
   </location>

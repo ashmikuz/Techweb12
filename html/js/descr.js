@@ -79,7 +79,7 @@ function descrfilter(arg, descrname) {
 				Longitude = results[0].geometry.location.lng();
 				var ar = {"lat" : Latitude,	"long" : Longitude};
 				var patharray = getdescrurl(descrname, ar);
-				for(i=0;i<patharray.length;i++){
+				for(var i=0;i<patharray.length;i++){
 					//alert(patharray[i]);
 					var xml = loadXMLDoc(patharray[i]);
 					var xmlroot = xml.getElementsByTagName("location");
