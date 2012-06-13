@@ -93,7 +93,6 @@ def filtraEQ(key,value,nequal):
         error.errhttp("406")
         return
     print("Content-type: text/turtle; charset=UTF-8\n")
-    
     query_result=src.query(squery)
     for element in query_result:
         result.add(element)

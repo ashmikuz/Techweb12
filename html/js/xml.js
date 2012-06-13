@@ -1,9 +1,18 @@
-var aggregatori = new Array();
+var aggregatori = new Object();
 aggregatori['farmacie'] = "http://ltw1218.web.cs.unibo.it/ltw1218-farmacie";
 aggregatori['medici'] = "http://ltw1218.web.cs.unibo.it/ltw1218-medici";
 aggregatori['supermarket'] = "http://ltw1218.web.cs.unibo.it/ltw1218-supermarket";
 aggregatori['poste'] = "http://ltw1218.web.cs.unibo.it/ltw1218-poste";
 aggregatori['materne'] = "http://ltw1218.web.cs.unibo.it/ltw1218-materne";
+
+var aggrega = new Object();
+aggrega['farmacia'] = "ltw1218-farmacie";
+aggrega['medico di medicina generale'] = "ltw1218-medici";
+aggrega['supermarket'] = "ltw1218-supermarket";
+aggrega['poste e telegrafi'] = "ltw1218-poste";
+aggrega['scuola materna'] = "ltw1218-materne";
+
+
 var nodes;
 
 function drawgrid(nodes)
@@ -62,6 +71,8 @@ function loadXMLString(txt) {
 	return xmlDoc;
 }
 
+
+
 newDocument = function(rootTagName, namespaceURL) {
 	if(!rootTagName)
 		rootTagName = "";
@@ -105,5 +116,19 @@ newDocument = function(rootTagName, namespaceURL) {
 		return doc;
 	}
 };
+
+function generainfo(id, aggr) {
+	var Url = "http://ltw1218.web.cs.unibo.it/descrizione/" + aggr + "/params/" + id;
+	if(window.XMLHttpRequest) {
+		xhttp = new XMLHttpRequest();
+	} else {
+		xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xhttp.open("GET", Url, false);
+	xhttp.setRequestHeader("Content-type", "text/html");
+	xhttp.send();
+	return xhttp.responseText;
+
+}
 
 

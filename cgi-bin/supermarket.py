@@ -40,11 +40,11 @@ def filtraEQ(key,value,nequal):
                         if (item!="metadata"):
                             if((key=="category") and ("category" in val)):
                                 for i in range(0, len(val["category"])):
-                                    if(ops[op](val["category"][i].lower().encode(uencoding), value)):
+                                    if(ops[op](val["category"][i].lower().encode(uencoding), value.encode(uencoding))):
                                         del jdata["locations"][subkey]
-                            elif((key=="id") and ops[op](subkey.lower().encode(uencoding), value)):
+                            elif((key=="id") and ops[op](subkey.lower().encode(uencoding), value.encode(uencoding))):
                                 del jdata["locations"][subkey]
-                            elif ops[op]((val[key].lower().encode(uencoding)),value):
+                            elif key in val and ops[op]((val[key].lower().encode(uencoding)),value.encode(uencoding)):
                                 del jdata["locations"][subkey]
         print json.dumps(jdata, ensure_ascii=False, encoding=uencoding, sort_keys=True, indent=4).encode(uencoding)
         
@@ -68,11 +68,11 @@ def filtraCONTAINS(key,value,ncontains):
             if(item!="metadata"):
                 if((key=="category")):
                     for i in range(0, len(val["category"])):
-                        if(ops[op](value in val["category"][i].lower().encode(uencoding))):
+                        if(ops[op](value in val["category"][i].lower())):
                             del jdata["locations"][subkey]
-                elif((key=="id") and ops[op](value in subkey.lower().encode(uencoding))):
+                elif((key=="id") and ops[op](value in subkey.lower())):
                     del jdata["locations"][subkey]
-                elif (ops[op](value in (val[key].lower()))):
+                elif key in val and (ops[op](value in (val[key].lower()))):
                     del jdata["locations"][subkey]
     print json.dumps(jdata, ensure_ascii=False, encoding=uencoding ,sort_keys=True, indent=4).encode(uencoding)
     
@@ -127,6 +127,7 @@ def main():
             chiave=chiave.lower().decode(uencoding)
             confronto=confronto.lower().decode(uencoding)
             valore=valore.lower().decode(uencoding)
+
             if(confronto=="eq"):
                 filtraEQ(chiave, valore, False)
             elif(confronto=="neq"):

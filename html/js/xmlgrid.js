@@ -7,11 +7,19 @@ categorie['supermarket'] = "supermarket";
 categorie['poste'] = "Poste e Telegrafi";
 categorie['materne'] = "Scuola Materna";
 
+var aggrega = new Object();
+aggrega['farmacia'] = "ltw1218-farmacie";
+aggrega['medico di medicina generale'] = "ltw1218-medici";
+aggrega['supermarket'] = "ltw1218-supermarket";
+aggrega['poste e telegrafi'] = "ltw1218-poste";
+aggrega['scuola materna'] = "ltw1218-materne";
+
+
 var store;
 var grid;
 var categlist;
 var data;
-data= newDocument("locations", "");data
+data = newDocument("locations", ""); data
 
 //Definisco la feature per raggruppare le location per categoria
 var groupingFeature = Ext.create('Ext.grid.feature.Grouping', {
@@ -32,18 +40,18 @@ function removegrid(checkboxid) {
 	store.load();
 }
 
-function cleargrid(){
+function cleargrid() {
 	loclist = data.getElementsByTagName("location");
-	var i=0;
-	while(data.getElementsByTagName("location").length > 0){
-			data.getElementsByTagName("locations")[0].removeChild(loclist[0]);
+	var i = 0;
+	while(data.getElementsByTagName("location").length > 0) {
+		data.getElementsByTagName("locations")[0].removeChild(loclist[0]);
 	}
 	store.loadRawData(data);
 	store.load();
 }
 
 Ext.onReady(function() {
-	
+
 	Ext.define('Location', {
 		extend : 'Ext.data.Model',
 		fields : [
@@ -83,6 +91,7 @@ Ext.onReady(function() {
 	grid = Ext.create('Ext.grid.Panel', {
 		store : store,
 		features : [groupingFeature],
+
 		columns : [{
 			text : "Nome",
 			width : 190,
@@ -108,4 +117,17 @@ Ext.onReady(function() {
 		layout : 'fit'
 	});
 
+	// update panel body on selection change
+	grid.getSelectionModel().on('selectionchange', function(sm, selectedRecord) {
+		if(selectedRecord.length) {
+			Ext.create('Ext.window.Window', {
+				title : selectedRecord[0].data["name"] + ' - ' + selectedRecord[0].data["category"],
+				height : 400,
+				width : 400,
+				layout : 'fit',
+				html : generainfo(selectedRecord[0].data["id"] , aggrega[selectedRecord[0].data["category"].toLowerCase()]),
+			}).show();
+		}
+
+	});
 });

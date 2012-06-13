@@ -12,7 +12,6 @@ Ext.onReady(function() {
 		border: false,
 		xtype: 'panel',
 		contentEl:'box1',
-		//html: '&lt;Sex Pisto&gt;',
 		//cls:'empty'
 	});
 	//vicino a
@@ -34,7 +33,7 @@ Ext.onReady(function() {
 		items:[
 		       {
 		    	   xtype:'panel',
-		    	   width: 200,
+		    	   width: 150,
 		    	   border: false,
 		    	   contentEl: 'box3',
 		    	   
@@ -42,13 +41,18 @@ Ext.onReady(function() {
 		       
 		       {
 		    	   xtype: 'datefield',
-		           width: 180,
-		           name: 'from_date',
+		           width: 130,
+		           name: 'data',
+		           format: 'd-m-y',
+		           listeners: {
+		        	   select: {
+		        	   fn :function(dp, date){
+		        		   descrfilter(Ext.Date.format(date, 'd-m-y').toString(), "apertoind");
+		           }}},
 		           style:
 		        	   {
 		        	   		marginTop: '5px',
-		        	   		marginLeft: 'auto',
-		        	   		marginRight: 'auto'
+		        			marginLeft: '8px'
 		        	   }
 		           //maxValue: new Date()
 		       }
@@ -57,6 +61,7 @@ Ext.onReady(function() {
 	
 	var descr3 = Ext.create('Ext.Panel', {
 		title: 'Trova',
+		labelStyle: 'font-weight:bold;',
 		layouyt: 'fit',
 		contentEl:'box4',
 		cls:'empty',
@@ -64,7 +69,7 @@ Ext.onReady(function() {
 	});
 	
 	
-	accordionh=((Ext.getBody().getViewSize().height) - 225);
+	accordionh=((Ext.getBody().getViewSize().height) - 243);
 	
 	// Panel for the west
     var accordionPanel = new Ext.Panel({
@@ -74,6 +79,7 @@ Ext.onReady(function() {
 	    layout:'accordion',
 	    height: accordionh,
 	    minHeight: 145,
+	    width: 180,
 	    items: [descr1, descr2, descr3]
     });
 
@@ -88,15 +94,15 @@ Ext.onReady(function() {
         items: [{
         	contentEl:'mia_mappa',
             title: 'Mappa',
-            bodyStyle:"background:#CBDDF3"
+            bodyStyle:"background-image:url(images/texture.jpg); background-repeat: repeat;"
         },{
             items:[grid], 
             title: 'Tabella',
-            bodyStyle:"background-image:url(images/texture.jpg) transparent; background-repeat: repeat;"
+            bodyStyle:"background-image:url(images/texture.jpg); background-repeat: repeat;"
         },{
         	contentEl:'info',
             title: 'Help',
-            bodyStyle:"background:#CBDDF3"
+            bodyStyle:"background-image:url(images/texture.jpg); background-repeat: repeat;"
         }]
 	});
 	
@@ -113,6 +119,7 @@ Ext.onReady(function() {
 	    layout: {
 	        type: 'vbox',
 	        align : 'stretch',
+	        width: 180,
 	        pack  : 'start'
 	    },
 	    items: [
@@ -150,8 +157,7 @@ Ext.onReady(function() {
 	            	border: false,
 	            	anchor: '100%',
 	            	height: 70,
-	            	minHeight: 70,
-	            	html: '<div style="color:black ;font-size:500%; text-align:center;">MAL</div>',
+	            	html: '<center> <img src="../MAL.png" height="70px" width="300px" alt="logo"/> </center> ',
 	            	bodyStyle:"background-image:url(images/texture.jpg) !important; background-repeat: repeat;"
 	            },
 	            {
@@ -180,7 +186,7 @@ Ext.onReady(function() {
 	});
 	
 	Ext.EventManager.onWindowResize(function () {
-		accordionh=((Ext.getBody().getViewSize().height) - 225);
+		accordionh=((Ext.getBody().getViewSize().height) - 243);
 		accordionPanel.setHeight(accordionh);
     });
 });

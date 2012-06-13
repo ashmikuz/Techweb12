@@ -2,17 +2,14 @@ var mappa = null;
 var markers = [];
 var punto;
 
-var icone = new Array()
+var icone = new Object();
 icone['farmacia'] = "images/farmacia.png";
 icone['medico di medicina generale'] = "images/medici.png";
 icone['supermarket'] = "images/market.png";
 icone['poste e telegrafi'] = "images/poste.png";
 icone['scuola materna'] = "images/materne.png";
-icone['farmacie'] = "images/farmacia.png";
-icone['medici'] = "images/medici.png";
-icone['supermarket'] = "images/market.png";
-icone['poste'] = "images/poste.png";
-icone['materne'] = "images/materne.png";
+
+
 
 function errorgeo(error) {
 	var pmaggiore = {};
@@ -62,11 +59,28 @@ function mostra_mappa(posizione) {
 	});
 }
 
-//function
+function activeaggr(checkbox) {
+	var i;
+	console.log(checkbox);
+	for(i in descr) {
+		if(descr[i]) {
+			var urldescr = getdescrurl(i, descrarg, checkbox);
+			console.log(urldescr);
+			var xml = loadXMLDoc(urldescr).getElementsByTagName("location");
+			drawmarkers(xml);
+			drawgrid(xml);
+			return true;
+		}
+	}
+	return false;
+}
 
-function drawaggr(checkbox)
-{
-	var xml=getxml(checkbox);
+function drawaggr(checkbox) {
+	if(activeaggr(checkbox.id) == true) {
+		console.log("macheccazzo");
+		return;
+	}
+	var xml = getxml(checkbox);
 	drawmarkers(xml);
 	drawgrid(xml);
 }
@@ -78,6 +92,7 @@ function drawmarkers(locations) {
 	for( i = 0; i < locations.length; i++) {
 		lat = locations[i].attributes.getNamedItem("lat").value;
 		id = locations[i].attributes.getNamedItem("id").value;
+		console.log(id);
 		longitude = locations[i].attributes.getNamedItem("long").value;
 		for( j = 0; j < locations[i].childNodes.length; j++) {
 			if(locations[i].childNodes[j].tagName == "category") {
@@ -119,19 +134,22 @@ function drawmarkers(locations) {
 		//document.getElementById("prova").innerHTML+= (id+","+lat+","+longitude+"<br/>");
 		myLatlng = new google.maps.LatLng(parseFloat(lat), parseFloat(longitude));
 		var icona = icone[category];
-		contentString = generainfo(name, category, address, tel, opening);
+		//contentString = generainfo(name, category, address, tel, opening);
+		//contentString = generainfo(id, aggrega[category]);
 		var infowindow = new google.maps.InfoWindow({
-			content : contentString
+			//content : contentString
 		});
 		marker = new google.maps.Marker({
 			position : myLatlng,
 			map : mappa,
+			id : id,
 			title : name,
 			icon : icona,
-			description : contentString
+			//description : contentString
 		});
+		console.log(marker.id)
 		google.maps.event.addListener(marker, 'click', function() {
-			infowindow.content = this.description;
+			infowindow.content = generainfo(this.id, aggrega[category]);
 			infowindow.open(mappa, this);
 		});
 		markers.push(marker);
@@ -140,7 +158,7 @@ function drawmarkers(locations) {
 
 function removemarkers(category) {
 	for(var i = 0; i < markers.length; i++) {
-		if(category==undefined ||markers[i].getIcon() == icone[category]) {
+		if(category == undefined || markers[i].getIcon() == icone[category]) {
 			//alert("trovato!");
 			markers[i].setMap(null);
 			markers.splice(i, 1);
@@ -149,7 +167,8 @@ function removemarkers(category) {
 	}
 }
 
-function generainfo(name, category, address, tel, opening) {
-	content = '<div><div id="loctitle">' + name + '</div>' + '<div id="category">' + category + '</div>' + '<div id="address">' + address + '</div>' + '<div id="tel">' + tel + '</div>' + '<div id="opening" >' + opening + '</div></div>';
-	return content;
-}
+/*function generainfo(name, category, address, tel, opening) {
+ content = '<div><div id="loctitle">' + name + '</div>' + '<div id="category">' + category + '</div>' + '<div id="address">' + address + '</div>' + '<div id="tel">' + tel + '</div>' + '<div id="opening" >' + opening + '</div></div>';
+ return content;
+ }*/
+

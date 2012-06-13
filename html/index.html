@@ -1,83 +1,111 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <?xml version="1.0" encoding="UTF-8"?>
 <html>
-<head>
-	<title>Gruppo MAL</title>
-	<link rel="stylesheet" type="text/css" href="extjs/resources/css/ext-all.css">
-    <script type="text/javascript" src="extjs/ext-all-debug.js"></script>
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCU1HhleX04tfH_e1ZZW4RtAOz99-fhXQk&sensor=true"></script>
-	<script type="text/javascript" src="js/xml.js" ></script>
-	<script type="text/javascript" src="js/xmlgrid.js"></script>
-	<script type="text/javascript" src="js/geo.js" ></script>
-	<script type="text/javascript" src="js/panel.js"></script>
-	<script language="JavaScript">		
-					function puliscitext(elm){
-						if (!elm.base) elm.base = elm.value
-						if (elm.value == elm.base) elm.value = "";
-						else if (elm.value == "") elm.value = elm.base;
-					}
-	</script>
-</head>
-<body onload="inizialize()">
-	<div id="operation">
-		<div id="box1" class="x-hide-display">
-			<b>Scegli una o pi&ugrave; categorie:</b> <br/>
-			<ul>
-				<li> <input type = "checkbox" id = "supermarket" onclick="drawmarkers(this)"/>
-             		<label for = "market">Supermarket</label> </li>
-             	<li> <input type = "checkbox" id = "poste" onclick="drawmarkers(this)" />
-             		<label for = "market">Poste</label> </li>
-             	<li> <input type = "checkbox" id = "farmacie" onclick="drawmarkers(this)"/>
-             		<label for = "market">Farmacie</label> </li>
-             	<li> <input type = "checkbox" id = "medici" onclick="drawmarkers(this)" />
-           			<label for = "market">Medici</label> </li>
-           		<li> <input type = "checkbox" id = "materne" onclick="drawmarkers(this)" />
-           			<label for = "market">Scuole Materne</label> </li>
-           	</ul>
-		</div>
+	<head>
+		<title>Gruppo MAL</title>
+		<link rel="stylesheet" type="text/css" href="extjs/resources/css/ext-all.css">
+		<script type="text/javascript" src="extjs/ext-all-debug.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCU1HhleX04tfH_e1ZZW4RtAOz99-fhXQk&sensor=true"></script>
+		<script type="text/javascript" src="js/xml.js" ></script>
+		<script type="text/javascript" src="js/xmlgrid.js"></script>
+		<script type="text/javascript" src="js/geo.js" ></script>
+		<script type="text/javascript" src="js/panel.js"></script>
+		<script type="text/javascript" src="js/descr.js"></script>
+		<script language="JavaScript">
+			function puliscitext(elm) {
+				if(!elm.base)
+					elm.base = elm.value
+				if(elm.value == elm.base)
+					elm.value = "";
+				else if(elm.value == "")
+					elm.value = elm.base;
+			}
+		</script>
+	</head>
+	<body onload="inizialize()">
+		<div id="operation">
+			<div id="box1" class="x-hide-display">
+				<b>Scegli una o pi&ugrave; categorie:</b>
+				<br/>
+				<ul>
+					<li>
+						<input type = "checkbox" id = "supermarket" onclick="drawaggr(this)"/>
+						<label for = "market">Supermarket</label>
+					</li>
+					<li>
+						<input type = "checkbox" id = "poste" onclick="drawaggr(this)" />
+						<label for = "market">Poste</label>
+					</li>
+					<li>
+						<input type = "checkbox" id = "farmacie" onclick="drawaggr(this)"/>
+						<label for = "market">Farmacie</label>
+					</li>
+					<li>
+						<input type = "checkbox" id = "medici" onclick="drawaggr(this)" />
+						<label for = "market">Medici</label>
+					</li>
+					<li>
+						<input type = "checkbox" id = "materne" onclick="drawaggr(this)" />
+						<label for = "market">Scuole Materne</label>
+					</li>
+				</ul>
+			</div>
 			<form id="box2" class="x-hide-display" action="" method="get">
-			<b>Vicino A: <br/> </b>
-			Indirizzo: 
-			<input type="text" name="lat"value="es. via Indipendenza, 1" onBlur="puliscitext(this)" onFocus="puliscitext(this)" /><br />
-			<button type="button" onclick="descrfilter(this.form,'trovapernome')">Cerca</button>
+				
+				<br/>
+				<button type="button" onclick="miapos()">
+					La mia posizione
+				</button> <br /> <br />
+				
+				Indirizzo: <br />
+				<input id="txbAddress" type="text" name="lat"value="es: via Indipendenza, 1" onBlur="puliscitext(this)" onFocus="puliscitext(this)" />
+				<br />
+			
+				<button type="button" onclick="descrfilter(this.form.txbAddress.value, 'vicinoa')">
+					Cerca
+				</button> 
+				
 			</form>
-		<div id="box3" class="x-hide-display">
-			<b>Aperto in data:</b> <br />
-			<ul>
-				<li> 
-					<input type="checkbox" id = "lun" />
-             		<label>lun</label>
-             		<input type="checkbox" id = "mar" />
-             		<label>mar</label> 
-             		<input type="checkbox" id = "mer" />
-           			<label>mer</label> 
-           			<input type="checkbox" id = "gio" />
-             		<label>gio</label>
-    			</li>
-    			<li>
-             		<input type="checkbox" id = "ven" />
-             		<label>ven</label> 
-             		<input type="checkbox" id = "sab" />
-             		<label>sab</label> 
-    				<input type="checkbox" id = "dom" />
-             		<label>dom</label> 
-             	</li>
-    		</ul>
-    		<b>Inserisci data:</b>
+			<div id="box3" class="x-hide-display">
+			
+				<br />
+			
+						<input type="checkbox" id = "lun" />
+						<label>lun</label>
+						<input type="checkbox" id = "mar" />
+						<label>mar</label>
+						<input type="checkbox" id = "mer" />
+						<label>mer</label><br />
+						<input type="checkbox" id = "gio" />
+						<label>gio</label>
+						<input type="checkbox" id = "ven" />
+						<label>ven</label>
+						<input type="checkbox" id = "sab" />
+						<label>sab</label><br />
+						<input type="checkbox" id = "dom" />
+						<label>dom</label>
+				
+			</div>
+			<form id="box4" class="x-hide-display" method="get">
+				
+				<br/>
+				
+				<input type="text" name="trovanome"value="es: Aicardi" onBlur="puliscitext(this)" onFocus="puliscitext(this)" />
+				<br />
+				<button type="button" onclick="descrfilter(this.form,'trovapernome')">
+					Cerca
+				</button>
+			</form>
 		</div>
-		<form id="box4" class="x-hide-display" method="get">
-			<b>Trova: <br/> </b>
-			<input type="text" name="trovanome"value="es: Aicardi" onBlur="puliscitext(this)" onFocus="puliscitext(this)" /><br />
-			<button type="button" onclick="descrfilter(this.form,'trovapernome')">Cerca</button>
-		</form>
-	</div>
 		<div id="mia_mappa"class="x-hide-display">
-			<center>Caricamento in corso...</center>
+			<center>
+				Caricamento in corso...
+			</center>
 		</div>
 		<div id="tabella"class="x-hide-display"></div>
-		<div id="info"class="x-hide-display"> 
+		<div id="info"class="x-hide-display">
 			Un pò di testo di prova...qui ci metteremo un pò di info sulla pagina
 		</div>
-</body>
+	</body>
 </html>
