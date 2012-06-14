@@ -143,9 +143,9 @@ Ext.onReady(function() {
 	    		{
 	    			if(mappa!=null)
 	    			{
-	    			punto=mappa.getCenter();
+	    			var center=mappa.getCenter();
 	    			google.maps.event.trigger(mappa, "resize");
-	    			mappa.setCenter(punto);
+	    			mappa.setCenter(center);
 	    			}
 	    			}
 	    	}

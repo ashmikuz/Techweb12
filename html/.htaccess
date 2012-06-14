@@ -7,5 +7,6 @@ RewriteRule ^ltw1218-medici/?([a-z,A-Z,\,]*)/?([a-z,A-Z]*)/?([a-z,A-Z,0-9,\.,\,\
 RewriteRule ^vicinoa/?([a-z,A-Z,\,,\-,0-9]*)/params/?([0-9,\.]*)/?([0-9,\.]*)/?([a-z,A-Z,0-9,\.,\,\ ]*)$  /cgi-bin/vicinoa.py?aggr=$1&lat=$2&long=$3&maxel=$4 [L]
 RewriteRule ^apertoind/?([a-z,A-Z,\,,\-,0-9]*)/params/?([A-Z,a-z]*)/?(.*)$  /cgi-bin/apertoind.py?aggr=$1&operator=$2&dates=$3 [L]
 RewriteRule ^descrizione/?([a-z,A-Z,\,,\-,0-9]*)/params/?([A-Z,a-z,0-9]*)$  /cgi-bin/descrizione.py?aggr=$1&name=$2 [L]
-RewriteRule ^trova-per-nome/?([a-z,A-Z,\,,\-,0-9]*)/params/?([A-Z,a-z,0-9]*)$  /cgi-bin/trovapernome.py?aggr=$1&name=$2 [L]
+RewriteRule ^trova-per-nome/?([a-z,A-Z,\,,\-,0-9]*)/params/?([A-Z,a-z,0-9,\ ]*)$  /cgi-bin/trovapernome.py?aggr=$1&name=$2 [L]
+RewriteRule ^aperto/params/?([^/]*)/?(.*)$  /cgi-bin/aperto.py?multi=$1&simple=$2 [L]
 RewriteRule ^catalogo  catalogo.xml [L]

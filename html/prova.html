@@ -93,9 +93,9 @@
 				<b>Trova:
 				<br/>
 				</b>
-				<input type="text" name="trovanome"value="es: Aicardi" onBlur="puliscitext(this)" onFocus="puliscitext(this)" />
+				<input id="cercanome" type="text" name="trovanome"value="es: Aicardi" onBlur="puliscitext(this)" onFocus="puliscitext(this)" />
 				<br />
-				<button type="button" onclick="descrfilter(this.form,'trovapernome')">
+				<button type="button" onclick="descrfilter(this.form.cercanome.value,'trovapernome')">
 					Cerca
 				</button>
 			</form>

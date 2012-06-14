@@ -8,7 +8,7 @@ icone['medico di medicina generale'] = "images/medici.png";
 icone['supermarket'] = "images/market.png";
 icone['poste e telegrafi'] = "images/poste.png";
 icone['scuola materna'] = "images/materne.png";
-
+icone['vicinoa'] = "images/zoom.png";
 
 
 function errorgeo(error) {
@@ -157,6 +157,10 @@ function drawmarkers(locations) {
 }
 
 function removemarkers(category) {
+	if(vicinoamarker)
+		{
+			vicinoamarker.setMap(null);
+		}
 	for(var i = 0; i < markers.length; i++) {
 		if(category == undefined || markers[i].getIcon() == icone[category]) {
 			//alert("trovato!");

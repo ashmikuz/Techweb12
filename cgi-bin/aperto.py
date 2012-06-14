@@ -8,20 +8,21 @@ import cgi
 
 def main():
     fs = cgi.FieldStorage()
-    aggr=fs.getvalue("aggr").lower()
-    name=fs.getvalue("name").lower()
-    if (not name or not aggr):
+    multiint=fs.getvalue("multi")
+    intsemplice=fs.getvalue("simple")
+    if (not multiint or not intsemplice):
         error.errhttp("406");
     else:
-        urldescr="http://ltw1219.web.cs.unibo.it/trova-per-nome/"+aggr+"/params/"+name
+        urldescr="http://ltw1219.web.cs.unibo.it/aperto/params/"+multiint+"/"+intsemplice
         urldescr=urllib.quote(urldescr,  safe="%/:=&?~#+!$,;'@()*[]")
         req=urllib2.Request(url=urldescr)
-        req.add_header('Accept', 'application/xml, text/turtle, text/csv, application/json')
+        req.add_header('Accept', '*/*, application/xml, text/turtle, text/csv, application/json')
         response = urllib2.urlopen(req)
         restype= response.info().gettype()
         resource=response.read()
         response.close()
-        print ("Content-type: application/xml; charset=UTF-8\n")
+        print ("Content-type: text/plain; charset=UTF-8\n")
         print resource
+        
         
 main()
