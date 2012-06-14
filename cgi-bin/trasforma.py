@@ -118,7 +118,11 @@ class location:
                     return 404
             if("%s-%s-%s" % (year,month,day) in self.opening or "%s-%s" % (month,day) in self.opening):
                 return True
-            elif(weekdays[date.weekday()] in self.opening.lower() and not ("%s-%s-%s" % (year,month,day) in self.closing or "%s-%s" % (month,day) in self.closing)):
+            elif ("%s-%s-%s" % (year,month,day) in self.closing or "%s-%s" % (month,day) in self.closing or date.day()+months[date.month()] in self.closing.lower):
+                return False
+            elif(weekdays[date.weekday()] in self.opening.lower()):
+                return True
+            elif(date.day()+months[date.month()] in self.opening.lower()):
                 return True
             else:
                 return False

@@ -19,3 +19,4 @@ fourl="http://xmlns.com/foaf/spec/index.rdf"
 csvfields="\"Id\",\"Category\",\"Name\",\"Address\",\"Lat\",\"Long\",\"subcategory\",\"note\",\"Opening\",\"Closing\",\"Creator\",\"Created\",\"Valid\",\"Version\",\"Source\""
 metacat="http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/MetaCatalogo1112/metaCatalogo.xml"
 weekdays=["mon","tue","wed","thu","fri","sat","sun"]
+months=["jan","feb","mar","apr","may","jun","jul","aug","sept","oct","nov","dec"]
