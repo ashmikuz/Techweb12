@@ -1,7 +1,5 @@
 var descr = {"trovapernome": false, "apertoind":false, "vicinoa":false};
 
-var descrarg;
-
 var arrayname = new Array();
 arrayname[0] = "farmacie";
 arrayname[1] = "supermarket";
@@ -49,7 +47,7 @@ function getdescrurl(descrname, args, aggr) {
 				}
 				else
 					{
-//						path = "http://ltw1218.web.cs.unibo.it/vicinoa/ltw1218-" + aggr + "/params/" + lat + "/" + longitude + "/10"
+						path = "http://ltw1218.web.cs.unibo.it/vicinoa/ltw1218-" + aggr + "/params/" + lat + "/" + longitude + "/10"
 						url[0]=path;
 						urlcounter=1;
 					}

@@ -1,6 +1,7 @@
 var mappa = null;
 var markers = [];
 var punto;
+var descrarg;
 
 var icone = new Object();
 icone['farmacia'] = "images/farmacia.png";
@@ -61,7 +62,7 @@ function mostra_mappa(posizione) {
 
 function activeaggr(checkbox) {
 	var i;
-	console.log(checkbox);
+	console.log(descrarg);
 	for(i in descr) {
 		if(descr[i]) {
 			var urldescr = getdescrurl(i, descrarg, checkbox);
@@ -77,7 +78,6 @@ function activeaggr(checkbox) {
 
 function drawaggr(checkbox) {
 	if(activeaggr(checkbox.id) == true) {
-		console.log("macheccazzo");
 		return;
 	}
 	var xml = getxml(checkbox);
