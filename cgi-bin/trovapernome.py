@@ -20,7 +20,7 @@ def main():
         response = urllib2.urlopen(req)
         resource=response.read()
         response.close()
-        print ("Content-type: text/plain; charset=UTF-8\n")
+        print ("Content-type: application/xml; charset=UTF-8\n")
         print resource
         
 main()
