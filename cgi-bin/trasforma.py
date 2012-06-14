@@ -3,7 +3,7 @@
 
 import sys
 from math import radians, sqrt, atan2, cos, fabs, sin, pow
-from costanti import uencoding, csvfields, weekdays
+from costanti import uencoding, csvfields, weekdays, months
 import error
 import csv
 import json
@@ -118,11 +118,13 @@ class location:
                     return 404
             if("%s-%s-%s" % (year,month,day) in self.opening or "%s-%s" % (month,day) in self.opening):
                 return True
-            elif ("%s-%s-%s" % (year,month,day) in self.closing or "%s-%s" % (month,day) in self.closing or date.day()+months[date.month()] in self.closing.lower):
+            elif ("%s-%s-%s" % (year,month,day) in self.closing or "%s-%s" % (month,day) in self.closing):
+                return False
+            elif (str(date.day)+" "+months[date.month - 1] in self.closing.lower()):
                 return False
             elif(weekdays[date.weekday()] in self.opening.lower()):
                 return True
-            elif(date.day()+months[date.month()] in self.opening.lower()):
+            elif(str(date.day)+" "+months[date.month - 1] in self.opening.lower()):
                 return True
             else:
                 return False

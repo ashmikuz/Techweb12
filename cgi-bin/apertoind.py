@@ -57,9 +57,9 @@ def getopened(dates, operator,loclist):
 
 def main():
     fs = cgi.FieldStorage()
-    aggr=fs.getvalue("aggr").lower()
-    operator=fs.getvalue("operator").lower()
-    dates=fs.getvalue("dates").lower()
+    aggr=fs.getvalue("aggr")
+    operator=fs.getvalue("operator")
+    dates=fs.getvalue("dates")
     if ((not aggr) or (not operator) or (not dates)):
         error.errhttp("406")
         return
@@ -67,6 +67,9 @@ def main():
     if(urlaggr=="404"):
         error.errhttp("404")
         return
+    aggr=aggr.lower()
+    operator=operator.lower()
+    dates=dates.lower()
     req=urllib2.Request(url=urlaggr)
     req.add_header('Accept', 'application/xml, text/turtle, text/csv, application/json')
     response = urllib2.urlopen(req)
