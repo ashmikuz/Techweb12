@@ -125,7 +125,7 @@ Ext.onReady(function() {
 				height : 400,
 				width : 400,
 				layout : 'fit',
-				html : generainfo(selectedRecord[0].data["id"] , aggrega[selectedRecord[0].data["category"].toLowerCase()]),
+				html : generainfo(selectedRecord[0].data["id"] , aggrega[selectedRecord[0].data["category"].toLowerCase()]) + getaperto(selectedRecord[0].data["opening"]),
 			}).show();
 		}
 
