@@ -94,6 +94,7 @@ function drawmarkers(locations) {
 		id = locations[i].attributes.getNamedItem("id").value;
 		console.log(id);
 		longitude = locations[i].attributes.getNamedItem("long").value;
+		opening="";
 		for( j = 0; j < locations[i].childNodes.length; j++) {
 			if(locations[i].childNodes[j].tagName == "category") {
 				if(window.ActiveXObject) {
@@ -124,9 +125,9 @@ function drawmarkers(locations) {
 
 			} else if(locations[i].childNodes[j].tagName == "opening") {
 				if(window.ActiveXObject) {
-					opening = locations[i].childNodes[j].text;
+					opening += locations[i].childNodes[j].text;
 				} else {
-					opening = locations[i].childNodes[j].textContent;
+					opening += locations[i].childNodes[j].textContent;
 				}
 
 			}
@@ -144,12 +145,13 @@ function drawmarkers(locations) {
 			map : mappa,
 			id : id,
 			title : name,
+			opening: opening,
 			icon : icona,
 			//description : contentString
 		});
 		console.log(marker.id)
 		google.maps.event.addListener(marker, 'click', function() {
-			infowindow.content = generainfo(this.id, aggrega[category]);
+			infowindow.content = generainfo(this.id, aggrega[category])+getaperto(this.opening);
 			infowindow.open(mappa, this);
 		});
 		markers.push(marker);

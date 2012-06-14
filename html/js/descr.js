@@ -49,7 +49,7 @@ function getdescrurl(descrname, args, aggr) {
 				}
 				else
 					{
-						path = "http://ltw1218.web.cs.unibo.it/vicinoa/ltw1218-" + aggr + "/params/" + lat + "/" + longitude + "/10"
+//						path = "http://ltw1218.web.cs.unibo.it/vicinoa/ltw1218-" + aggr + "/params/" + lat + "/" + longitude + "/10"
 						url[0]=path;
 						urlcounter=1;
 					}
@@ -170,6 +170,34 @@ function createposmarker(pos)
 		title : "Posizione ricerca"
 	});
 	mappa.setCenter(markerlatlng);
+}
+
+function getaperto(multiint)
+{
+	var date=new Date();
+	var day=date.getDate().toString();
+	var month=("0" + (date.getMonth() + 1)).slice(-2);
+	var year=date.getFullYear().toString();
+	var hour=date.getHours().toString();
+	var minute=date.getMinutes().toString();
+	var formatteddate=year+"-"+month+"-"+day+":"+hour+minute+".";
+	var urldescr="aperto/params/"+multiint+"/"+formatteddate;
+	var client = new XMLHttpRequest();
+	client.open('GET', urldescr,false);
+	client.send();
+	console.log(client.responseText);
+	if(client.responseText==1)
+		{
+		return '<div style="color:#00FF00">Aperto</div>';
+		}
+	if(client.responseText== 0)
+		{
+		return '<div style="color:#FF0000">Chiuso</div>';
+		}
+	else
+		{
+		return "";
+		}
 }
 
 function miapos()
