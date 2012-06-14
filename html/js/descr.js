@@ -180,7 +180,7 @@ function getaperto(multiint)
 	var year=date.getFullYear().toString();
 	var hour=date.getHours().toString();
 	var minute=date.getMinutes().toString();
-	var formatteddate=year+"-"+month+"-"+day+":"+hour+minute+".";
+	var formatteddate=year+"-"+month+"-"+day+": "+hour+minute+".";
 	var urldescr="aperto/params/"+multiint+"/"+formatteddate;
 	var client = new XMLHttpRequest();
 	client.open('GET', urldescr,false);
