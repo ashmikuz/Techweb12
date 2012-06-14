@@ -16,12 +16,11 @@ def main():
         urldescr="http://ltw1219.web.cs.unibo.it/trova-per-nome/"+aggr+"/params/"+name
         urldescr=urllib.quote(urldescr,  safe="%/:=&?~#+!$,;'@()*[]")
         req=urllib2.Request(url=urldescr)
-        req.add_header('Accept', 'application/xml, text/turtle, text/csv, application/json')
+        req.add_header('Accept', 'application/xml')
         response = urllib2.urlopen(req)
-        restype= response.info().gettype()
         resource=response.read()
         response.close()
-        print ("Content-type: application/xml; charset=UTF-8\n")
+        print ("Content-type: text/plain; charset=UTF-8\n")
         print resource
         
 main()

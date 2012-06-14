@@ -125,7 +125,6 @@ function generainfo(id, aggr) {
 		xhttp = new ActiveXObject("Microsoft.XMLHTTP");
 	}
 	xhttp.open("GET", Url, false);
-	xhttp.setRequestHeader("Content-type", "text/html");
 	xhttp.send();
 	return xhttp.responseText;
 

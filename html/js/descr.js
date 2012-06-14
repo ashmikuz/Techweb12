@@ -29,7 +29,6 @@ function getdescrurl(descrname, args, aggr) {
 			var urlcounter = 0;
 			var path;
 			descrarg=args;
-			console.log(descrname);
 			if(descrname == "vicinoa") {
 				var lat = args["lat"];
 				var longitude = args["lng"];
@@ -80,10 +79,10 @@ function getdescrurl(descrname, args, aggr) {
 				{
 					if(document.getElementById(arrayname[i]).checked) 
 					{
-				path="trova-per-nome/ltw1218-" + arrayname[i] + "/params/"+args;
-				url[urlcounter]=path;
-				urlcounter++;
-			}
+						path="trova-per-nome/ltw1218-" + arrayname[i] + "/params/"+args;
+						url[urlcounter]=path;
+						urlcounter++;
+					}
 		}
 		}
 		else
@@ -93,7 +92,6 @@ function getdescrurl(descrname, args, aggr) {
 			urlcounter=1;
 			}
 	}
-	//console.log(url);
 	return url;
 }
 
@@ -103,7 +101,6 @@ function descrfilter(arg, descrname) {
 	//clean grid and map
 	cleargrid();
 	removemarkers(undefined);
-	console.log(descrname);
 	if( descrname == 'vicinoa') {
 		var lat, lng;
 		if(typeof(arg)=="string")
@@ -145,6 +142,7 @@ function descrfilter(arg, descrname) {
 	}
 	else
 		{
+			descrarg=arg;
 			var patharray = getdescrurl(descrname, arg);
 			for(var i=0;i<patharray.length;i++){
 				//alert(patharray[i]);
@@ -183,7 +181,6 @@ function getaperto(multiint)
 	var client = new XMLHttpRequest();
 	client.open('GET', urldescr,false);
 	client.send();
-	console.log(client.responseText);
 	if(client.responseText==1)
 		{
 		return '<div style="color:#00FF00">Aperto</div>';

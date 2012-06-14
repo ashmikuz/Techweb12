@@ -62,11 +62,9 @@ function mostra_mappa(posizione) {
 
 function activeaggr(checkbox) {
 	var i;
-	console.log(descrarg);
 	for(i in descr) {
 		if(descr[i]) {
 			var urldescr = getdescrurl(i, descrarg, checkbox);
-			console.log(urldescr);
 			var xml = loadXMLDoc(urldescr).getElementsByTagName("location");
 			drawmarkers(xml);
 			drawgrid(xml);
@@ -77,12 +75,20 @@ function activeaggr(checkbox) {
 }
 
 function drawaggr(checkbox) {
+	if(checkbox.checked)
+	{
 	if(activeaggr(checkbox.id) == true) {
 		return;
 	}
 	var xml = getxml(checkbox);
 	drawmarkers(xml);
 	drawgrid(xml);
+		}
+	else
+		{
+			removemarkers(checkbox.id);
+			removegrid(checkbox.id);
+		}
 }
 
 function drawmarkers(locations) {
@@ -92,7 +98,6 @@ function drawmarkers(locations) {
 	for( i = 0; i < locations.length; i++) {
 		lat = locations[i].attributes.getNamedItem("lat").value;
 		id = locations[i].attributes.getNamedItem("id").value;
-		console.log(id);
 		longitude = locations[i].attributes.getNamedItem("long").value;
 		opening="";
 		for( j = 0; j < locations[i].childNodes.length; j++) {
@@ -146,10 +151,10 @@ function drawmarkers(locations) {
 			id : id,
 			title : name,
 			opening: opening,
+			categoria: category,
 			icon : icona,
 			//description : contentString
 		});
-		console.log(marker.id)
 		google.maps.event.addListener(marker, 'click', function() {
 			infowindow.content = generainfo(this.id, aggrega[category])+getaperto(this.opening);
 			infowindow.open(mappa, this);
@@ -164,7 +169,7 @@ function removemarkers(category) {
 			vicinoamarker.setMap(null);
 		}
 	for(var i = 0; i < markers.length; i++) {
-		if(category == undefined || markers[i].getIcon() == icone[category]) {
+		if(category == undefined || markers[i].categoria == categorie[category].toLowerCase()) {
 			//alert("trovato!");
 			markers[i].setMap(null);
 			markers.splice(i, 1);
