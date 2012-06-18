@@ -8,7 +8,6 @@ Ext.onReady(function() {
 		var aggr = Ext.create('Ext.Panel', {
 		title: 'Categorie',
 		layout: 'fit',
-		//flex:1,
 		border: false,
 		xtype: 'panel',
 		contentEl:'box1',
@@ -16,7 +15,8 @@ Ext.onReady(function() {
 	});
 	//vicino a
 	var descr1 = Ext.create('Ext.Panel', {
-		title: 'Vicino a',
+		title: '<b>Vicino a:</b>',
+		border: false,
 		layout: 'fit',
 		contentEl:'box2',
 		cls:'empty',
@@ -26,33 +26,33 @@ Ext.onReady(function() {
 	
 	//aperto in data
 	var descr2 = Ext.create('Ext.Panel', {
-		title: 'Aperto in data',
+		title: '<b>Aperto in data:</b>',
+		border: false,
 		layouyt: 'fit',
 		cls:'empty',
 		//contentEl: 'datepicker',
 		items:[
 		       {
 		    	   xtype:'panel',
-		    	   width: 150,
 		    	   border: false,
-		    	   contentEl: 'box3',
-		    	   
+		    	   html:'<p style="text-align:center; padding-top: 5px;">Seleziona Data:</p>'
 		       },
 		       
 		       {
 		    	   xtype: 'datefield',
-		           width: 130,
+		           width: 140,
 		           name: 'data',
-		           format: 'd-m-y',
+		           format: 'Y-m-d',
 		           listeners: {
 		        	   select: {
 		        	   fn :function(dp, date){
-		        		   descrfilter(Ext.Date.format(date, 'd-m-y').toString(), "apertoind");
+		        		   descrfilter(Ext.Date.format(date, 'Y-m-d').toString(), "apertoind");
 		           }}},
 		           style:
 		        	   {
 		        	   		marginTop: '5px',
-		        			marginLeft: '8px'
+		        			marginLeft: 'auto',
+		        			marginRight: 'auto'
 		        	   }
 		           //maxValue: new Date()
 		       }
@@ -60,7 +60,8 @@ Ext.onReady(function() {
 	});
 	
 	var descr3 = Ext.create('Ext.Panel', {
-		title: 'Trova',
+		title: '<b>Trova:</b>',
+		border: false,
 		labelStyle: 'font-weight:bold;',
 		layouyt: 'fit',
 		contentEl:'box4',
@@ -78,7 +79,7 @@ Ext.onReady(function() {
 	    id: 'west-region-container',
 	    layout:'accordion',
 	    height: accordionh,
-	    minHeight: 145,
+	   	minHeight: 220,
 	    width: 180,
 	    items: [descr1, descr2, descr3]
     });
@@ -100,7 +101,18 @@ Ext.onReady(function() {
             title: 'Tabella',
             bodyStyle:"background-image:url(images/texture.jpg); background-repeat: repeat;"
         },{
-        	contentEl:'info',
+        	loader:
+        		{
+        			url: 'help.html',
+        			contentType: 'html',
+        			loadMask: false
+        		},
+        		listeners:
+        			{
+        			activate: function(tab){
+        				tab.loader.load();
+        			}
+        			},
             title: 'Help',
             bodyStyle:"background-image:url(images/texture.jpg); background-repeat: repeat;"
         }]

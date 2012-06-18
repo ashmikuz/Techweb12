@@ -174,9 +174,10 @@ function getaperto(multiint)
 	var day=date.getDate().toString();
 	var month=("0" + (date.getMonth() + 1)).slice(-2);
 	var year=date.getFullYear().toString();
-	var hour=date.getHours().toString();
-	var minute=date.getMinutes().toString();
-	var formatteddate=year+"-"+month+"-"+day+": "+hour+minute+".";
+	var hour=("0"+date.getHours()).slice(-2);
+	var startminute=("0"+date.getMinutes()).slice(-2);
+	var endminute=("0"+(date.getMinutes()+10)).slice(-2);
+	var formatteddate=year+"-"+month+"-"+day+": "+hour+startminute+"-"+hour+endminute+".";
 	var urldescr="aperto/params/"+multiint+"/"+formatteddate;
 	var client = new XMLHttpRequest();
 	client.open('GET', urldescr,false);
