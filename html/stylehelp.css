@@ -1,0 +1,22 @@
+h1{
+	color:red;
+	text-align: center;
+}
+
+ul{
+	list-style-type:circle;
+}
+
+li{ list-style-type:circle; } 
+
+p{
+	text-align: justify;
+}
+
+h3{
+	padding-left: 2em; 
+}
+
+p.indentato{
+	padding-left: 2em; 
+}
