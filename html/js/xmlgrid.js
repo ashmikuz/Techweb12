@@ -41,10 +41,8 @@ function removegrid(checkboxid) {
 }
 
 function cleargrid() {
-	loclist = data.getElementsByTagName("location");
-	var i = 0;
 	while(data.getElementsByTagName("location").length > 0) {
-		data.getElementsByTagName("locations")[0].removeChild(loclist[0]);
+		data.getElementsByTagName("locations")[0].removeChild(data.getElementsByTagName("location")[0]);
 	}
 	store.loadRawData(data);
 	store.load();

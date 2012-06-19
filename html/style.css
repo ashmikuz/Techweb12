@@ -56,31 +56,42 @@ body {
 	font-style: italic;
 	color: #999999;
 }
-#box2 p{
-	font-size: 14px;
-}
 .bottone {
 	cursor: pointer;
-	padding: .4em;
+	margin: 0 auto !important;
+	font-size: 14px;
+	padding: 2px;
 	color: #000000;
 	border: solid thin #aaaaff;
 	background-color: #ccccff;
 }
 .bottone:hover{
+	cursor: pointer;
 	background-color: #aaaaff; 
 }
+
+.centercontent{
+	text-align:center;
+}
+
+.centercontent > input
+{
+	margin-top: 5px !important;
+	margin-left: auto !important; 
+	margin-right: auto !important;
+}
+
 .center{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: block !important;
+	margin-left: auto !important; 
+	margin-right: auto !important;
 }
 #mia_mappa {
 	text-align: center;
  	width: 100%;
 	height: 100%;
 }
-#box1, #box2, #box4{
-	float:left;
+#box1{
 	padding: 8px 0px 8px 8px;
 }
 
@@ -88,5 +99,7 @@ body {
 	font-weight: bold;
 }
 
-li {list-style: none;}
-ul {list-style-type:none;}
+#aggr {
+	list-style: none !important;
+	list-style-type:none !important;
+}

@@ -4,9 +4,9 @@
 	<head>
 		<title>Gruppo MAL</title>
 		<link rel="stylesheet" type="text/css" href="extjs/resources/css/ext-all.css"/>
-		<script type="text/javascript" src="extjs/ext-all-debug.js"></script>
 		<link href="style.css" rel="stylesheet" type="text/css"/>
 		<link href="stylehelp.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="extjs/ext-all-debug.js"></script>
 		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCU1HhleX04tfH_e1ZZW4RtAOz99-fhXQk&amp;sensor=true"></script>
 		<script type="text/javascript" src="js/xml.js" ></script>
 		<script type="text/javascript" src="js/xmlgrid.js"></script>
@@ -28,7 +28,7 @@
 		<div id="operation">
 			<form id="box1" class="x-hide-display" action="#">
 				<div class="bold">Scegli una o pi&ugrave; categorie:</div>
-				<ul>
+				<ul id="aggr">
 					<li>
 						<input type = "checkbox" id = "supermarket" onclick="drawaggr(this)"/>
 						<label for = "supermarket">Supermarket</label>
@@ -52,18 +52,22 @@
 				</ul>
 			</form>
 			<form id="box2" class="x-hide-display" action="#" onsubmit="descrfilter(this.txbAddress.value, 'vicinoa'); return false;">
-				<div>
+				<div class="centercontent">
 				<input id="txbAddress" type="text" name="lat" value="es. via Indipendenza, 1" onblur="puliscitext(this)" onfocus="puliscitext(this)"/>
-				<input class="bottone" type="submit" value="Cerca" />
-				<button class="bottone" type="button" onclick="miapos()">
+				</div>
+				<div class="centercontent">
+					<input class="bottone" type="submit" value="Cerca" />
+					<button class="bottone" type="button" onclick="miapos()">
 					La tua posizione
-				</button>
+					</button>
 				</div>
 			</form>
 			<form id="box4" class="x-hide-display" action="" onsubmit="descrfilter(this.cercanome.value,'trovapernome'); return false;">
-				<div>
+				<div class="centercontent">
 				<input id="cercanome" type="text" name="trovanome" value="es: Aicardi" onblur="puliscitext(this)" onfocus="puliscitext(this)" />
 				<br />
+				</div>
+				<div class="centercontent">
 				<input class="bottone" type="submit" value="Cerca"/>
 				</div>
 			</form>

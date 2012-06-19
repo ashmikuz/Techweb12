@@ -1,24 +1,23 @@
 
 	var accordionh;
 	
+
 Ext.onReady(function() {
 	//pannello che contiene i controlli per caricare da aggregatori
 		var aggr = Ext.create('Ext.Panel', {
 		title: '<img src="images/categoria.png" width="18px" height="18px" alt="categorie" /> &nbsp Categorie',
 		layout: 'fit',
+		//height: 140,
 		border: false,
 		xtype: 'panel',
-		contentEl:'box1',
-		//cls:'empty'
+		contentEl:'box1'	
 	});
 	//vicino a
 	var descr1 = Ext.create('Ext.Panel', {
 		title: '<img src="images/vicino.png" width="18px" height="18px" alt="categorie" />&nbsp<b>Vicino a:</b>',
 		border: false,
 		layout: 'fit',
-		contentEl:'box2',
-		cls:'empty',
-		
+		contentEl:'box2'		
 	});
 	
 	
@@ -63,12 +62,10 @@ Ext.onReady(function() {
 		labelStyle: 'font-weight:bold;',
 		layouyt: 'fit',
 		contentEl:'box4',
-		cls:'empty',
-		
 	});
 	
 	
-	accordionh=((Ext.getBody().getViewSize().height) - 243);
+	accordionh=((Ext.getBody().getViewSize().height) - 245);
 	
 	// Panel for the west
     var accordionPanel = new Ext.Panel({
@@ -76,9 +73,11 @@ Ext.onReady(function() {
 	    //collapsible: true,   // make collapsible
 	    id: 'west-region-container',
 	    layout:'accordion',
-	    height: accordionh,
-	   	minHeight: 220,
-	    width: 180,
+//	    height: accordionh,
+	    flex:3,
+	    border: false,
+	    minHeight: 215,
+	    minWidth: 180,
 	    items: [descr1, descr2, descr3]
     });
 
@@ -120,18 +119,36 @@ Ext.onReady(function() {
 	    region: 'center',     // center region is required, no width/height specified
 	    xtype: 'panel',
 	    layout: 'fit',
+	    flex: 6,
 	    items: [MainTab],
 	    border: false,
     });
 	
 	var leftPanel = new Ext.Panel({
-	    //region: 'west',
+	    region: 'west',
+		collapsible: true,
+		flex: 1,
+		minWidth: 180,
+		minHeight: 380,
 	    layout: {
 	        type: 'vbox',
 	        align : 'stretch',
-	        width: 180,
 	        pack  : 'start'
 	    },
+	    listeners:
+    	{
+    	collapse: {
+    		fn: function()
+    		{
+    			if(mappa!=null)
+    			{
+    			var center=mappa.getCenter();
+    			google.maps.event.trigger(mappa, "resize");
+    			mappa.setCenter(center);
+    			}
+    		}
+    	}
+    	},
 	    items: [
 	           aggr
 	           ,
@@ -157,7 +174,7 @@ Ext.onReady(function() {
 	    			google.maps.event.trigger(mappa, "resize");
 	    			mappa.setCenter(center);
 	    			}
-	    			}
+	    		}
 	    	}
 	    	},
 	    items: [
@@ -177,18 +194,11 @@ Ext.onReady(function() {
 	            	minHeight: 380,
 	            	minWidth: 600,
 	            	style: {
-            			split: true,
+            			//split: true,
             	        marginLeft: 'auto',
             	        marginRight: 'auto'
 	            	},
-	            	items: [{
-	            			xtype: 'panel',
-	            			region: 'west',
-	            	    	collapsible: true,
-	            	    	minHeight: 300,
-	            	    	minWidth: 150,
-	            	        items:[leftPanel]
-	            			},mainPanel],
+	            	items: [leftPanel,mainPanel],
 	            	anchor: '80%, -80'
 	            }
 	]

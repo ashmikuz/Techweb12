@@ -102,6 +102,11 @@ function descrfilter(arg, descrname) {
 	//clean grid and map
 	cleargrid();
 	removemarkers(undefined);
+	if(arg=="")
+	{
+		alert("Inserisci un indirizzo o utilizza la tua posizione!");
+		return;
+	}
 	if( descrname == 'vicinoa') {
 		var lat, lng;
 		if(typeof(arg)=="string")

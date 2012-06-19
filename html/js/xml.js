@@ -17,13 +17,16 @@ var nodes;
 
 function drawgrid(nodes)
 {
-	var xmlretval = newDocument("locations", "");
+	var xmlretval = loadXMLString("<locations></locations>");
 	var xmlroot = xmlretval.getElementsByTagName("locations");
 	var dataroot = data.getElementsByTagName("locations");
 	var lunghezza = nodes.length;
-	for( j = 0; j < lunghezza; j++) {
-		xmlroot[0].appendChild(nodes[j].cloneNode(true));
-		el = nodes[j].cloneNode(true);
+	for(var j = 0; j < lunghezza; j++) {
+		console.log(xmlroot[0]);
+		console.log(nodes[j]);
+		var clone=nodes[j].cloneNode(true)
+		xmlroot[0].appendChild(clone);
+		var el = nodes[j].cloneNode(true);
 		dataroot[0].appendChild(el);
 	}
 	store.loadRawData(data);
