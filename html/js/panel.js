@@ -1,12 +1,10 @@
-	var altezza = 550;
-	var lunghezza =1000;
-	var targetRender = 'container';
+
 	var accordionh;
 	
 Ext.onReady(function() {
 	//pannello che contiene i controlli per caricare da aggregatori
 		var aggr = Ext.create('Ext.Panel', {
-		title: 'Categorie',
+		title: '<img src="images/categoria.png" width="18px" height="18px" alt="categorie" /> &nbsp Categorie',
 		layout: 'fit',
 		border: false,
 		xtype: 'panel',
@@ -15,7 +13,7 @@ Ext.onReady(function() {
 	});
 	//vicino a
 	var descr1 = Ext.create('Ext.Panel', {
-		title: '<b>Vicino a:</b>',
+		title: '<img src="images/vicino.png" width="18px" height="18px" alt="categorie" />&nbsp<b>Vicino a:</b>',
 		border: false,
 		layout: 'fit',
 		contentEl:'box2',
@@ -26,7 +24,7 @@ Ext.onReady(function() {
 	
 	//aperto in data
 	var descr2 = Ext.create('Ext.Panel', {
-		title: '<b>Aperto in data:</b>',
+		title: '<img src="images/aperto.png" width="18px" height="18px" alt="categorie" />&nbsp<b>Aperto in data:</b>',
 		border: false,
 		layouyt: 'fit',
 		cls:'empty',
@@ -60,7 +58,7 @@ Ext.onReady(function() {
 	});
 	
 	var descr3 = Ext.create('Ext.Panel', {
-		title: '<b>Trova:</b>',
+		title: '<img src="images/trova.png" width="18px" height="18px" alt="categorie" />&nbsp<b>Trova:</b>',
 		border: false,
 		labelStyle: 'font-weight:bold;',
 		layouyt: 'fit',

@@ -95,6 +95,7 @@ function getdescrurl(descrname, args, aggr) {
 	return url;
 }
 
+
 function descrfilter(arg, descrname) {
 	descr[descrname] = true;
 	cancelladescr(descrname);
@@ -116,6 +117,11 @@ function descrfilter(arg, descrname) {
 				var ar = {"lat" : Latitude,	"lng" : Longitude};
 				createposmarker(ar);
 				var patharray = getdescrurl(descrname, ar);
+				if(patharray.length==0) 
+					{
+						alert("Seleziona almeno una categoria!");
+						return;
+					}
 				for(var i=0;i<patharray.length;i++){
 					//alert(patharray[i]);
 					var xml = loadXMLDoc(patharray[i]);
@@ -125,12 +131,18 @@ function descrfilter(arg, descrname) {
 				}
 			} else {
 				alert("Indirizzo non trovato: " + status);
+				return;
 			}
 		});
 		}
 		else
 			{
 			var patharray = getdescrurl(descrname, arg);
+			if(patharray.length==0) 
+			{
+				alert("Seleziona almeno una categoria!");
+				return;
+			}
 			for(var i=0;i<patharray.length;i++){
 				//alert(patharray[i]);
 				var xml = loadXMLDoc(patharray[i]);
@@ -144,6 +156,11 @@ function descrfilter(arg, descrname) {
 		{
 			descrarg=arg;
 			var patharray = getdescrurl(descrname, arg);
+			if(patharray.length==0) 
+			{
+				alert("Seleziona almeno una categoria!");
+				return;
+			}
 			for(var i=0;i<patharray.length;i++){
 				//alert(patharray[i]);
 				var xml = loadXMLDoc(patharray[i]);
