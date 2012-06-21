@@ -15,6 +15,9 @@ from collections import OrderedDict
 from StringIO import StringIO
 import rdflib
 from rdflib import plugin
+from rdflib.graph import ConjunctiveGraph as Graph
+from rdflib.namespace import Namespace, XSD
+from rdflib.term import Literal
 import rdfextras
 import datetime
 
@@ -361,6 +364,42 @@ def locationtocsv(ellist,meta):
     for location in ellist:
         str= "\""+location.id+"\",\""+location.category+"\",\""+location.name+"\",\""+location.address+"\",\""+location.lat+"\",\""+location.long+"\",\""+location.subcategory+"\",\""+location.note+"\",\""+location.opening+"\",\""+location.closing+"\",\""+meta.creator+"\",\""+meta.created+"\",\""+meta.valid+"\",\""+meta.source+"\""
         print str
+        
+def locationtoturtle(ellist, meta):
+    rdf=Graph();
+    cs = Namespace("http://cs.unibo.it/ontology/")
+    colon=Namespace("http://www.essepuntato.it/resource/")
+    dcterms=Namespace("http://purl.org/dc/terms/")
+    xsd=Namespace("http://www.w3.org/2001/XMLSchema#")
+    this=Namespace("http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DataSource2/posteBO2011.ttl#")
+    vcard = Namespace("http://www.w3.org/2006/vcard/ns#")
+    rdf.bind("vcard", vcard)
+    rdf.bind("cs", cs)
+    rdf.bind("", colon)
+    rdf.bind("dcterms", dcterms)
+    rdf.bind("xsd", xsd)
+    rdf.bind("this", this)
+    rdf.add((this["metadata"], dcterms["creator"], Literal(meta.creator)))
+    rdf.add((this["metadata"], dcterms["created"], Literal(meta.created,datatype=XSD.date)))
+    rdf.add((this["metadata"], dcterms["description"], Literal(meta.version)))
+    rdf.add((this["metadata"], dcterms["valid"], Literal(meta.valid,datatype=XSD.date)))
+    rdf.add((this["metadata"], dcterms["source"], Literal(meta.source)))
+    for location in ellist:
+        rdf.add((colon[location.id], vcard["fn"], Literal(location.name)))
+        rdf.add((colon[location.id], vcard["extended-address"], Literal(location.address)))
+        rdf.add((colon[location.id], vcard["category"], Literal(location.category)))
+        rdf.add((colon[location.id], vcard["latitude"], Literal(location.lat)))
+        rdf.add((colon[location.id], vcard["longitude"], Literal(location.long)))
+        if(location.tel):
+            rdf.add((colon[location.id], vcard["tel"], Literal(location.tel)))
+        if(location.note):
+            rdf.add((colon[location.id], vcard["note"], Literal(location.note)))
+        rdf.add((colon[location.id], cs["opening"], Literal(location.opening)))
+        rdf.add((colon[location.id], cs["closing"], Literal(location.closing)))
+    print("Content-type: text/turtle; charset=UTF-8\n")
+    print rdf.serialize(format="n3")
+        
+        
 
 def formatresult(mimetype, ellist,meta):
     if ("application/xml" in mimetype or "*/*" in mimetype):  
