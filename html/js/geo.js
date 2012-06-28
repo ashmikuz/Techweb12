@@ -3,6 +3,7 @@ var markers = [];
 var punto;
 var descrarg;
 
+/*associo a una categoria l'immagine relativa*/
 var icone = new Object();
 icone['farmacia'] = "images/farmacia.png";
 icone['medico di medicina generale'] = "images/medici.png";
@@ -10,7 +11,6 @@ icone['supermarket'] = "images/market.png";
 icone['poste e telegrafi'] = "images/poste.png";
 icone['scuola materna'] = "images/materne.png";
 icone['vicinoa'] = "images/zoom.png";
-
 
 function errorgeo(error) {
 	var pmaggiore = {};
@@ -20,6 +20,9 @@ function errorgeo(error) {
 	mostra_mappa(pmaggiore);
 }
 
+/*funzione invocata onload: richiede la geolocalizzazione e in caso negativo imposta un punto predefinito,
+ * e resetto tutte le checkbox
+ */
 function inizialize() {
 	if(navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(mostra_mappa, errorgeo);
@@ -39,6 +42,7 @@ function inizialize() {
 	}
 }
 
+/*creo la mappa e geolocalizzo il punto in cui si trova l'utente*/
 function mostra_mappa(posizione) {
 	// identifico il punto in cui è stato individuato l'utente
 	punto = new google.maps.LatLng(posizione.coords.latitude, posizione.coords.longitude);
@@ -75,31 +79,26 @@ function activeaggr(checkbox) {
 }
 
 function drawaggr(checkbox) {
-	if(checkbox.checked)
-	{
-	if(activeaggr(checkbox.id) == true) {
-		return;
+	if(checkbox.checked) {
+		if(activeaggr(checkbox.id) == true) {
+			return;
+		}
+		var xml = getxml(checkbox);
+		drawmarkers(xml);
+		drawgrid(xml);
+	} else {
+		removemarkers(checkbox.id);
+		removegrid(checkbox.id);
 	}
-	var xml = getxml(checkbox);
-	drawmarkers(xml);
-	drawgrid(xml);
-		}
-	else
-		{
-			removemarkers(checkbox.id);
-			removegrid(checkbox.id);
-		}
 }
 
 function drawmarkers(locations) {
 	var lat, longitude, id, myLatlng, category, name, address, tel, opening, info;
-	//var locations = xml.getElementsByTagName("location");
-	//mappa=document.getElementById("mia_mappa");
 	for( i = 0; i < locations.length; i++) {
 		lat = locations[i].attributes.getNamedItem("lat").value;
 		id = locations[i].attributes.getNamedItem("id").value;
 		longitude = locations[i].attributes.getNamedItem("long").value;
-		opening="";
+		opening = "";
 		for( j = 0; j < locations[i].childNodes.length; j++) {
 			if(locations[i].childNodes[j].tagName == "category") {
 				if(window.ActiveXObject) {
@@ -137,7 +136,6 @@ function drawmarkers(locations) {
 
 			}
 		}
-		//document.getElementById("prova").innerHTML+= (id+","+lat+","+longitude+"<br/>");
 		myLatlng = new google.maps.LatLng(parseFloat(lat), parseFloat(longitude));
 		var icona = icone[category];
 		//contentString = generainfo(name, category, address, tel, opening);
@@ -150,13 +148,13 @@ function drawmarkers(locations) {
 			map : mappa,
 			id : id,
 			title : name,
-			opening: opening,
-			categoria: category,
+			opening : opening,
+			categoria : category,
 			icon : icona,
 			//description : contentString
 		});
 		google.maps.event.addListener(marker, 'click', function() {
-			infowindow.content = generainfo(this.id, aggrega[category])+getaperto(this.opening);
+			infowindow.content = generainfo(this.id, aggrega[category]) + getaperto(this.opening);
 			infowindow.open(mappa, this);
 		});
 		markers.push(marker);
@@ -164,13 +162,11 @@ function drawmarkers(locations) {
 }
 
 function removemarkers(category) {
-	if(vicinoamarker)
-		{
-			vicinoamarker.setMap(null);
-		}
+	if(vicinoamarker) {
+		vicinoamarker.setMap(null);
+	}
 	for(var i = 0; i < markers.length; i++) {
 		if(category == undefined || markers[i].categoria == categorie[category].toLowerCase()) {
-			//alert("trovato!");
 			markers[i].setMap(null);
 			markers.splice(i, 1);
 			i--;
@@ -182,4 +178,3 @@ function removemarkers(category) {
  content = '<div><div id="loctitle">' + name + '</div>' + '<div id="category">' + category + '</div>' + '<div id="address">' + address + '</div>' + '<div id="tel">' + tel + '</div>' + '<div id="opening" >' + opening + '</div></div>';
  return content;
  }*/
-

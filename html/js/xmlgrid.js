@@ -7,12 +7,12 @@ categorie['supermarket'] = "supermarket";
 categorie['poste'] = "Poste e Telegrafi";
 categorie['materne'] = "Scuola Materna";
 
-var aggrega = new Object();
+/*var aggrega = new Object();
 aggrega['farmacia'] = "ltw1218-farmacie";
 aggrega['medico di medicina generale'] = "ltw1218-medici";
 aggrega['supermarket'] = "ltw1218-supermarket";
 aggrega['poste e telegrafi'] = "ltw1218-poste";
-aggrega['scuola materna'] = "ltw1218-materne";
+aggrega['scuola materna'] = "ltw1218-materne";*/
 
 
 var store;
@@ -26,6 +26,9 @@ var groupingFeature = Ext.create('Ext.grid.feature.Grouping', {
 	groupHeaderTpl : '{name}'
 });
 
+/*funzione che prende in input l'id di una checkbox e rimuove dalla griglia tutti i record
+ * che appartengono a quella categoria
+ */
 function removegrid(checkboxid) {
 	categlist = data.getElementsByTagName("category");
 	max = categlist.length;
@@ -40,6 +43,7 @@ function removegrid(checkboxid) {
 	store.load();
 }
 
+/*svuota la variabile data e ridisegna la griglia*/
 function cleargrid() {
 	while(data.getElementsByTagName("location").length > 0) {
 		data.getElementsByTagName("locations")[0].removeChild(data.getElementsByTagName("location")[0]);
@@ -48,8 +52,12 @@ function cleargrid() {
 	store.load();
 }
 
+/*Questo metodo è chiamato automaticamente dopo che il DOM è stato caricato, 
+ *garantendo così che ogni elemento della pagina è disponibile con gli script eseguiti
+ */
 Ext.onReady(function() {
-
+	
+	/*definisco il modello di dati da utilizzare nella griglia xml*/
 	Ext.define('Location', {
 		extend : 'Ext.data.Model',
 		fields : [
@@ -113,10 +121,12 @@ Ext.onReady(function() {
 		}],
 		renderTo : 'tabella',
 		layout : 'fit'
-	});
+	}); 
 
-	// update panel body on selection change
-	grid.getSelectionModel().on('selectionchange', function(sm, selectedRecord) {
+	/* Gestisco l'evento selectionchange affinchè quando clicko su una location allora mi
+	*  mi si apre una finestra con la descrizione che ha caricato il testo del descrittore descrizione
+	*/
+	grid.getSelectionModel().on('selectionchange', function(selectedRecord) {
 		if(selectedRecord.length) {
 			Ext.create('Ext.window.Window', {
 				title : selectedRecord[0].data["name"] + ' - ' + selectedRecord[0].data["category"],
