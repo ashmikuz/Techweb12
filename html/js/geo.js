@@ -25,6 +25,7 @@ function errorgeo(error) {
  */
 function inizialize() {
 	if(navigator.geolocation) {
+		var location_timeout = setTimeout("errorgeo()", 3000);
 		navigator.geolocation.getCurrentPosition(mostra_mappa, errorgeo);
 	} else {
 		var pmaggiore = {};
