@@ -93,6 +93,15 @@ function drawaggr(checkbox) {
 	}
 }
 
+function crossbrowsertext(node)
+{
+	if(window.ActiveXObject) {
+		return node.text.toLowerCase();
+	} else {
+		return node.textContent.toLowerCase();
+	}
+}
+
 function drawmarkers(locations) {
 	var lat, longitude, id, myLatlng, category, name, address, tel, opening, info;
 	for( i = 0; i < locations.length; i++) {
@@ -102,39 +111,17 @@ function drawmarkers(locations) {
 		opening = "";
 		for( j = 0; j < locations[i].childNodes.length; j++) {
 			if(locations[i].childNodes[j].tagName == "category") {
-				if(window.ActiveXObject) {
-					category = locations[i].childNodes[j].text.toLowerCase();
-				} else {
-					category = locations[i].childNodes[j].textContent.toLowerCase();
-				}
+				category=crossbrowsertext(locations[i].childNodes[j]);
 			} else if(locations[i].childNodes[j].tagName == "name") {
-				if(window.ActiveXObject) {
-					name = locations[i].childNodes[j].text;
-				} else {
-					name = locations[i].childNodes[j].textContent;
-				}
-
+				name=crossbrowsertext(locations[i].childNodes[j]);
 			} else if(locations[i].childNodes[j].tagName == "address") {
-				if(window.ActiveXObject) {
-					address = locations[i].childNodes[j].text;
-				} else {
-					address = locations[i].childNodes[j].textContent;
-				}
+				address=crossbrowsertext(locations[i].childNodes[j]);
 
 			} else if(locations[i].childNodes[j].tagName == "tel") {
-				if(window.ActiveXObject) {
-					tel = locations[i].childNodes[j].text;
-				} else {
-					tel = locations[i].childNodes[j].textContent;
-				}
+				tel=crossbrowsertext(locations[i].childNodes[j]);
 
 			} else if(locations[i].childNodes[j].tagName == "opening") {
-				if(window.ActiveXObject) {
-					opening += locations[i].childNodes[j].text;
-				} else {
-					opening += locations[i].childNodes[j].textContent;
-				}
-
+				opening+=crossbrowsertext(locations[i].childNodes[j]);
 			}
 		}
 		myLatlng = new google.maps.LatLng(parseFloat(lat), parseFloat(longitude));
