@@ -33,7 +33,7 @@ function removegrid(checkboxid) {
 	categlist = data.getElementsByTagName("category");
 	max = categlist.length;
 	for( i = 0; i < max; i++) {
-		if(categlist[i].textContent == categorie[checkboxid]) {
+		if(categlist[i].textContent.toLowerCase == categorie[checkboxid].toLowerCase) {
 			data.getElementsByTagName("locations")[0].removeChild(categlist[i].parentNode);
 			max--;
 			i--;
@@ -126,7 +126,7 @@ Ext.onReady(function() {
 	/* Gestisco l'evento selectionchange affinchè quando clicko su una location allora mi
 	*  mi si apre una finestra con la descrizione che ha caricato il testo del descrittore descrizione
 	*/
-	grid.getSelectionModel().on('selectionchange', function(selectedRecord) {
+	grid.getSelectionModel().on('selectionchange', function(grid, selectedRecord) {
 		if(selectedRecord.length) {
 			Ext.create('Ext.window.Window', {
 				title : selectedRecord[0].data["name"] + ' - ' + selectedRecord[0].data["category"],

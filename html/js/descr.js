@@ -223,6 +223,7 @@ function getaperto(multiint) {
  * il descrittore vicinoa
  */
 function miapos() {
+	mappa.setCenter(punto);
 	descrfilter({
 		"lat" : punto.lat(),
 		"lng" : punto.lng()

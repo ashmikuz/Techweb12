@@ -35,8 +35,6 @@ function drawgrid(nodes)
 	}
 	store.loadRawData(data);
 	store.load();
-	console.log("xmlretval");
-	console.log(xmlretval);
 	return xmlretval;
 }
 
